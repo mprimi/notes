@@ -14,6 +14,8 @@ From movies to ???
 ## Logs
 Messy notes organized by date
 
+## Topics
+Collected thoughts by topic
+
 ## Everything else
 From this chaos some new chapters may some day emerge
-
