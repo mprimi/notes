@@ -55,3 +55,7 @@ https://block.one/careers/
 https://interchain.berlin/
 
 https://web3.foundation/
+
+https://digitalmycelium.com/
+
+https://cryptocurrencyjobs.co/
