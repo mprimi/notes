@@ -6,7 +6,7 @@ Context: I've smoked since i was 16 or so.
 Successfully quit once, cold turkey, for about 4 years.
 Then picked it back up and have been smoking since, but also trying to stop since.
 
-# Cold Turkey
+## Cold Turkey
 
 My friend's J's father smoked 2 packs a day for as long as I've known him.
 One night he saw me smoking, pulled me aside, and told me he had quit.
@@ -41,18 +41,18 @@ Being angry at it was key to success in my first and only cold turkey stop.
 Another important learning from the book was the realization that a lot of the common knowledge about quitting was in fact total bullshit.
 Things like:
 
- * Nicotine is physically very addictive
- * Quitting is hard
- * I'm going to gain weight
- * I enjoy smoking
- * Smoking is a great social lubricant and a way to make new friends
+ * Nicotine is physically very addictive and I need help to quit (e.g., nicotine patches, hypnosis, ... )
+ * I'm going to be angry and grumpy while I quit
+ * I'm going to gain weight while I  quit
+ * I enjoy smoking and I'm going to miss it
+ * Smoking is a great social lubricant and a good way to make new friends
  * ...
 
 It was particularly entertaining to see the nicotine monster panic in the first 48 hours of my cold-turkey stop.
 
 It got desperate real quick and started throwing the most absurd thoughts at me. Both during awake hours and in my sleep.
 
-# Off the wagon
+## Off the wagon
 
 3 years not smoking were easy. I didn't have many smokers around me and so I kinda forgot about it.
 
@@ -73,7 +73,7 @@ But, like before, the monster would always prevail.
 
 Re-reading the book a second time didn't work.
 
-# Building muscle
+## Building muscle
 
 I've tried all sorts of things to quit in the last 4 or so year since resuming to smoke.
 
@@ -113,7 +113,7 @@ One day I'm particularly stressed or something bad happens, and I'll give myself
 And the day after I'm gonna keep smoking.
 And all the progress made so far is wiped out.
 
-# The mindful approach
+## The mindful approach
 
 Armed with everything I've learned in the last 20 years, I'm doing one more attempt.
 
@@ -139,3 +139,37 @@ For days when the monster's assaults will be fiercer (e.g., after a couple of dr
 
 > Like clouds on a mountaintop, let it pass.
 > Be the fucking mountain.
+
+## Internal Dialogues
+
+Once I've made the decision to quit, the monster starts its campaign to get me back to smoking.
+
+Some of the recurring attacks include:
+
+> You've been so good! Already 3 days without smoking!
+> You should celebrate, reward yourself with a cigarette!
+
+> You clearly demonstrated you can quit.
+> Go buy a pack to keep in the house just for special occasions.
+
+> How about cheat day this weekend?
+> Just one day a week, smoke as much as you want.
+> Then back to no smoking for the rest of the week.
+
+> You should invite *_smoker_friend_* over for drinks!
+> That way, you can have a couple of smokes without buying a pack!
+
+All of these sound reasonably convincing to me (no surprise.. these are the arguments I'm coming up with to convince myself to go back to smoking).
+
+They are all traps.
+
+All of them, even the most innocent, will inevitably end up with:
+ * Feeding the monster, rather than starving it, which is going to reinforce it
+ * Breaking the seal, making it easier to break it again and again in the future, until I give up again and resume smoking full-time
+
+Starving the monster will take time.
+Eventually it will stop bothering me daily.
+
+But I should not let the guard down.
+
+When I think I have defeated it (say, in 3 months or in 3 years), it's when I'll also be the most vulnerable to one of these negotiations working on me, and dragging me back into the hole.
