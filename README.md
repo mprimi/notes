@@ -19,3 +19,13 @@ Collected thoughts by topic
 
 ## Everything else
 From this chaos some new chapters may some day emerge
+
+----
+
+**Important**: Just because I listen/link to to something, doesn't mean I agree or endorse it.
+
+This is just food for thought.
+
+While appreciate people saying certain opinions shouldn't be amplified, I respectfully disagree. The way to defeat terrible opinions and ideas is to share these ideas and opinions *with context*.
+
+Trying to suppress them only makes them stronger.
