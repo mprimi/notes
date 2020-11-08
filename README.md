@@ -17,6 +17,10 @@ Messy notes organized by date
 ## Topics
 Collected thoughts by topic
 
+## Scripts
+
+The code kind, not the movie kind
+
 ## Everything else
 From this chaos some new chapters may some day emerge
 
