@@ -15,3 +15,5 @@ I'm instead expressing my own thoughts and informed opinions.
 2020-10-28 - [Glenn Greenwald](http://podcasts.joerogan.net/podcasts/glenn-greenwald)
 
 ## Your Undivided Attention
+
+[Digital Democracy Is Within Reach](https://your-undivided-attention.simplecast.com/episodes/the-listening-society-yZ1PBlPF)
