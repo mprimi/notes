@@ -18,7 +18,6 @@ Messy notes organized by date
 Collected thoughts by topic
 
 ## Scripts
-
 The code kind, not the movie kind
 
 ## Everything else
