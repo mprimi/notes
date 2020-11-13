@@ -27,11 +27,11 @@ The following concepts are introduced:
 
 # Disclaimers
 
-🌱 This is a living deck. Parts of it are rough. Parts of it haven't been written, or even thought of.
+🌱 This is a living deck. Parts of it are rough. Parts of if I haven't even thought of yet.
 
 🎯 I often oversimplify for the sake of brevity and simplicity.
 
- 😳 English is not my first language.
+My english is not great.😳
 Please report bugs. 😉
 
 ---
@@ -42,167 +42,172 @@ Bitcoin (and cryptocurrency) are the just money apps of the blockchain.
 
 Like Venmo for smartphones.
 
-Driving direction to any place in the world; all the knowledge of the world at your fingertips; learning a new language; summoning a taxi, talk and meet friends and strangers all over the world, etc.
+Smartphones changed our lives profoundly.
+Instant driving direction to any place in the world; all of humankind's knowledge in our pockets; ways to learn a new language; summoning a taxi, talk and meet friends and strangers all over the world, etc.
 
-Making it easy to pay friends and businesses is just one minor incremental improvements.
+Making it easy to pay friends and businesses (i.e. Venmo) is just one minor incremental improvements.
 
-Similarly, the blockchain apps (DApps -- d for Distributed or Decentralized) will change individuals lives by making it easier and safer to "collaborate" over the internet.
+Similarly, the blockchain apps (DApps -- d for Distributed or Decentralized) will have a profound effect on people's lives.
+By making it easier and safer to "collaborate" over the internet we couldn't do before.
+
+---
+
+**Takeaway**:
+
+The blockchain is a family of platform that enable new kinds of collaboration between humans.
+
+Bitcoin is just one dApp (and a pretty clunky one by today's standard).
+
+One wonderful property of blockchain based platforms: nobody owns them.
+
+---
+
+# Bitcoin vs. Ethereum
+
+Bitcoin is a single-purpose chain: you participate in it to trade Bitcoin.
+It doesn't do anything else.
+
+Ethereum is a general purpose blockchain that can be used to build many kinds of dApps.
+
+Gaming, gambling, trading, voting and a lot more.
+
+This platform is not owned or controlled by anyone. It belongs to everyone.
+
+Using the chain costs money.
+The price paid to use flows into the pockets of the thousands of people all over the world that run Ethereum nodes on their computers.
+
+---
+
+**Observation**:
+
+General purpose blockchain like Ethereum enable a new kind of "startup" model.
+
+The startup does not have to setup and pay for infrastructure.
+Because the infrastructure is the blockchain, and users pay-per-use directly to the underlying blockchain.
+
+The startup could still make money by charging a fee on top of the underlying gas costs.
+
+---
+
+Without further ado, here's some cool examples.
+
+---
+
+# Fomo3D
+
+Imagine being at a party and playing this game with everyone present:
+
+ * Place an empty cookie jar and a notepad on a table
+ * To play, a player puts a dollar in the jar and writes down name and time of the deposit in the notepad
+ * If nobody adds a dollar for 15 minutes, the last person that put a dollar in wins the content of the jar
+
+To get people interested, maybe start with $100 in the jar.
+
+If people play, the sum in the jar may grow quickly.
+
+And the more money in the jar, the more people would pay attention to it and play.
+
+Would you play? What would your strategy be?
+
+---
+
+# Fomo3D (cont.)
+
+This could be a fun game with family or close friends.
+In a safe environment where all players are trusted.
+
+But would you play if the jar was in the middle of a town square?
+Unlikely, unless you want to spend all day night looking at the jar, making sure it doesn't get stolen.
+
+Would you play over the internet?
+Even more unlikely. What guarantees do I have that the system is not "rigged" and nobody wins but the person or company running the game!
+
+---
+
+# Fomo3D (cont.)
+
+*Cue the Blockchain!*
+
+A game like this is *trivial* to implement on top of a general purpose blockchain.
+
+This game is an example of the kind of distributed coordination between humans that the blockchain opens the doors to:
+
+You can play this game with anyone around the world without trusting them or even knowing who they are.
+And it would be even safer than playing with your own family or close friends!
+
+In fact, this game (Fomo3D) was one of the earliest 'viral' Ethereum dApps.
+
+ > After the jackpot reached a few million dollars, the contract was hacked and someone managed to steal the jar.
+ > The blockchain is great but it's not perfect. We are still figuring things out.
+
+---
+
+# Concept: Smart Contract
+
+The way Fomo3D was implemented is through a *Smart Contract*, which is the fancy name for code that lives and runs in the blockchain.
+
+In this case, the contract code said something like this:
+
+ * If I receive a dollar, add it to the jar, save the address of the sender, and reset the timer
+ * If the timer expires, send everything in the jar to the address of the last sender
+
+Players know the address of the contract, and can send it a dollar anytime.
+Sending a dollar has a small cost, which goes to pay the underlying blockchain infrastructure operated by people.
+
+Nobody can stop this code from endlessly doing its job.
+ * Not the operators of the blockchain infrastructure (to whom this contract is nothing special, it's just one in a trillion)
+ * Not the creator of the contract. The creator "set this idea free", retains no control, makes no money from people playing
+
+ > It is not uncommon for creators to include fees or charge for use of their dApps.
+ > It's just not the case with the original Fomo3D.
+
+---
+
+**Takeaways**:
+
+Smart contract is code that lives on a general purpose blockchain.
+
+People/players can interact with it and pay-per-use.
+
+The creator/owner can decide to relinquish control, if it makes sense for the dApp.
+
+The dApp lives and thrives without the owner having to run expensive services, or even establish a legal entity.
 
 
 ---
 
-# A Brief History of Human Collaboration
+#Concept: Fungible Tokens vs Non-fungible tokens (NFT)
 
-At first we communicated in simple ways. Humans would learn from other humans by observing and imitating on a very local scale.
+Bitcoin is a *fungible* token. You own a certain quantity of it. You can move amounts between accounts.
+In some cases, more can be "created" out of nothing (i.e. mining) according to pre-defined rules in the system.
 
-Language: teach and explain others, recall past events, strategize. All on a very local scale.
+But not everything is just a number.
 
-Written language: memories and facts can be written down and preserved. People can learn from other people that live far away or died years before.
+Other "things" on the blockhain are more like badges, or Baseball trading cards.
+A  *non fungible* token is something that cannot be split.
+It is a thing. It may be unique or there may be other copies, but each one is an individual token.
 
-Book libraries and foot messengers: the few people (i.e. kings) with access to this technology can conquer and rule entire continents.
-
-Public libraries, schools: people absorb a lot of information from other people they never met.
-
-Post system: communication beyond the immediate tribe / town / community becomes possible.
-
-TODO
-
----
-
-# Blockchain vs. Bitcoin (again)
-
-Blockchain is a platform
-
-Bitcoin is just one app (with a dedicated, single-purpose blockchain).
-
-Ethereum is a general purpose blockchain.
-It has it's own currency (ETH), but the latter is just a practical necessity.
-It's a convenient way to pay for the use of the platform.
-
-Developers can create smart contracts to build their dApps, and users interact with these contracts via transactions.
-Transactions have fees that pay for the network cost.
-
-Nobody owns the Ethereum blockchain.
-
-Ethereum is a general purpose (Turing-complete) distributed state machine.
-
----
-
-# What is a smart contract?
-
-Imagine the following "game" you may play with your friends:
-
-Start with a jar with $100 in it, sitting on the table, with a 5 minutes countdown clock next to it.
-
-If I want to play, I need to put $10 in the jar, and reset the timer.
-
-If 5 minutes pass and nobody else paid to reset the timer, I win and walk away with the money.
-
-But a different player comes along, she puts $10 in (total $120) and resets the timer.
-If the timer runs out now, she is the winner of the pot.
-
-As the night goes on, everyone will start to be more and more tempted to sneakily put $10 in and hope everyone else forgets to play.
-
-But as time passes, the pot grows to thousands of dollars and so everyone is paying more and more attention to it.
-
-We may even start to form alliances to keep an eye on the pot and burn less money.
-
----
-
-# Fun with friends
-
-This kind of game is possible if you trust the people with access to the jar.
-
-You would not play this game in a public place, the jar would get stolen fast.
-
-We could make this into an app. This requires trust in the intermediary (the app/service provider).
-
-This is the state of our world today: we have access to sophisticated coordination services (AirBnb, Uber, Amazon), but they are provided by trusted third parties that have a stake in the game.
-
-This game is trivial to implement as a smart contract on a blockchain.
-
-No intermediaries. Nobody can cheat. No prior trust necessary in anything or anyone except for the blockchain itself.
-
-
----
-
-Fomo3D - Smart Contract
-
-```
-// One-time initialization
-init():
-    // Create variables for current amount in the jar and identifier of last player
-    set currentAmount = 0
-    set lastPlayer = 0x0
-    // Create a new timer, that calls the `expire` function below if reaches zero
-    set timer = new Timer(expire)
-
-// Contract received a transaction from a user
-receive(tx):
-  if tx.amount != 10:
-    // Reject transaction unless the user included the correct amount of money to play
-    reject(tx)
-  else:
-    // Add the money to the pot, save the player address, reset the timer to 5 minutes from now
-    currentAmount += 10
-    lastPlayer = tx.sender
-    timer.reset(Time.now() + 5 * 60)
-
-// Timer expired
-expire():
-  // Pay the last player with the total amount in the pot
-  new Transaction(this, lastPlayer, currentAmount).send()
-  // Reset for the next round
-  currentAmount = 0
-  lastPlayer = 0x0
-```
----
-
-# Takeaway
-
-You can now trust anyone in the world more than you would even trust your own friends or family.
-
-Fomo3D is a trival example. But this paradigm opens the door to collaboration that was not possible before.
-
-It also shows a system that is not owned by anyone. The creator of Fomo3D has no control over it, but also no costs to keep it running.
-
-Eventually, a very crafty hackermanaged to exploit an obscure bug in the underlying blockchain, and made it away with ~$6M in ETH!
-
-This was the early days. Blockchain technology has improved fast in the years since then.
-
-But still. A good reminder that we don't need to trust each-other, but no system is perfect.
-
----
-
-Fungible Tokens vs Non-fungible tokens (NFT)
-
-Bitcoin and ETH are fungible tokens: you own a certain amount, you can move amounts between accounts.
-
-In some cases, more can be "created" out of nothing (i.e. Bitcoin mining) according to pre-defined rules in the system.
-
-NFTs are not amount, each one of them is like an individual atom. They cannot be split but they can be created and destroyed.
-NFTs are the main way contracts talk to each-others.
-
-Let me explain this with cats.
+A token can be, for example, a cat!
 
 ---
 
 # Crypto Kitties
 
-CK is a dApp collectible game. Like Baseball trading cards, but a lot cooler.
+Crypto Kitties is a dApp game where people collect and breed cats.
 
-Each cat is a NFT on the blockchain. Each cat has a DNA that determines its visual appearance.
+Each cat's DNA is stored on the blockchain. The DNA determines the appearances of the cat.
+
+Players can trade cats with each-other and can also breed new cats (with specific rules and time limits).
 
 Most cats are pretty ordinary.
-Cats can be bought/traded from other player. It's a free market.
+But every once in a while, a cat is born with, say, Dragon wings!
 
-If you have multiple cats, you can make them breed once a day, but it costs some money.
-The offspring will inherit traits from their parent DNA, but there's also chances of mutations.
+The lucky owner of said cat can decide wether to sell it on the open market, or maybe they can try to breed more dragon-winged cats and make even more money.
 
-You may for example get a kitty with dragon wings! Dragon wings are rare, so you may want to keep that cat, or fetch a good amount to sell it.
+A professional breeder would go one step further, they would buy other rare cats from other players (for example a rare fire-breathing cat!).
+And then try to breed the fire-breather with the dragon-winged, and hope to get some fire-breathing-dragon-winged kitties!
 
-People may buy rare cats for their collection. Or they may buy them to breed!
-Buy a dragon-wings-kitty and a horned kitty, make them breed and hope you get a horned-dragon-kitty, which you can sell for even more money!
+That double mutation is even more rare, and can fetch a pretty penny on the market!
 
 ---
 
@@ -211,15 +216,16 @@ Buy a dragon-wings-kitty and a horned kitty, make them breed and hope you get a 
 Crypto Kitties became a roaring success (in the niche world of blockchain).
 
 To date, around $25M have been spent on trading cats.
-For some this was a fun game. For others, breeding and selling internet cats became a full-time job.
+
+Some people play for fun.
+Others made it a full-time job to breed and sell rare cats.
 
 Like in Fomo3D, the creators of the game published the contract and retained no control over it.
 The game is going to live as long as the Ethereum blockchain exists.
 
-The creators were making money by providing a marketplace where buyers and sellers can find eachother conveniently.
-And they take a tiny finders fee on each transaction that happens through the marketplace.
+The contract code that powers Crypto Kitties contains the logic for breeding. Nobody can cheat.
 
-But they cannot stop someone else from creating a different, better marketplace.
+The cost of breeding and trading are payed to the underlying network operators.
 
 ---
 
