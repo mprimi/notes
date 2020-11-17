@@ -59,3 +59,5 @@ https://web3.foundation/
 https://digitalmycelium.com/
 
 https://cryptocurrencyjobs.co/
+
+https://element.io/careers
