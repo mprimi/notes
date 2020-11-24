@@ -1,4 +1,6 @@
-# Crypto jobs, bounties, & grants:
+# Tech Jobs
+
+## Companies, foundations & organizations
 
 https://www.matrix.org/
 
@@ -30,8 +32,6 @@ https://www.trailofbits.com/
 
 https://status.im/
 
-https://gitcoin.co/
-
 https://web3.foundation/
 
 https://polkadot.network/
@@ -41,10 +41,6 @@ https://www.argent.xyz/
 https://www.ecosia.org/
 
 https://protocol.ai/
-
-https://www.metacartel.org/
-
-https://raidguild.org/
 
 https://interchain.io/funding/
 
@@ -58,6 +54,18 @@ https://web3.foundation/
 
 https://digitalmycelium.com/
 
-https://cryptocurrencyjobs.co/
-
 https://element.io/careers
+
+https://www.datakind.org/
+
+## DAOs
+
+https://www.metacartel.org/
+
+https://raidguild.org/
+
+## Markets & Grants
+
+https://gitcoin.co/
+
+https://cryptocurrencyjobs.co/
