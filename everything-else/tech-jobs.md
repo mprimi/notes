@@ -58,6 +58,8 @@ https://element.io/careers
 
 https://www.datakind.org/
 
+https://ripjar.com/
+
 ## DAOs
 
 https://www.metacartel.org/
