@@ -60,11 +60,15 @@ https://www.datakind.org/
 
 https://ripjar.com/
 
+https://www.efforce.io/
+
 ## DAOs
 
 https://www.metacartel.org/
 
 https://raidguild.org/
+
+https://spacemesh.io/
 
 ## Markets & Grants
 
