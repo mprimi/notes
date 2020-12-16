@@ -6,13 +6,15 @@ Some of these episodes contain unsavory opinions I don't share or endorse.
 
 ## [The Jordan Harbinger Show](https://www.jordanharbinger.com/podcasts/)
 
-437: Charles Koch & Brian Hooks | Bottom-Up Solutions for a Top-Down World
+https://www.jordanharbinger.com/koch-and-hooks-bottom-up-solutions-for-a-top-down-world/
 
+https://www.jordanharbinger.com/celeste-headlee-how-to-have-conversations-that-matter/
 
+https://www.jordanharbinger.com/greg-mckeown-the-disciplined-pursuit-of-less/
 
 ## [The Stoa](https://www.thestoa.ca/)
 
-### [Your Undivided Attention](https://www.humanetech.com/podcast)
+## [Your Undivided Attention](https://www.humanetech.com/podcast)
 
 [Digital Democracy Is Within Reach (Audrey Tang)](https://your-undivided-attention.simplecast.com/episodes/the-listening-society-yZ1PBlPF)
 
@@ -39,6 +41,9 @@ Some of these episodes contain unsavory opinions I don't share or endorse.
 ## [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)
 
 https://www.wnycstudios.org/podcasts/radiolab/articles/how-win-friends-and-influence-baboons
+
+https://www.wnycstudios.org/podcasts/radiolab/articles/wubi-effect
+
 
 ## [Invisibilia](https://www.npr.org/podcasts/510307/invisibilia)
 
@@ -71,6 +76,8 @@ https://thejoeroganexperience.net/joe-rogan-experience-1485-krystal-saagar/
 https://thejoeroganexperience.net/joe-rogan-experience-1368-edward-snowden/
 
 [Edward Snowden (1536)](https://open.spotify.com/episode/5sNggu9wR9lF84tf7VnxDL?si=CAvFnmxWSaWtlXF0cO2O8Q)
+
+[James Lindsay (1501)](https://open.spotify.com/episode/2ZMGRSvVXv3RwMXfH7HUqx?si=NmjHmIzETxWUvSGmL-KHqA)
 
 https://thejoeroganexperience.net/episode-1035-paul-stamets/
 
