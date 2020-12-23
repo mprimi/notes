@@ -42,9 +42,11 @@ Anything on here I wholeheartedly recommend.
 
 [Nothing Special: Living Zen](https://archive.org/details/isbn_9780062511171)
 
-[](https://www.penguinrandomhouse.com/books/585964/101-artists-to-listen-to-before-you-die-by-ricardo-cavolo/)
+[101 Artists To Listen To Before You Die](https://www.penguinrandomhouse.com/books/585964/101-artists-to-listen-to-before-you-die-by-ricardo-cavolo/)
 
-## Computer Science
+[https://erinmeyer.com/books/the-culture-map/](https://erinmeyer.com/books/the-culture-map/)
+
+## Computer Science & Engineering
 
 [Design Patterns: Elements of Reusable Object-Oriented Software (GoF)](https://en.wikipedia.org/wiki/Design_Patterns)
 
