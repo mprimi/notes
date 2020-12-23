@@ -4,6 +4,13 @@ Some of these episodes contain unsavory opinions I don't share or endorse.
 
 ## [Darknet Diaries](https://darknetdiaries.com/)
 
+[EP 69: HUMAN HACKER](https://darknetdiaries.com/episode/69/)
+
+[EP 56: JORDAN](https://darknetdiaries.com/episode/56/)
+
+[EP 43: PPP](https://darknetdiaries.com/episode/43/)
+
+
 ## [The Jordan Harbinger Show](https://www.jordanharbinger.com/podcasts/)
 
 https://www.jordanharbinger.com/koch-and-hooks-bottom-up-solutions-for-a-top-down-world/
@@ -12,7 +19,9 @@ https://www.jordanharbinger.com/celeste-headlee-how-to-have-conversations-that-m
 
 https://www.jordanharbinger.com/greg-mckeown-the-disciplined-pursuit-of-less/
 
+
 ## [The Stoa](https://www.thestoa.ca/)
+
 
 ## [Your Undivided Attention](https://www.humanetech.com/podcast)
 
@@ -22,21 +31,29 @@ https://www.jordanharbinger.com/greg-mckeown-the-disciplined-pursuit-of-less/
 
 [Your Nation’s Attention for the Price of a Used Car (Zahed Amanullah)](https://www.humanetech.com/podcast/25-your-nations-attention-for-the-price-of-a-used-car)
 
+
 ## [American Hysteria](https://www.chelseywebersmith.com/americanhysteria)
 
 [Rednecks](https://open.spotify.com/episode/1jtIccxLKHgHuUoBYapeAn?si=NVke29xKT-OJmLy5WcCEbQ)
 
+
 ## [Benjamen Walker's Theory of Everything](http://theoryofeverythingpodcast.com)
+
 
 ## [Cautionary Tales](https://timharford.com/articles/cautionarytales/)
 
+
 ## [Dan Carlin's Hardcore History](https://www.dancarlin.com/hardcore-history-series/)
+
 
 ## [Death, Sex & Money](https://www.npr.org/podcasts/458929318/death-sex-money)
 
+
 ## [Dr Karl Podcast](https://drkarl.com/podcasts/)
 
+
 ## [Freakonomics](https://freakonomics.com/archive/)
+
 
 ## [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)
 
@@ -46,6 +63,7 @@ https://www.wnycstudios.org/podcasts/radiolab/articles/wubi-effect
 
 
 ## [Invisibilia](https://www.npr.org/podcasts/510307/invisibilia)
+
 
 ## [The Portal](https://art19.com/shows/the-portal)
 
@@ -59,7 +77,9 @@ https://theportal.wiki/wiki/14:_London_Tsai_-_The_Reclusive_Dean_of_The_New_Esch
 
 https://theportal.wiki/wiki/8:_Andrew_Yang_-_The_Dangerously_Different_Candidate_The_Media_Wants_You_To_Ignore
 
+
 ## [Skeptoid](https://skeptoid.com/)
+
 
 ## [The Joe Rogan Experience](https://thejoeroganexperience.net/category/episodes/)
 
@@ -83,18 +103,26 @@ https://thejoeroganexperience.net/episode-1035-paul-stamets/
 
 https://thejoeroganexperience.net/alex-jones-on-chemtrails-weather-manipulation-from-joe-rogan-experience-911/
 
+
 ## [Savage Lovecast](https://www.savagelovecast.com/)
+
 
 ## [MetaRadio](https://anchor.fm/metagame/)
 
+
 ## Love and Radio
+
 
 ## [History of Literature](https://historyofliterature.com/)
 
+
 ## TED Radio Hour
+
 
 ## 99% Invisible
 
+
 ## S-Town
+
 
 ## Serial
