@@ -13,6 +13,8 @@ Some of these episodes contain unsavory opinions I don't share or endorse.
 
 ## [The Jordan Harbinger Show](https://www.jordanharbinger.com/podcasts/)
 
+https://www.jordanharbinger.com/jason-silva-origins-of-a-performance-philosopher/
+
 https://www.jordanharbinger.com/koch-and-hooks-bottom-up-solutions-for-a-top-down-world/
 
 https://www.jordanharbinger.com/celeste-headlee-how-to-have-conversations-that-matter/

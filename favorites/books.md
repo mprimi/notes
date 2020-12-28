@@ -18,6 +18,8 @@ Anything on here I wholeheartedly recommend.
 
 # Non-fiction
 
+[Gödel, Escher, Bach: an Eternal Golden Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)
+
 [The Elements of Style](https://en.wikipedia.org/wiki/The_Elements_of_Style)
 
 [Epistulae Morales ad Lucilium (Seneca)](https://en.wikipedia.org/wiki/Epistulae_Morales_ad_Lucilium) (a.k.a. Moral Epistles, Letters from a Stoic)

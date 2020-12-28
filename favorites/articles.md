@@ -22,3 +22,5 @@ Do you think your privacy is safe because your social network or messaging app i
 [An Interactive Introduction to Fourier Transforms](http://www.jezzamon.com/fourier/index.html)
 
 [What Gödel Discovered](https://stopa.io/post/269)
+
+[DNA seen through the eyes of a coder](https://berthub.eu/amazing-dna/) and [Reverse Engineering the source code of the BioNTech/Pfizer SARS-CoV-2 Vaccine](https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/)
