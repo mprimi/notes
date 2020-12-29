@@ -1,4 +1,4 @@
-# Tech Jobs
+# Tech Jobs (mostly web3)
 
 ## Companies, foundations & organizations
 
@@ -75,3 +75,7 @@ https://spacemesh.io/
 https://gitcoin.co/
 
 https://cryptocurrencyjobs.co/
+
+## Misc
+
+[Ask HN: Who is hiring?](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fnews.ycombinator.com%2F+%22Ask+HN%3A+Who+is+hiring%3F%22)
