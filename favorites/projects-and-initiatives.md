@@ -1,9 +1,9 @@
 # Projects and Initiatives
 
-## https://openlibrary.org/
+https://openlibrary.org/
 
-> The ultimate goal of the Open Library is to make all the published works of humankind available to everyone in the world.
+https://www.efforce.io/
 
-## https://www.efforce.io/
+https://trees.org/
 
-Regenerative decentralized energy-efficency platform
+https://www.hope.net/

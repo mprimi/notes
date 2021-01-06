@@ -56,6 +56,8 @@ https://www.jordanharbinger.com/greg-mckeown-the-disciplined-pursuit-of-less/
 
 ## [Freakonomics](https://freakonomics.com/archive/)
 
+Does Advertising Actually Work? [Part 1 - TV](https://omny.fm/shows/freakonomics-radio/does-advertising-actually-work-part-1-tv), [Part 2, Digital](https://omny.fm/shows/freakonomics-radio/does-advertising-actually-work-part-2-digital)
+
 
 ## [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)
 
@@ -110,6 +112,8 @@ https://thejoeroganexperience.net/alex-jones-on-chemtrails-weather-manipulation-
 
 
 ## [MetaRadio](https://anchor.fm/metagame/)
+
+[Autonomous A1 - Taming Capitalism with Vinay Gupta of Mattereum](https://anchor.fm/metagame/episodes/Autonomous-A1---Taming-Capitalism-with-Vinay-Gupta-of-Mattereum-en1kf6)
 
 
 ## Love and Radio

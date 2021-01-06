@@ -62,6 +62,8 @@ https://ripjar.com/
 
 https://www.efforce.io/
 
+https://maidsafe.net/careers
+
 ## DAOs
 
 https://www.metacartel.org/
