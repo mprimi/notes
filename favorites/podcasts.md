@@ -4,6 +4,8 @@ Some of these episodes contain unsavory opinions I don't share or endorse.
 
 ## [Darknet Diaries](https://darknetdiaries.com/)
 
+[EP 61: Samy](https://darknetdiaries.com/episode/61/)
+
 [EP 69: HUMAN HACKER](https://darknetdiaries.com/episode/69/)
 
 [EP 56: JORDAN](https://darknetdiaries.com/episode/56/)

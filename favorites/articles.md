@@ -28,3 +28,9 @@ Do you think your privacy is safe because your social network or messaging app i
 [Journaling (Jonathan Borichevskiy)](https://jon.bo/posts/journaling/)
 
 [100 Tips For A Better Life (ideopunk)](https://ideopunk.com/2020/12/22/100-tips-for-a-better-life/)
+
+[Write code. Not too much. Mostly functions.](https://www.brandonsmith.ninja/blog/write-code-not-too-much-mostly-functions)
+
+[I assume I’m below average](https://sive.rs/below-average)
+
+[No Meetings, No Deadlines, No Full-Time Employees](https://sahillavingia.com/work)
