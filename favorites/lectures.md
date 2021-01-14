@@ -8,7 +8,10 @@
 
 [The Art of Code - Dylan Beattie](https://m.youtube.com/watch?v=6avJHaC3C2U)
 
-[HOPE 2020](https://scheduler.hope.net/hope2020/talk/) ([Archived](https://archive.org/details/hopeconf2020))
+[HOPE 2020: On Doing Good Enough - Mek](https://www.pscp.tv/w/1gqxvaBeYRgJB?t=5m42s)
+
+[HOPE 2020](https://scheduler.hope.net/hope2020/talk/) talks [archive](https://archive.org/details/hopeconf2020)
+
 
 # Lecture Series
 
