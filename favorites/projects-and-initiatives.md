@@ -11,3 +11,5 @@ https://www.hope.net/
 [DALL·E: Creating Images from Text](https://openai.com/blog/dall-e/)
 
 [Internet Archive](https://archive.org/)
+
+[Be My Eyes](https://www.bemyeyes.com/)
