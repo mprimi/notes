@@ -5,6 +5,13 @@ Like any person working on computers, M. struggles with keeping track of changes
 
 This is the simplest possible tutorial that explains how to leverage `git` for very simple personal projects.
 
+This tutorial covers:
+ - Versioning of a small set of files for a single person. i.e. personal notes/essay/homeworks/article, ...
+ - Inspecting and restoring of old versions
+ - Backups and sharing with others via cloud
+
+This tutorial does NOT cover branching, stashes, resolving conflicts, merge strategies, rewriting history, pulling from remote, fixups, aliases, configuration, etc. There are millions of tutorials out there that can teach you these advanced topics.
+
 ## 📜 Old school versioning
 
 We've all done this at some point, it looks something like this:
@@ -237,7 +244,7 @@ On branch master
 nothing to commit, working tree clean
 ```
 
-I can hear you screaming: "WTF? Where did my file go???" 
+I can hear you screaming: "WTF? Where did my file go???"
 
 As I said before staging and committing **do not touch the files** they just create metadata.
 Your file is still there. Go ahead and check.
@@ -257,7 +264,7 @@ $ touch tiramisu.txt cappone.txt carbonara.txt
 ```
 This just creates 3 empty files.
 
-``` 
+```
 $ git st --short
 ?? cappone.txt
 ?? carbonara.txt
@@ -327,34 +334,94 @@ And feel free to explore more `log` options described in the manual (hit `q` to 
 $ git help log
 ```
 
+## 4. Make history
 
-<!-- 
+A `git` repository records a set of mutation in a specific order.
 
-# Quiz Time! 
+Let's make history by changing a file.
+
+Add a step number 3 to the `cappone.txt` recipe. Edit the file and save.
+
+Status should tell you that the file is different than the last version `git` is aware of:
+```
+$git status --short
+ M cappone.txt
+```
+
+And the `diff` command can tell you exactly what changed:
+```
+$git diff
+diff --git a/cappone.txt b/cappone.txt
+index 825997d..660f0eb 100644
+--- a/cappone.txt
++++ b/cappone.txt
+@@ -2,3 +2,4 @@ Cappone della Nonna
+
+ 1. Spenna il cappone
+ 2. Cuocilo in forno
++3. Riposa 10 minuti
+```
+
+Notice the `+` in front of the last line. It's telling you that you added this line, while the rest of the file is unchanged.
+
+This new version is good, so let's commit it!
+
+```
+$git add cappone.txt
+$git commit -m "Improved cappone recipe"
+```
+
+Let's do a different change now, one that touches multiple lines.
+Add a new step 1 to the carbonara recipe.
+
+After editing, it should look like this:
+
+```
+$git diff
+diff --git a/carbonara.txt b/carbonara.txt
+index 78852c9..700ee0a 100644
+--- a/carbonara.txt
++++ b/carbonara.txt
+@@ -1,4 +1,5 @@
+ Pasta alla Carbonara
+
+-1. Cuoci la pasta
+-2. Aggiungi il sugo
++1. Bolli l'aqua
++2. Cuoci la pasta
++3. Aggiungi il sugo
+```
+
+Notice how `git` is not showing this as simply adding a line at the top.
+It's telling you the two original lines are gone, and 3 new lines were added.
+
+This time, try to stage your changes using "interactive" add:
+
+```
+$git add -p
+diff --git a/carbonara.txt b/carbonara.txt
+index 78852c9..700ee0a 100644
+--- a/carbonara.txt
++++ b/carbonara.txt
+@@ -1,4 +1,5 @@
+ Pasta alla Carbonara
+
+-1. Cuoci la pasta
+-2. Aggiungi il sugo
++1. Bolli l'aqua
++2. Cuoci la pasta
++3. Aggiungi il sugo
+(1/1) Stage this hunk [y,n,q,a,d,e,?]? y
+
+$git commit -m "Improved carbonara recipe"
+```
+
+<!--
+
+# Quiz Time!
 
 ## Move a file by accident
 
 ## Delete a file by accident
 
 -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
