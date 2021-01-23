@@ -192,14 +192,14 @@ We want `git` to start managing/versioning/tracking your recipes file.
 So first let's stage the file:
 
 ```
-$git add recipes.adoc
+$ git add recipes.adoc
 ```
 This stages the document. Notice it does not make any change whatsoever to the file. This is true for pretty much all the comments in this document: `git` does NOT modify your files. It just tracks them and makes copies in the "magic" folder.
 
 After adding the file to the index (another way to say staged the file, or added the file), take a look at the status:
 
 ```
-$git st --short
+$ git st --short
 A  recipes.adoc
 ```
 
@@ -220,7 +220,7 @@ Our objective for the first version is to put your file under version control.
 The file is now staged, so let's go ahead and commit:
 
 ```
-$git commit -m "Adding the original recipes word document"
+$ git commit -m "Adding the original recipes word document"
 [master (root-commit) cdab0fc] Adding the original recipes word document
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 recipes.adoc
@@ -293,7 +293,7 @@ Cappone della Nonna
 Let's check status after adding the recipes:
 
 ```
-$git st --short
+$ git st --short
 ?? cappone.txt
 ?? carbonara.txt
 ```
@@ -344,13 +344,13 @@ Add a step number 3 to the `cappone.txt` recipe. Edit the file and save.
 
 Status should tell you that the file is different than the last version `git` is aware of:
 ```
-$git status --short
+$ git status --short
  M cappone.txt
 ```
 
 And the `diff` command can tell you exactly what changed:
 ```
-$git diff
+$ git diff
 diff --git a/cappone.txt b/cappone.txt
 index 825997d..660f0eb 100644
 --- a/cappone.txt
@@ -367,8 +367,8 @@ Notice the `+` in front of the last line. It's telling you that you added this l
 This new version is good, so let's commit it!
 
 ```
-$git add cappone.txt
-$git commit -m "Improved cappone recipe"
+$ git add cappone.txt
+$ git commit -m "Improved cappone recipe"
 ```
 
 Let's do a different change now, one that touches multiple lines.
@@ -377,7 +377,7 @@ Add a new step 1 to the carbonara recipe.
 After editing, it should look like this:
 
 ```
-$git diff
+$ git diff
 diff --git a/carbonara.txt b/carbonara.txt
 index 78852c9..700ee0a 100644
 --- a/carbonara.txt
@@ -398,7 +398,7 @@ It's telling you the two original lines are gone, and 3 new lines were added.
 This time, try to stage your changes using "interactive" add:
 
 ```
-$git add -p
+$ git add -p
 diff --git a/carbonara.txt b/carbonara.txt
 index 78852c9..700ee0a 100644
 --- a/carbonara.txt
@@ -413,10 +413,14 @@ index 78852c9..700ee0a 100644
 +3. Aggiungi il sugo
 (1/1) Stage this hunk [y,n,q,a,d,e,?]? y
 
-$git commit -m "Improved carbonara recipe"
+$ git commit -m "Improved carbonara recipe"
 ```
 
 <!--
+
+# Next
+
+https://betterexplained.com/articles/aha-moments-when-learning-git/
 
 # Quiz Time!
 
