@@ -12,18 +12,16 @@ Some editorial choices about this deck:
 *(Presenter notes available in the source of these slides)*
 
 <!--
-* Today’s topic is federation in distributed systems
-* Not the standard paper review
-* Jumping to different systems and different abstraction levels
-* Let’s get started
+* Federation in distributed systems
+* A collection of examples across various domains and abstraction levels
 -->
 
 ---
 
 ## IRL Federation
 
-* United Federation of Planets 🖖
-* United States 🇺🇸
+* [United Federation of Planets](https://en.wikipedia.org/wiki/United_Federation_of_Planets) 🖖
+* [United States](https://en.wikipedia.org/wiki/Federalism_in_the_United_States) 🇺🇸
 * Most companies (teams, franchises, branches) 🏭
 
 **Federation**: organization pattern involving a combination of centralized decision-making and as peripheral autonomy
@@ -101,7 +99,7 @@ In the rest of this deck: practical examples of federation in action
 ---
 
 ## Data federation
-### GraphQL & Apollo
+### [GraphQL](https://graphql.org/) & [Apollo](https://www.apollographql.com/)
 
 > "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data"
 
@@ -173,7 +171,7 @@ Search is hard: divide and conquer!
 ## Search federation
 ### Maps Search Architecture
 
-![federated-search.png](./federated-architectures/federated-search.png)
+![Federated Maps Search](./federated-architectures/federated-search.png)
 
 A collection of small specialized search engines.
 
@@ -207,7 +205,7 @@ And auxiliary services
 ---
 
 ## Federated storage
-### FileCoin
+### [FileCoin](https://filecoin.io/)
 
 Planetary scale decentralized file storage system.
 Utilizes the blockchain to track blocks and reward people for storing them.
@@ -215,7 +213,7 @@ Utilizes the blockchain to track blocks and reward people for storing them.
 Mine (get paid) to offer storage capacity
 Pay others to store, serve, replicate, ...
 
-Similar: Threefold (P2P compute grid), LivePeer (video encoding grid), and many more
+Similar: [Threefold](https://threefold.io/) (P2P compute grid), [LivePeer](https://livepeer.org/) (video encoding grid), and many more
 
 <!--
 * Filecoin: Blockchain based global storage network
@@ -240,108 +238,127 @@ Similar: Threefold (P2P compute grid), LivePeer (video encoding grid), and many 
 
 ---
 
+
+## Federated infrastructure
+### [GAIA-X](https://www.data-infrastructure.eu/GAIAX/)
+
+European Union next generation cloud.
+
+Similar to AWS in that it offers a variety of services, from bare metal machines, all the way up to high level services.
+
+AWS is centralized, GAIA-X is federated through and through.
+Only offers the basic protocol for providers and consumers to find each-other and negotiate terms.
+
+* Federated resource catalogs: compute, storage, bandwidth, ...
+* Federated services catalog: high level functions, services and API, ...
+* Federated data catalogs, with varying degree of access, licensing, ...
+* Federated identity and trust: to regulate and delegate access to data and resources
+
 <!--
-Federated infrastructure: GAIA-X
-
-European Union next generation cloud
-	A federated version of AWS.
-Federated resource catalogs: cloud providers can offer resources (compute, storage, bandwidth, …)
-Federated services catalog: services and API are advertised, pay per use
-Federated data catalogs: various levels of access, license, compensation
-Federated identity and trust: regulate and delegate access to data and resources
-
-
-
-* Let’s jump to a different domain and talk about federated infrastructure
-* The coolest example I could think of is GAIA-X
 * An ambitious EU project for next generation cloud
-* One way to describe it: AWS but federated, let’s see how
-* What I mean by that: instead of a single provider of compute, storage, bandwidth
-* GAIA-X works with catalogs
-* Big and small cloud providers can register themselves into catalogs
-* Advertise their resources, costs, SLAs, etc.
-* Applications can use a query language to search and reserve resources
-    * Ex: 50 hosts in Italy, 20 in France (with details about specs, cost, connectivity, etc)
-* Catalogs are not limited to raw resources
-    * Catalog of services
-    * An application that has API can advertise it, including costs, rate limits, etc.
-* It goes further than that, for example there are catalogs of data
-    * License, usage rights, price, …
-* As you can imagine, for this to work you need isolation & permissions
-    * Which implies you need identity and trust
-    * Those systems are also federated and can be plugged in
-* The website has many very cool case studies,
+* One way to describe it: AWS but decentralized and federated
+* Instead of a single provider of compute, storage, bandwidth anyone can offer their resources
+  * Add resources to a catalog
+  * Advertise resources specification as well as costs, SLAs, and more
+* Applications can use a standard query language to locate and reserve resources, acquire them, release them after use
+  * Example: I need 20 hosts with at least 4 CPU, 4GB of memory, 500GB hard-disk. 5 of them need to be located in italy, 10 of them need to be in France, the remaining 5 anywhere inside the EU.
+* Similarly, catalogs exist for services and APIs
+  * Example: translate this text to language X, Y, Z.
+  * Rate limits, number of requests, cost, etc can be negotiated programmatically
+* Data catalogs
+  * Example: Average household income for asian countries between 2001 and 2011
+  * License, usage rights, price are part of the agreement
+* In this kind of system, trust is a basic need. Identity and trust are built into the protocol.
+  * Naturally, different identity and trust mechanisms can be built-in
+* The website has many very cool case studies
+-->
 
-—
+---
 
-<EXAMPLE>
+## GAIA-X Use case example
+### [Medical records](https://www.data-infrastructure.eu/GAIAX/Redaktion/EN/Artikel/UseCases/framework-of-medical-records-in-europe.html)
 
-* Let’s take one: electronic medical records
-    * Your doctor uploads your record
-    * Doctor retains access, but ultimately you are in control
-    * Ex. Go to a new doctor, grant access
-    * Data is private, but others may also access
-        * Insurance
-        * Your country may have access to aggregated anonymized data
-    * Storage and service providers involved in this complex system get paid
-* Yet to be seen if this will succeed, but it’s very cool
-* Federation is the core principle in this architecture
+Each citizen has a virtual medical record.
 
-—
+It is stored safely in the cloud.
 
-Federated Future of Service Platforms
+ * The patient can grant access to a new doctor
+ * The doctor can add to the medical record (and retain access to the newly added data)
+ * the patient can delegate access to a parent or guardian
+ * Research institution may have limited access to aggregate data for statistics and research purposes
+ * Insurance, prospect employer, etc may request partial access
 
-Uber, AirBnb & co successfully connect demand and supply
+---
 
-Optimize (in order): shareholders, users, providers (e.g., drivers)
-win-win-win, for the most part…
+## Federated Service Platforms
 
-Next generation federated platform
-Same service, but without make users and providers the stakeholders
-Public open-source utilities/services
-Surplus is reinvested in development, and split among all participants
+Uber, AirBnb & co successfully connect demand and supply at scale.
 
-Examples: Eva, FairBnb, WindingTree
+But their primary driver is profit. Above all they need to appease shareholders and investors.
 
+Making users happy is just a secondary goal. A mean to an end.
+The real goal is: make money.
 
-* Moving on, let’s talk about tech platforms
-* One of the ways our lives changed in the last 10 years is marketplace platforms
+Re-imagine these platforms without the shareholders (or making users the shareholders).
+Same service, different goal: optimize for the collective good of all users.
+
+More similar to public utilities than to for-profit companies.
+
+Built on open-source (trust is paramount).
+Still collect a fee on transactions, but use it to:
+ * Pay for infrastructure costs, insurance
+ * Compensate employees (support, developers, legal, ...)
+ * Reinvest surplus into making the platform better or give fractional dividends to all participants
+
+Examples: [Eva](https://www.eva.coop/), [FairBnb](https://fairbnb.coop/), [WindingTree](https://windingtree.com/)
+
+<!--
+* Marketplace platforms changed our lives in the last 10-15 years
 * Companies like Uber and AirBnB have seen incredible success in connecting demand and supply on large scale
 * Companies are first and foremost for-profit ventures
 * Successful ones manage to balance goals of making money, providing a service, giving people a way to make money
 * 3 goals are not always aligned
     * Example: security of riders of ride-sharing app, it’s expensive to do it very well!
     * Example: protections for drivers, also expensive.
-* A new trend is emerging, companies that provide federated platforms
+* A new trend is emerging, federated platforms
     * Consumers and providers become the shareholders
     * Infrastructure provided for safe negotiation, contact, reputation
     * More similar to open-source utilities than today’s startups
     * Eva is Uber, FairBnB is AirBnB
     * These are just 1:1 conversions, But there’s many more innovative ideas being built
+ -->
 
-—
+---
 
-Federated social networks
+## Federated Social Networks
 
-Facebook, Reddit, Discord, Twitter, … great for staying in touch with friends, finding community, discuss current events, …
+Facebook, Reddit, Twitter, Instagram, etc.
+Are great for staying in touch with friends, discuss current events, and more.
 
-User’s interest conflicts shareholders interest: privacy, rate of consumption, quality of content
+But satisfying user's need for connection is just a mean to an end.
 
-Federated alternatives: Diaspora, Mastodon, Mobilizon
+The goal of these platform is to make money to shareholders.
+They are not shy of using dirty tricks to get users to:
+ * Reveal private information, which they can harvest and monetize
+ * Get people addicted, enraged, misinformed, anything required to keep them engaged
 
-* Next topic: Social Networks
-* Facebook, Reddit, Discord, Twitter are great tools to keep us connected
-* They do provide great value
-* But not without downsides
-* Companies make money by mining our data, selling our most private details
+User's interests (such as privacy) are only considered if ignoring them is damaging to the platform.
+
+A new generation of federated social platform are emerging: [Diaspora](https://diaspora.social/), [Mastodon](https://joinmastodon.org/), [Mobilizon](https://mobilizon.org/en/), and more.
+
+![Expected vs. Actual social network](./federated-architectures/social-network.png)
+
+<!-- * Social Networks, great tools to keep us connected
+* They are wolf in sheep clothes
+* Companies make money by mining our data, selling our attention
 * Make money by keeping us engaged, to an unhealthy degree.
     * Use dirty tricks to keep our attention: misinformation or inflammatory content
     * These keep us scrolling
 * Top diagram - what we want
 * Bottom - what we actually have
 * Can we do better?
-* Definitely yes! Keep the good parts, social connections
-* Dump the bad, monetary exploitation
+* Definitely yes! Keep the good parts: social connections, exchange of ideas
+* Dump the bad: monetary exploitation
 * In this space, there are some cool projects gaining steam
 * Mastodon: federated twitter
 * Diaspora: federated Facebook
@@ -350,70 +367,43 @@ Federated alternatives: Diaspora, Mastodon, Mobilizon
     * Pretty cheap
     * Full control on how connected you want to be to the rest of the ecosystem
 * Example, if you have kids
-    * See the value of having a safe platform for them to stay in touch with their friends
-    * But protect and segregate them from the big platforms
+    * Safe platform for them to stay in touch with their friends
+    * Protected and segregate them from the rest of the internet
     * Same goes with your family, neighborhood, your book club
+ -->
 
-—
+---
 
-Federated IM: Matrix
+## Federated Communications
+### [Matrix](https://www.matrix.org/)
 
-Federation of independently operated servers
-Control on who can come in, what data is exposed to others
-End-to-end encryption
-Extensible
+WhatsApp, Telegram, Discord, iMessage, GMail, ... provide a great service, but at a (hidden) cost.
+Your data is being mined and sold (end-to-end encryption is a marketing ploy).
 
+Matrix is a federated, decentralized answer to this problem.
+An open-source protocol for instant messaging (and, communications in general).
 
-* Cool new protocol in town
-* Federate network of independently run servers
+Built ground-up to be federated.
+Small groups of people can operate their own homeserver, sharing the cost.
+
+Through the homeserver, they can connect to the rest of the world (or not).
+
+![Matrix network](./federated-architectures/organic-social-network.png)
+
+<!--
+* Matrix is the cool new protocol in town
+* Federated network of independently run servers
 * Each user has a home-server (run by a trusted person)
-* Can talk to anyone else in the federation
+* Can talk to anyone else in the federation, or keep isolated
 * E2E encrypted
 * Specification is open source, various implementations available
-* Element makes money by providing one-click deployments, not by mining and selling your data
+-->
 
-—
+---
 
+Further reading:
+ * [Beyond distributed and decentralized: what is a federated network?](https://networkcultures.org/unlikeus/resources/articles/what-is-a-federated-network/)
+ * [The Ultimate Guide to Federated Architecture & Decentralized Social Networks](https://www.8bitmen.com/the-ultimate-guide-to-federated-architecture-decentralized-social-networks/)
+ * [Decentralized Social Ecosystem Review](https://ipfs.io/ipfs/QmdFrru4PyHzXGZztEPnYToBR3QovD7fkC1HSyty22LzfD)
 
-Federated Data (GraphQL/Apollo)
-Divide and Conquer (Maps Search)
-Federated Resources Grids (FileCoin)
-Federated Infrastructure (GAIA-X)
-Federated Platforms (FairBnB, & co.)
-Federated Social Networks (Mastodon & co.)
-Federated IM (Matrix)
-
-
-* This concludes my presentation
-* I hope you enjoyed it
-* I’m going to leave this slide up as we switch to live Q&A
-* Slide deck has one more slide with links
-* While I’m at it, I’d like to thank Lorin & Ioannis for organizing this group, it’s been a highlight of my time at Netflix
-* Feel free to reach out privately
-* You can find me on slack but only until the end of the year
-
-
-
-References:
-https://networkcultures.org/unlikeus/resources/articles/what-is-a-federated-network/
-https://www.8bitmen.com/the-ultimate-guide-to-federated-architecture-decentralized-social-networks/
-https://en.wikipedia.org/wiki/United_Federation_of_Planets
-https://en.wikipedia.org/wiki/Federalism_in_the_United_States
-https://graphql.org/
-https://www.apollographql.com/
-https://filecoin.io/
-https://threefold.io/
-https://livepeer.org/
-https://www.data-infrastructure.eu/GAIAX/Navigation/EN/Home/home.html
-https://fairbnb.coop/
-https://www.eva.coop/
-https://windingtree.com/
-https://diaspora.social/
-https://joinmastodon.org/
-https://mobilizon.org/en/
-https://www.matrix.org/
-
-
-
-
---- -->
+---
