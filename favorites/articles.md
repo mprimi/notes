@@ -34,3 +34,14 @@ Do you think your privacy is safe because your social network or messaging app i
 [I assume I’m below average](https://sive.rs/below-average)
 
 [No Meetings, No Deadlines, No Full-Time Employees](https://sahillavingia.com/work)
+
+
+[Brevity Is Beautiful (Better Explained)](https://betterexplained.com/articles/brevity-is-beautiful/)
+
+[Maximizing Developer Effectiveness (Tim Cochran)](https://martinfowler.com/articles/developer-effectiveness.html)
+
+[You're Probably Wondering Why I've Called You Here Today (Astral Codex Ten)](https://astralcodexten.substack.com/p/youre-probably-wondering-why-ive)
+
+[How management by metrics leads us astray (Jakob Greenfeld)](https://jakobgreenfeld.com/metrics)
+
+[Ergodicity: the most over-looked assumption (Neurabites)](https://neurabites.com/ergodicity/)

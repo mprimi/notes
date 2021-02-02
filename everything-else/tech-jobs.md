@@ -64,6 +64,8 @@ https://www.efforce.io/
 
 https://maidsafe.net/careers
 
+https://pyrofex.io/careers/
+
 ## DAOs
 
 https://www.metacartel.org/

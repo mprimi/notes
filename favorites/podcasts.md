@@ -2,6 +2,12 @@ Podcasts I Love (or loved..).
 
 Some of these episodes contain unsavory opinions I don't share or endorse.
 
+
+## [Steal This Show](https://stealthisshow.com/)
+
+[snglsDAO: How To Decentralize The Video Economy, with Troy Murray](https://stealthisshow.com/s05e15/)
+
+
 ## [Darknet Diaries](https://darknetdiaries.com/)
 
 [EP 61: Samy](https://darknetdiaries.com/episode/61/)
@@ -9,6 +15,8 @@ Some of these episodes contain unsavory opinions I don't share or endorse.
 [EP 69: HUMAN HACKER](https://darknetdiaries.com/episode/69/)
 
 [EP 56: JORDAN](https://darknetdiaries.com/episode/56/)
+
+[EP 49: ELLIOT](https://darknetdiaries.com/episode/49/)
 
 [EP 43: PPP](https://darknetdiaries.com/episode/43/)
 
@@ -22,6 +30,12 @@ https://www.jordanharbinger.com/koch-and-hooks-bottom-up-solutions-for-a-top-dow
 https://www.jordanharbinger.com/celeste-headlee-how-to-have-conversations-that-matter/
 
 https://www.jordanharbinger.com/greg-mckeown-the-disciplined-pursuit-of-less/
+
+https://www.jordanharbinger.com/steven-hassan-combating-cult-mind-control-part-one/
+
+https://www.jordanharbinger.com/steven-hassan-combating-cult-mind-control-part-two/
+
+https://www.jordanharbinger.com/jonah-berger-how-to-change-anyones-mind/
 
 
 ## [The Stoa](https://www.thestoa.ca/)
