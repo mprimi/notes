@@ -1,0 +1,12 @@
+site_name: "Marco's Notes"
+site_url: https://notes.mpri.me
+docs_dir: notes
+site_description: "Marco's Notes"
+site_author: "Marco Primi"
+strict: false
+
+nav:
+  - "🦋 Bar": bar/index.md
+  - "😻 Foo":
+    - Foo1: foo/f1.md
+    - Foo2: foo/f2.md
