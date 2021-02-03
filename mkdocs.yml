@@ -4,6 +4,9 @@ docs_dir: notes
 site_description: "Marco's Notes"
 site_author: "Marco Primi"
 strict: false
+theme:
+  name: mkdocs
+  custom_dir: custom_theme/
 
 nav:
   - "🦋 Bar": bar/index.md
