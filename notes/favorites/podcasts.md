@@ -1,7 +1,4 @@
-Podcasts I Love (or loved..).
-
-Some of these episodes contain unsavory opinions I don't share or endorse.
-
+# Podcasts
 
 ## [Steal This Show](https://stealthisshow.com/)
 
