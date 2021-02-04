@@ -2,7 +2,7 @@
 
 set -e
 
-DIARY_DIR="notes/diary"
+DIARY_DIR="notes/diary notes/logs"
 
 INDEX_DIRS="${DIARY_DIR}"
 
