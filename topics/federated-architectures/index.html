@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Marco Primi">
+        <link rel="canonical" href="https://notes.mpri.me/topics/federated-architectures/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Federated Architectures - Marco's Notes</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Marco's Notes</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">❤️ Favorites <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../favorites/art/" class="dropdown-item">Art and Design</a>
+</li>
+                                    
+<li>
+    <a href="../../favorites/articles/" class="dropdown-item">Articles</a>
+</li>
+                                    
+<li>
+    <a href="../../favorites/books/" class="dropdown-item">Books</a>
+</li>
+                                    
+<li>
+    <a href="../../favorites/lectures/" class="dropdown-item">Lectures and Talks</a>
+</li>
+                                    
+<li>
+    <a href="../../favorites/podcasts/" class="dropdown-item">Podcasts</a>
+</li>
+                                    
+<li>
+    <a href="../../favorites/projects-and-initiatives/" class="dropdown-item">Projects and initiatives</a>
+</li>
+                                    
+<li>
+    <a href="../../favorites/webcomics/" class="dropdown-item">Webcomics</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">🦋 Thoughts <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../diary/" class="dropdown-item">📓 ・ Diary</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">📚 ・ Topics</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../logs/" class="nav-link">🧭 Logs</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../everything-else/" class="nav-link">🗃 Everything else</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+	<div class="col-md-12" role="main">
+
+<h1 id="federated-architectures">Federated Architectures</h1>
+<h3 id="the-recurring-theme-of-federation-in-distributed-system">The recurring theme of federation in distributed system</h3>
+<p>Some editorial choices about this deck:</p>
+<ul>
+<li>Entertaining &gt; Precise</li>
+<li>Cool &gt; Useful</li>
+<li>Future &gt; Present</li>
+</ul>
+<p><em>(Presenter notes available in the source of these slides)</em></p>
+<!--
+* Federation in distributed systems
+* A collection of examples across various domains and abstraction levels
+-->
+
+<hr />
+<h2 id="irl-federation">IRL Federation</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/United_Federation_of_Planets">United Federation of Planets</a> 🖖</li>
+<li><a href="https://en.wikipedia.org/wiki/Federalism_in_the_United_States">United States</a> 🇺🇸</li>
+<li>Most companies (teams, franchises, branches) 🏭</li>
+</ul>
+<p><strong>Federation</strong>: organization pattern involving a combination of centralized decision-making and as peripheral autonomy</p>
+<p>Hybrid of top-down (hierarchical) and peer-to-peer (decentralized)
+￼</p>
+<!--
+* Federation broad concept that exists in different domains
+* Sci-fi: Federation of Planets (Star Trek)
+* Real world: Federal government of the US
+* A large company (say, Google) could be described as multi-level federation of teams.
+* Definition: pattern of organization that involves both centralized decision and peripheral autonomy
+* Anecdote: Federalism was the hot topic in 80/90s in Italy
+    * Idea: give more control to Italy’s region, rather than collect all money in Rome then redistribute it to-down
+    * Even if everyone can agree on federation, it’s a long way to agree to details
+-->
+
+<hr />
+<h2 id="federation-in-computer-systems">Federation in Computer Systems</h2>
+<p>The abstract pattern of Federation is everywhere.</p>
+<p>Often in disguise, or called with by different (more precise) names</p>
+<ul>
+<li>DNS</li>
+<li>E-Mail</li>
+<li>Kernel</li>
+<li>CPU architecture</li>
+</ul>
+<!--
+* Narrow down the scope to computers
+* Federation is everywhere
+* One example: DNS, hierarchical, top-down resolution.
+    * But federated: authoritative DNS are managed independently
+    * Authoritative DNS come and go, independently of top-level
+* Handwavy example, don’t quote me on this one
+    * The way Operating System interacts with CPU and schedules on various core
+    * Could be seen as federating chunks of work
+    * CPU can has some degree of autonomy on caches, pipelining, branching
+* Federation is pervasive in computer systems
+-->
+
+<hr />
+<h2 id="federation-in-distributed-systems">Federation in Distributed Systems</h2>
+<p>Concept of federation is broad overlaps with many concepts we encounter everyday:
+* Gateway, Router, Facade patterns
+* Orchestration pattern
+* Microservices &amp; decentralized systems</p>
+<p>Federation is abstract and overlaps with these and more.</p>
+<p>In the rest of this deck: practical examples of federation in action</p>
+<!--
+* Let’s narrow down further to federation in distributed systems
+* Federation is everywhere
+* But not usually called out explicitly
+* Usually because more precise terms exists, sub-types of federation
+* Being a broad term it can be confusing
+* Example: single endpoint that hides and routes to different services
+    * Call it Gateway, or router
+* OR service that encapsulates multiple services
+    * Making sub-requests, coordinating, assembling the response
+    * You would probably describe this as Orchestration or Facade
+* In micro services architecture these patterns are everywhere
+* Federation term overlaps with these and more concept
+* Only if we zoom out and ignore the details, we can see how federation is prevalent
+* This is what the rest of this presentation will do:
+    * Jump from system to system keep an eye out for federation patterns
+ -->
+
+<hr />
+<h2 id="data-federation">Data federation</h2>
+<h3 id="graphql-apollo"><a href="https://graphql.org/">GraphQL</a> &amp; <a href="https://www.apollographql.com/">Apollo</a></h3>
+<blockquote>
+<p>"GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data"</p>
+</blockquote>
+<p>Below the API, query federation.</p>
+<p>Apollo stores no data, it federates the request to other systems.</p>
+<p>Data layout, location, provider can change without affecting users.</p>
+<!--
+* Simple example of federation used to query data
+* GraphQL is all the rage today
+* The idea: decouple data as seen by users from data as stored or materialized
+* GraphQL is a language to define an API for data
+* Apollo is a popular implementation
+    * Backend is ready to be connected to various datasources
+    * DB, APIs, services, ...
+* When a user asks for data, Apollo takes care of the details
+* At high level, this is an example of data federation
+ -->
+
+<hr />
+<h2 id="search-federation">Search federation</h2>
+<h3 id="maps-search">Maps Search</h3>
+<p>Different queries require very different handling, separate indices, ranking, spell-correction model, and more.</p>
+<ul>
+<li>"Starbucks"</li>
+<li>Nearby locations of a specific chain</li>
+<li>Or maybe coffee shops</li>
+<li>"1200 Main Street"</li>
+<li>An address (that exists in hundreds of towns!)</li>
+<li>Show the closest?</li>
+<li>"1600 Pennsylvania Ave"</li>
+<li>A nearby address?</li>
+<li>Or a very famous landmark? (the White House)</li>
+<li>"Paris"</li>
+<li>Paris, France?</li>
+<li>Paris, Texas?</li>
+<li>(many other)</li>
+</ul>
+<!--
+Search is hard: divide and conquer!
+
+* Service federation
+* Break down a complex problem into more manageable parts
+* Maps Search
+* Open Google Maps and search for “starbucks”
+    * Starbucks location near you.
+    * What is happening in the backend?
+    * Probably, the engine has index of business names and their location, category, and many other details
+    * Query includes user location, viewport and more contextual metadata that can help narrow down the most salient locations
+* Now search for an address
+    * Same address may exists in hundreds of towns
+    * Indexing and ranking of addresses is quite different from businesses
+    * Furthermore addresses are very different in different parts of the world
+* What if I search for a city
+    * Paris takes me to France, not to Texas
+    * Again, different indexing and ranking
+* Same for landmarks, categories, etc
+* What I meant to say here is... it gets complicated very quick
+* When things get complicated, divide and conquer!
+    * Federation to the rescue
+ -->
+
+<hr />
+<h2 id="search-federation_1">Search federation</h2>
+<h3 id="maps-search-architecture">Maps Search Architecture</h3>
+<p><img alt="Federated Maps Search" src="federated-search.png" /></p>
+<p>A collection of small specialized search engines.</p>
+<ul>
+<li>Category search</li>
+<li>Address search</li>
+<li>Contacts search</li>
+<li>Businesses search</li>
+<li>Landmark search</li>
+<li>Geographical entities search</li>
+<li>...</li>
+</ul>
+<p>And auxiliary services
+ - Spelling suggestions
+ - User metadata and history
+ - Driving time estimation
+ - ...</p>
+<!--
+* Here’s how a maps search engine may look
+* Top-level facade, and it may make use of components I left out (eg. Spelling corrections)
+* Delegates search to specialized search engines
+* Example: pizza
+  * Landmark search and address search may say: I got nothing
+  * Business search may return some result with pizza in the name
+  * Category search would say “pretty sure this is a category search”
+  * Re-issue targeted business search with category “pizza restaurant”
+* As far as I know, all major search engines are federated this way
+  * In reality, a lot more complicated, for example due to language and other conventions that change over the world
+-->
+
+<hr />
+<h2 id="federated-storage">Federated storage</h2>
+<h3 id="filecoin"><a href="https://filecoin.io/">FileCoin</a></h3>
+<p>Planetary scale decentralized file storage system.
+Utilizes the blockchain to track blocks and reward people for storing them.</p>
+<p>Mine (get paid) to offer storage capacity
+Pay others to store, serve, replicate, ...</p>
+<p>Similar: <a href="https://threefold.io/">Threefold</a> (P2P compute grid), <a href="https://livepeer.org/">LivePeer</a> (video encoding grid), and many more</p>
+<!--
+* Filecoin: Blockchain based global storage network
+  * Not a P2P file-sharing (although it is P2P), more similar to S3 than to Napster
+  * Not a cryptocurrency (although it does use its own currency)
+* Decentralized planet-wide storage system, anyone can participate in
+  * Say you have a few spare hard disk at home
+  * Set up a node and ‘rent’ your storage
+  * To mine Bitcoin you burn burning CPU, to mine Filecoin store chunks of data
+  * Data is encrypted
+  * A little more complicated than this: different kinds of nodes getting paid to do different things (store, cache, manage)
+  * Currently 1 hexabyte capacity
+* P2P federation file coin is just a protocol
+  * Nodes are independently operated
+  * Pricing scheme, strategy, etc
+* Protocol Labs (company) is not an intermediary
+* Decentralized networks with fractionalized economies are gaining steam
+    * Threefold is similar but for compute (think: SETI or Folding @ Home)
+    * More specialized: LivePeer for video encoding
+    * And many, many more on the horizon
+-->
+
+<hr />
+<h2 id="federated-infrastructure">Federated infrastructure</h2>
+<h3 id="gaia-x"><a href="https://www.data-infrastructure.eu/GAIAX/">GAIA-X</a></h3>
+<p>European Union next generation cloud.</p>
+<p>Similar to AWS in that it offers a variety of services, from bare metal machines, all the way up to high level services.</p>
+<p>AWS is centralized, GAIA-X is federated through and through.
+Only offers the basic protocol for providers and consumers to find each-other and negotiate terms.</p>
+<ul>
+<li>Federated resource catalogs: compute, storage, bandwidth, ...</li>
+<li>Federated services catalog: high level functions, services and API, ...</li>
+<li>Federated data catalogs, with varying degree of access, licensing, ...</li>
+<li>Federated identity and trust: to regulate and delegate access to data and resources</li>
+</ul>
+<!--
+* An ambitious EU project for next generation cloud
+* One way to describe it: AWS but decentralized and federated
+* Instead of a single provider of compute, storage, bandwidth anyone can offer their resources
+  * Add resources to a catalog
+  * Advertise resources specification as well as costs, SLAs, and more
+* Applications can use a standard query language to locate and reserve resources, acquire them, release them after use
+  * Example: I need 20 hosts with at least 4 CPU, 4GB of memory, 500GB hard-disk. 5 of them need to be located in italy, 10 of them need to be in France, the remaining 5 anywhere inside the EU.
+* Similarly, catalogs exist for services and APIs
+  * Example: translate this text to language X, Y, Z.
+  * Rate limits, number of requests, cost, etc can be negotiated programmatically
+* Data catalogs
+  * Example: Average household income for asian countries between 2001 and 2011
+  * License, usage rights, price are part of the agreement
+* In this kind of system, trust is a basic need. Identity and trust are built into the protocol.
+  * Naturally, different identity and trust mechanisms can be built-in
+* The website has many very cool case studies
+-->
+
+<hr />
+<h2 id="gaia-x-use-case-example">GAIA-X Use case example</h2>
+<h3 id="medical-records"><a href="https://www.data-infrastructure.eu/GAIAX/Redaktion/EN/Artikel/UseCases/framework-of-medical-records-in-europe.html">Medical records</a></h3>
+<p>Each citizen has a virtual medical record.</p>
+<p>It is stored safely in the cloud.</p>
+<ul>
+<li>The patient can grant access to a new doctor</li>
+<li>The doctor can add to the medical record (and retain access to the newly added data)</li>
+<li>the patient can delegate access to a parent or guardian</li>
+<li>Research institution may have limited access to aggregate data for statistics and research purposes</li>
+<li>Insurance, prospect employer, etc may request partial access</li>
+</ul>
+<hr />
+<h2 id="federated-service-platforms">Federated Service Platforms</h2>
+<p>Uber, AirBnb &amp; co successfully connect demand and supply at scale.</p>
+<p>But their primary driver is profit. Above all they need to appease shareholders and investors.</p>
+<p>Making users happy is just a secondary goal. A mean to an end.
+The real goal is: make money.</p>
+<p>Re-imagine these platforms without the shareholders (or making users the shareholders).
+Same service, different goal: optimize for the collective good of all users.</p>
+<p>More similar to public utilities than to for-profit companies.</p>
+<p>Built on open-source (trust is paramount).
+Still collect a fee on transactions, but use it to:
+ * Pay for infrastructure costs, insurance
+ * Compensate employees (support, developers, legal, ...)
+ * Reinvest surplus into making the platform better or give fractional dividends to all participants</p>
+<p>Examples: <a href="https://www.eva.coop/">Eva</a>, <a href="https://fairbnb.coop/">FairBnb</a>, <a href="https://windingtree.com/">WindingTree</a></p>
+<!--
+* Marketplace platforms changed our lives in the last 10-15 years
+* Companies like Uber and AirBnB have seen incredible success in connecting demand and supply on large scale
+* Companies are first and foremost for-profit ventures
+* Successful ones manage to balance goals of making money, providing a service, giving people a way to make money
+* 3 goals are not always aligned
+    * Example: security of riders of ride-sharing app, it’s expensive to do it very well!
+    * Example: protections for drivers, also expensive.
+* A new trend is emerging, federated platforms
+    * Consumers and providers become the shareholders
+    * Infrastructure provided for safe negotiation, contact, reputation
+    * More similar to open-source utilities than today’s startups
+    * Eva is Uber, FairBnB is AirBnB
+    * These are just 1:1 conversions, But there’s many more innovative ideas being built
+ -->
+
+<hr />
+<h2 id="federated-social-networks">Federated Social Networks</h2>
+<p>Facebook, Reddit, Twitter, Instagram, etc.
+Are great for staying in touch with friends, discuss current events, and more.</p>
+<p>But satisfying user's need for connection is just a mean to an end.</p>
+<p>The goal of these platform is to make money to shareholders.
+They are not shy of using dirty tricks to get users to:
+ * Reveal private information, which they can harvest and monetize
+ * Get people addicted, enraged, misinformed, anything required to keep them engaged</p>
+<p>User's interests (such as privacy) are only considered if ignoring them is damaging to the platform.</p>
+<p>A new generation of federated social platform are emerging: <a href="https://diaspora.social/">Diaspora</a>, <a href="https://joinmastodon.org/">Mastodon</a>, <a href="https://mobilizon.org/en/">Mobilizon</a>, and more.</p>
+<p><img alt="Expected vs. Actual social network" src="social-network.png" /></p>
+<!-- * Social Networks, great tools to keep us connected
+* They are wolf in sheep clothes
+* Companies make money by mining our data, selling our attention
+* Make money by keeping us engaged, to an unhealthy degree.
+    * Use dirty tricks to keep our attention: misinformation or inflammatory content
+    * These keep us scrolling
+* Top diagram - what we want
+* Bottom - what we actually have
+* Can we do better?
+* Definitely yes! Keep the good parts: social connections, exchange of ideas
+* Dump the bad: monetary exploitation
+* In this space, there are some cool projects gaining steam
+* Mastodon: federated twitter
+* Diaspora: federated Facebook
+* Mobilizon: federated Facebook events
+* Set up a diaspora node for you and your friends
+    * Pretty cheap
+    * Full control on how connected you want to be to the rest of the ecosystem
+* Example, if you have kids
+    * Safe platform for them to stay in touch with their friends
+    * Protected and segregate them from the rest of the internet
+    * Same goes with your family, neighborhood, your book club
+ -->
+
+<hr />
+<h2 id="federated-communications">Federated Communications</h2>
+<h3 id="matrix"><a href="https://www.matrix.org/">Matrix</a></h3>
+<p>WhatsApp, Telegram, Discord, iMessage, GMail, ... provide a great service, but at a (hidden) cost.
+Your data is being mined and sold (end-to-end encryption is a marketing ploy).</p>
+<p>Matrix is a federated, decentralized answer to this problem.
+An open-source protocol for instant messaging (and, communications in general).</p>
+<p>Built ground-up to be federated.
+Small groups of people can operate their own homeserver, sharing the cost.</p>
+<p>Through the homeserver, they can connect to the rest of the world (or not).</p>
+<p><img alt="Matrix network" src="organic-social-network.png" /></p>
+<!--
+* Matrix is the cool new protocol in town
+* Federated network of independently run servers
+* Each user has a home-server (run by a trusted person)
+* Can talk to anyone else in the federation, or keep isolated
+* E2E encrypted
+* Specification is open source, various implementations available
+-->
+
+<hr />
+<p>Further reading:
+ * <a href="https://networkcultures.org/unlikeus/resources/articles/what-is-a-federated-network/">Beyond distributed and decentralized: what is a federated network?</a>
+ * <a href="https://www.8bitmen.com/the-ultimate-guide-to-federated-architecture-decentralized-social-networks/">The Ultimate Guide to Federated Architecture &amp; Decentralized Social Networks</a>
+ * <a href="https://ipfs.io/ipfs/QmdFrru4PyHzXGZztEPnYToBR3QovD7fkC1HSyty22LzfD">Decentralized Social Ecosystem Review</a></p>
+<hr /></div>
+
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -1,15 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>https://notes.mpri.me/bar/</loc>
-     <lastmod>2021-02-03</lastmod>
+     <loc>https://notes.mpri.me/favorites/art/</loc>
+     <lastmod>2021-02-04</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://notes.mpri.me/foo/f1/</loc>
-     <lastmod>2021-02-03</lastmod>
+     <loc>https://notes.mpri.me/favorites/articles/</loc>
+     <lastmod>2021-02-04</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://notes.mpri.me/foo/f2/</loc>
-     <lastmod>2021-02-03</lastmod>
+     <loc>https://notes.mpri.me/favorites/books/</loc>
+     <lastmod>2021-02-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://notes.mpri.me/favorites/lectures/</loc>
+     <lastmod>2021-02-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://notes.mpri.me/favorites/podcasts/</loc>
+     <lastmod>2021-02-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://notes.mpri.me/favorites/projects-and-initiatives/</loc>
+     <lastmod>2021-02-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://notes.mpri.me/favorites/webcomics/</loc>
+     <lastmod>2021-02-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://notes.mpri.me/diary/</loc>
+     <lastmod>2021-02-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://notes.mpri.me/topics/</loc>
+     <lastmod>2021-02-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://notes.mpri.me/logs/</loc>
+     <lastmod>2021-02-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://notes.mpri.me/everything-else/</loc>
+     <lastmod>2021-02-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
