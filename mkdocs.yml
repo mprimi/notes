@@ -9,7 +9,9 @@ theme:
   custom_dir: custom_theme/
 
 nav:
-  - "🦋 Bar": bar/index.md
-  - "😻 Foo":
-    - Foo1: foo/f1.md
-    - Foo2: foo/f2.md
+  - "❤️ Favorites": favorites/index.md
+  - "🦋 Thoughts":
+    - "📓 ・ Diary": diary/index.md
+    - "📚 ・ Topics": topics/index.md
+  - "🧭 Logs": logs/index.md
+  - "🗃 Everything else": everything-else/index.md

@@ -1,17 +1,32 @@
 # Marco's Notes
 
-Here I keep my notes, bookmarks, diary, thoughts, and more.
+This is [Marco](https://www.mpri.me)'s public notes archive.
 
-Unless something is classifies as "private", I try to share it here.
+Here I keep my thoughts, bookmarks, diary, and more.
 
-## Sections
+I like this approach better than having my data scattered over 20 different company-owned services.
 
-* **Bar** - My Bars
-* **Foo** - My Foos
+## ⚠️ Important
 
-## Notice
+There are links on this pages to controversial ideas I don't agree with. **A link is not an endorsement!**
 
-**Just because I link to something, it does not mean I endorse it!**
 
-For example, in the podcasts section, you'll find interviews to people with very questionable moral character.
-I linked them because I found them interesting, not because I agree with their opinions.
+## Favorites
+
+Books, podcasts, restaurants, artists, and more.
+
+
+## Thoughts
+
+**Diary** contains thoughts related to a specific situation or point in time.
+While **Topics** is organized by subject and items are updated over time.
+
+
+## Logs
+
+The interesting bits of my browsing history.
+
+
+## Everything else
+
+Assorted notes that don't fit in any of the above categories.
