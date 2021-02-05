@@ -27,7 +27,7 @@ Some editorial choices about this deck:
 **Federation**: organization pattern involving a combination of centralized decision-making and as peripheral autonomy
 
 Hybrid of top-down (hierarchical) and peer-to-peer (decentralized)
-￼
+
 <!--
 * Federation broad concept that exists in different domains
 * Sci-fi: Federation of Planets (Star Trek)
@@ -70,6 +70,7 @@ Often in disguise, or called with by different (more precise) names
 ## Federation in Distributed Systems
 
 Concept of federation is broad overlaps with many concepts we encounter everyday:
+
 * Gateway, Router, Facade patterns
 * Orchestration pattern
 * Microservices & decentralized systems
@@ -184,6 +185,7 @@ A collection of small specialized search engines.
  - ...
 
 And auxiliary services
+
  - Spelling suggestions
  - User metadata and history
  - Driving time estimation
@@ -305,7 +307,9 @@ Same service, different goal: optimize for the collective good of all users.
 More similar to public utilities than to for-profit companies.
 
 Built on open-source (trust is paramount).
+
 Still collect a fee on transactions, but use it to:
+
  * Pay for infrastructure costs, insurance
  * Compensate employees (support, developers, legal, ...)
  * Reinvest surplus into making the platform better or give fractional dividends to all participants
@@ -402,6 +406,7 @@ Through the homeserver, they can connect to the rest of the world (or not).
 ---
 
 Further reading:
+
  * [Beyond distributed and decentralized: what is a federated network?](https://networkcultures.org/unlikeus/resources/articles/what-is-a-federated-network/)
  * [The Ultimate Guide to Federated Architecture & Decentralized Social Networks](https://www.8bitmen.com/the-ultimate-guide-to-federated-architecture-decentralized-social-networks/)
  * [Decentralized Social Ecosystem Review](https://ipfs.io/ipfs/QmdFrru4PyHzXGZztEPnYToBR3QovD7fkC1HSyty22LzfD)
