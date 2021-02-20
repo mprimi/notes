@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="container">
+    <h1>{{ .Title }}</h1>
+
+    {{ .Content }}
+
+    <ul>
+        {{ range sort .Pages ".File.BaseFileName" }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}

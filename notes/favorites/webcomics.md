@@ -1,3 +1,0 @@
-# Webcomics
-
-https://xkcd.com/

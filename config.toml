@@ -1,0 +1,38 @@
+baseURL = "https://notes.mpri.me/"
+languageCode = "en-us"
+title = "📓 Notes"
+theme = "researcher"
+
+[params]
+  author = "Marco Primi"
+  description = "Marco's Notes"
+  [params.footer]
+    text = "Go somewhere random"
+    url = "https://www.random-website.com/random"
+
+[menu]
+  [[menu.main]]
+    name = "Favorites"
+    url = "/favorites/"
+    weight = 1
+    pre = "❤️ "
+  [[menu.main]]
+    name = "Topics"
+    url = "/topics/"
+    weight = 2
+    pre = "📚 "
+  [[menu.main]]
+    name = "Logs"
+    url = "/logs/"
+    weight = 3
+    pre = "🧭 "
+  [[menu.main]]
+    name = "Diary"
+    url = "/diary/"
+    weight = 4
+    pre = "📚 "
+  [[menu.main]]
+    name = "Everything Else"
+    url = "/everything-else/"
+    weight = 5
+    pre = "🗂 "

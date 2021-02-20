@@ -10,7 +10,7 @@ fi
 
 TODAYS_DATE_DASHED="$(date '+%Y-%m-%d')"
 
-TODAYS_LOG="${NOTES_REPO}/notes/logs/${TODAYS_DATE_DASHED}.md"
+TODAYS_LOG="${NOTES_REPO}/content/logs/${TODAYS_DATE_DASHED}.md"
 
 touch "${TODAYS_LOG}"
 "${EDITOR_APP}" "${TODAYS_LOG}"
