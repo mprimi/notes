@@ -1,0 +1,150 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>Docker reference</title><meta name=description content="Marco's Notes"><meta name=author content="Marco Primi"><link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel=stylesheet><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity=sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2 crossorigin=anonymous><link rel=stylesheet href=/sass/researcher.min.css></head><body><div class="container mt-5"><nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0"><a class="navbar-brand mx-0 mr-sm-auto" href=https://notes.mpri.me/>📓 Notes</a><div class="navbar-nav flex-row flex-wrap justify-content-center"><a class="nav-item nav-link" href=/favorites/>❤️ Favorites</a>
+<span class="nav-item navbar-text mx-1">/</span>
+<a class="nav-item nav-link" href=/topics/>📚 Topics</a>
+<span class="nav-item navbar-text mx-1">/</span>
+<a class="nav-item nav-link" href=/logs/>🧭 Logs</a>
+<span class="nav-item navbar-text mx-1">/</span>
+<a class="nav-item nav-link" href=/diary/>📚 Diary</a>
+<span class="nav-item navbar-text mx-1">/</span>
+<a class="nav-item nav-link" href=/everything-else/>🗂 Everything Else</a></div></nav></div><hr><div id=content><div class=container><pre><code>attach      Attach local standard input, output, and error streams to a running container
+build       Build an image from a Dockerfile
+
+commit      Create a new image from a container's changes
+create      Create a new container
+cp          Copy files/folders between a container and the local filesystem
+diff        Inspect changes to files or directories on a container's filesystem
+export      Export a container's filesystem as a tar archive
+import      Import the contents from a tarball to create a filesystem image
+history     Show the history of an image
+save        Save one or more images to a tar archive (streamed to STDOUT by default)
+update      Update configuration of one or more containers
+tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+load        Load an image from a tar archive or STDIN
+
+images      List images
+rmi         Remove one or more images
+
+exec        Run a command in a running container
+rm          Remove one or more containers
+ps          List containers
+run         Run a command in a new container
+rename      Rename a container
+
+login       Log in to a Docker registry
+logout      Log out from a Docker registry
+pull        Pull an image or a repository from a registry
+push        Push an image or a repository to a registry
+search      Search the Docker Hub for images
+
+events      Get real time events from the server
+top         Display the running processes of a container
+port        List port mappings or a specific mapping for the container
+stats       Display a live stream of container(s) resource usage statistics
+logs        Fetch the logs of a container
+
+kill        Kill one or more running containers
+pause       Pause all processes within one or more containers
+restart     Restart one or more containers
+unpause     Unpause all processes within one or more containers
+wait        Block until one or more containers stop, then print their exit codes
+stop        Stop one or more running containers
+start       Start one or more stopped containers
+
+</code></pre><h2 id=run-create-a-new-container><code>run</code>: create a new container</h2><pre><code>docker run -d -p X:Y &lt;image&gt;
+</code></pre><ul><li><code>-d</code> for detach</li><li><code>-p</code> to map port X of the host to port Y of the container</li></ul><h3 id=interactive-shell>Interactive shell</h3><p>New container:</p><pre><code>docker run -it --entrypoint /bin/sh  &lt;image&gt;
+</code></pre><p>Existing container:</p><pre><code>docker exec &lt;container&gt; /bin/sh
+</code></pre><ul><li><code>-i</code> keep stdin open</li><li><code>-t</code> allocate pseudo-terminal</li></ul><h2 id=build><code>build</code></h2><pre><code>docker build -t &lt;tag&gt; &lt;dir or url&gt;
+</code></pre><h3 id=listing-containers>Listing containers</h3><p>Running: <code>docker ps</code></p><p>All: <code>docker ps -a</code></p><h3 id=stopped-containers>Stopped containers</h3><p>If a container command completes, or a container is killed.
+The container reaches &lsquo;stopped&rsquo; state.</p><p>Stopped containers are preserved.
+They can be restarted. Or the state can be committed to a new image.</p><p><code>docker ps -a</code> shows all containers, including stopped ones</p><h3 id=removing-containers>Removing containers</h3><pre><code>docker rm &lt;id or name&gt;
+</code></pre><p>Remove all stopped containers</p><pre><code>docker ps -aq -f status=exited | xargs docker rm
+</code></pre><ul><li><code>-a</code>: show all</li><li><code>-q</code>: only list container id</li><li><code>-f</code>: filter</li></ul><h2 id=dockerfile><code>Dockerfile</code></h2><p>Example directory layout:</p><pre><code>Dockerfile
+.dockerignore
+data/
+  cats.csv
+  dogs.csv
+scripts/
+  install.sh
+  run.sh
+</code></pre><p>Example <code>Dockerfile</code>:</p><pre><code>FROM alpine:latest
+WORKDIR /app
+COPY . .
+RUN chmod +x scripts/*.sh
+RUN scripts/install.sh
+ENTRYPOINT [&quot;/bin/sh&quot;, &quot;scripts/run.sh&quot;]
+CMD [&quot;default&quot;]
+</code></pre><ul><li><code>FROM</code> - Base image, required</li><li><code>WORKDIR</code> - change working directory in container (creates non-existing directories)</li><li><code>COPY</code> - from host to container</li><li><code>RUN</code> - execute command in a new container layer and commit results</li><li><code>ENTRYPOINT</code> - command to execute when running</li><li><code>CMD</code> - default arguments to entrypoint</li></ul><p><a href=https://docs.docker.com/engine/reference/builder/>Dockerfile reference</a></p><h2 id=volumes--mounts>Volumes & Mounts</h2><h3 id=named-volume>Named volume</h3><p>Volume is a special file on the host that is mounted in containers.</p><pre><code># Create
+docker volume create &lt;volume_name&gt;
+
+# Start with mount
+docker run -v &lt;volume_name&gt;:&lt;mount_point&gt; &lt;image&gt;
+
+# Show details
+docker volume inspect &lt;volume_name&gt;
+</code></pre><h3 id=bind-mount>Bind Mount</h3><p>Mount a host directory inside the container.</p><pre><code>docker run -v &lt;host_dir&gt;:&lt;mount_point&gt; &lt;image&gt;
+</code></pre><p>Volume commands:</p><pre><code>create      Create a volume
+inspect     Display detailed information on one or more volumes
+ls          List volumes
+prune       Remove all unused local volumes
+rm          Remove one or more volumes
+</code></pre><h2 id=network>Network</h2><p>Put containers on the same network to let them talk to each-other.</p><pre><code>
+# Create network
+docker network create &lt;network_name&gt;
+
+# Start with network and network hostname
+docker run --network &lt;network_name&gt; --network-alias &lt;container_hostname&gt; &lt;image&gt;
+</code></pre><p>Example:</p><pre><code># Listen on host1
+docker run --network testnet --network-alias host1 &lt;image&gt;
+docker exec -it &lt;host1 container name&gt; nc -v -l -p 3000
+
+# Connect from host2
+docker run --network testnet --network-alias host2 &lt;image&gt;
+docker exec -it &lt;host2 container name&gt; nc host1.testnet 3000
+</code></pre><h3 id=network--commands>Network Commands</h3><pre><code>connect     Connect a container to a network
+create      Create a network
+disconnect  Disconnect a container from a network
+inspect     Display detailed information on one or more networks
+ls          List networks
+prune       Remove all unused networks
+rm          Remove one or more networks
+</code></pre><h2 id=docker-compose>Docker compose</h2><p>Compose containers via <code>docker-compose.yml</code> specification.</p><p>Network is automatically created.</p><pre><code>version: &quot;3.7&quot;
+
+services:
+  listener:
+    image: alpine:latest
+    command: nc -v -l -p 3000
+  ping:
+    image: alpine:latest
+    command: echo hello | nc listener 3000
+</code></pre><p>Commands</p><pre><code>down               Stop and remove containers, networks, images, and volumes
+up                 Create and start containers
+
+config             Validate and view the Compose file
+create             Create services
+build              Build or rebuild services
+
+events             Receive real time events from containers
+logs               View output from containers
+
+exec               Execute a command in a running container
+kill               Kill containers
+rm                 Remove stopped containers
+
+images             List images
+pull               Pull service images
+push               Push service images
+
+ps                 List containers
+port               Print the public port for a port binding
+top                Display the running processes
+
+run                Run a one-off command
+scale              Set number of containers for a service
+
+start              Start services
+stop               Stop services
+restart            Restart services
+unpause            Unpause services
+pause              Pause services
+</code></pre><p><a href=https://docs.docker.com/compose/compose-file/>Compose file reference</a></p><h2 id=debug>Debug</h2><h3 id=image-history>Image history</h3><p>Trace the steps that built the image</p><pre><code>docker image history &lt;image&gt;
+</code></pre></div></div><div id=footer class=mb-5><hr><div class="container text-center"><a href=https://www.random-website.com/random><small>Go somewhere random</small></a></div></div></body></html>
