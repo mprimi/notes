@@ -1,5 +1,6 @@
 ---
 title: "Junk Media Diet"
+date: 2020-11-30
 ---
 
 Consuming news through Facebook, Reddit is the brain equivalent of eating McDonalds everyday.

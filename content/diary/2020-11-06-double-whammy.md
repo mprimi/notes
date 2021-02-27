@@ -1,5 +1,6 @@
 ---
 title: "Double Whammy"
+date: 2020-11-06
 ---
 
 Listening to these two on the same day was a bad idea. Soul crushing to say the least.

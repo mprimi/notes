@@ -1,5 +1,6 @@
 ---
 title: "Notes on GitHub"
+date: 2020-10-27
 ---
 
 Can't think of a good reason not to.
