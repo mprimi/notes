@@ -21,7 +21,7 @@ enableGitInfo = true
     name = "Topics"
     url = "/topics/"
     weight = 2
-    pre = "📚 "
+    pre = "💡 "
   [[menu.main]]
     name = "Logs"
     url = "/logs/"
@@ -31,7 +31,7 @@ enableGitInfo = true
     name = "Diary"
     url = "/diary/"
     weight = 4
-    pre = "📚 "
+    pre = "🖊 "
   [[menu.main]]
     name = "Everything Else"
     url = "/everything-else/"
