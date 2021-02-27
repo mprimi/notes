@@ -2,14 +2,23 @@
 <div class="container">
 
   <p class="text-right">
-    <small>Updated: {{ dateFormat "Jan 2, 2006" .Lastmod }}</small>
+    ~/{{.Type}}/{{ .Page.Title }}
+    <br>
+    <small>Updated {{ dateFormat "Jan 2, 2006" .Lastmod }}</small>
   </p>
 
+
   <h1>
-    {{ with .Param "date" }}
-      <small>{{ dateFormat "Monday, Jan 2, 2006" . }}</small><br>
-    {{ end }}
+    {{with .Page.Param "PageIcon"}}
+      {{.}}
+    {{else}}
+      {{.CurrentSection.Param "SectionIcon"}}
+    {{end}}
     {{ .Title }}
+
+    {{ with .Param "date" }}
+      <small>{{ dateFormat "Monday, Jan 2, 2006" . }}</small>
+    {{ end }}
   </h1>
 
   {{ .Content }}

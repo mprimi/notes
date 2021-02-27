@@ -1,13 +1,24 @@
 {{ define "main" }}
 <div class="container">
-    <h1>{{ .Title }}</h1>
+    <h1>
+        {{ .Title }}
+    </h1>
 
     {{ .Content }}
 
-    <ul>
-        {{ range sort .Pages ".File.BaseFileName" }}
-            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-        {{ end }}
-    </ul>
+    {{ range sort .Pages ".File.BaseFileName" }}
+        <p>
+            {{with .Param "PageIcon"}}
+                {{.}}
+            {{else}}
+                {{.CurrentSection.Param "SectionIcon"}}
+            {{end}}
+
+            {{ with .Date}}
+                <small>{{ dateFormat "2006-02-01" . }}</small>
+            {{ end }}
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </p>
+    {{ end }}
 </div>
 {{ end }}
