@@ -1,3 +1,4 @@
 ---
 title: "Logs"
+SectionIcon: "🧭"
 ---

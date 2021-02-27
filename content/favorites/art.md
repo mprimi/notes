@@ -1,5 +1,6 @@
 ---
 Title: Art and Design
+PageIcon: "⚜️"
 ---
 
 https://linktr.ee/Art_of_mekyas

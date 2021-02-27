@@ -1,5 +1,6 @@
 ---
 Title: Podcasts
+PageIcon: "🎙"
 ---
 
 ## [Steal This Show](https://stealthisshow.com/)

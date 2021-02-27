@@ -1,5 +1,6 @@
 ---
 title: Docker reference
+PageIcon: "🐳"
 ---
 
 ```

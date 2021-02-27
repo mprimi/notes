@@ -1,5 +1,6 @@
 ---
 title: Federated Architectures
+PageIcon: "📐"
 ---
 
 ### The recurring theme of federation in distributed system

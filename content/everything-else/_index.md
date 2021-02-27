@@ -1,3 +1,4 @@
 ---
 title: "Everything else"
+SectionIcon: "🗂"
 ---

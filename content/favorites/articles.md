@@ -1,5 +1,6 @@
 ---
 Title: Articles
+PageIcon: "📃"
 ---
 
 [Using Metadata to find Paul Revere](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/)

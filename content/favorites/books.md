@@ -1,5 +1,6 @@
 ---
 Title: Books
+PageIcon: "📚"
 ---
 
 Anything on here I wholeheartedly recommend.

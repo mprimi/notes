@@ -1,5 +1,6 @@
 ---
 Title: Lecture Series and Courses
+PageIcon: "🎓"
 ---
 
 [Human Behavioral Biology - Robert Sapolsky - Stanford University](https://www.youtube.com/watch?v=NNnIGh9g6fA&list=PL848F2368C90DDC3D)

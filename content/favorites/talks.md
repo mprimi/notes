@@ -1,5 +1,6 @@
 ---
 Title: Talks
+PageIcon: ""
 ---
 
 [Calorie Density: How To Eat More, Weigh Less and Live Longer - Jeff Novick](https://www.youtube.com/watch?v=0CdwWliv7Hg)

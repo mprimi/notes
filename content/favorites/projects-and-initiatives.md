@@ -1,5 +1,6 @@
 ---
 Title: Projects and Initiatives
+PageIcon: ""
 ---
 
 https://openlibrary.org/

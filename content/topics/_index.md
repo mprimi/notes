@@ -1,3 +1,4 @@
 ---
 title: "Topics"
+SectionIcon: "💡"
 ---
