@@ -2,6 +2,7 @@ baseURL = "https://notes.mpri.me/"
 languageCode = "en-us"
 title = "📓 Notes"
 theme = "researcher"
+enableGitInfo = true
 
 [params]
   author = "Marco Primi"

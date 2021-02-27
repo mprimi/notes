@@ -1,12 +1,18 @@
 {{ define "main" }}
 <div class="container">
-  <h1>{{ .Title }}</h1>
 
-  {{ with .Param "date" }}
-      <h4>{{ dateFormat "Monday, Jan 2, 2006" . }}</h4>
-  {{ end }}
+  <p class="text-right">
+    <small>Updated: {{ dateFormat "Jan 2, 2006" .Lastmod }}</small>
+  </p>
 
-    {{ .Content }}
+  <h1>
+    {{ with .Param "date" }}
+      <small>{{ dateFormat "Monday, Jan 2, 2006" . }}</small><br>
+    {{ end }}
+    {{ .Title }}
+  </h1>
+
+  {{ .Content }}
 
 </div>
 {{ end }}
