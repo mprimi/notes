@@ -1,6 +1,13 @@
-# Monopoly?
+---
+title: Monopoly // Ouropoly
+---
 
-## A tale of division and reunion.
+#### MetaFest 2021
+# Monopoly vs. Ouropoly
+
+A meta-tale of division, reunion, and blockchain
+
+#### by [mprime]()
 
 <!--
 Hello everyone and thank you for tuning in.
@@ -13,9 +20,19 @@ It's mostly about Blockchain. And other similar technologies that may shape the 
 If you live and breathe blockchain, this talk contains important message for you.
 
 And if you're just curious about technology or blockchain, there is something here for you too.
- -->
+-->
 
-# TODO
+---
+
+# Monopoly, the game (in 30 seconds)
+
+The board
+
+The players
+
+The goal
+
+The people (?)
 
 <!--
 In case you're not familiar with the famous board game of Monopoly, let me summarize it for you in 30 seconds.
@@ -29,6 +46,14 @@ You achieve this by building houses and hotels, so that other players lose money
 
 The citizens that inhabit the city, are not even mentioned in the rulebook.
 -->
+
+---
+
+# Dog-Eat-Dog world
+
+Generations raised playing Monopoly...
+
+What can possibly go wrong?
 
 <!--
 
@@ -55,6 +80,8 @@ Until there's only one person or mega-corp owning everything and everyone.
 Just like in a game of Monopoly, the population is barely even considered by this high roller players.
 -->
 
+---
+
 # Chicken and egg
 
 <!--
@@ -66,8 +93,13 @@ Or is the board game just a good description of the society we live in?
 Probably a little bit of both. It's complicated.
 -->
 
+---
 
-# TODO
+# Ouropoly, the game
+
+Backward compatible with Monopoly rules.
+
+"If you want to go fast, go alone. If you want to go far, go together"
 
 <!--
 
@@ -89,7 +121,9 @@ There's also no need to go authoritarian and force players into this strategy.
 Only willing participants join the alliance.
 -->
 
-# TODO Strategies
+---
+
+# Collaborative Strategies
 
 <!--
 
@@ -100,7 +134,6 @@ There are hundreds of different strategies that can be used to achieve a long te
  - Waive transit fees
  - Create funds to use in case of hardship
  - Land development agreements
-
 
 Player collaboration in a game of Ouropoly, may look very similar to an alliance or cartel in a game of Monopoly.
 The difference is subtle but important.
@@ -113,6 +146,10 @@ If playing Ouropoly, they think "is this good for the town long-term sustainabil
 If playing Monopoly, they think "how do i take advantage of this to get ahead?"
 -->
 
+---
+
+# WINNING
+
 <!--
 If you do try to play Ouropoly with your friends, you will quickly learn a couple of surprising things.
 
@@ -124,7 +161,9 @@ And so we discover that the scarcity, a fundamental mechanic in the game of Mono
 There is plenty of pie for everyone if we just are nice and share amicably!
 -->
 
-# Blockchain?
+---
+
+# Where's the Blockchain?
 
 <!--
 
@@ -135,6 +174,12 @@ If you hang out in the blockchain universe you may believe the blockchain is the
 I share and understand this enthusiasm.
 I see everyday the blockchain being used to build things that empower large group of people, and could eventually take on the existing monopolies we have today.
 -->
+
+---
+
+# Ouropoly + Blockchain
+
+😎
 
 <!--
 If we set up a game of Ouropoly, and give players access to a trusted blockchain, in addition to verbal agreements.
@@ -147,6 +192,12 @@ You can win the game before even rolling the dice for the first time.
 And this is fantastics.
 If you have friends obsessed with the blockchain and how it will change the future, this is probably why.
 -->
+
+---
+
+# Monopoly + Blockchain
+
+😱
 
 <!--
 
@@ -165,6 +216,10 @@ Blockchain won't automagically turn a game of Monopoly into a game of Ouropoly.
 It can be used to build a bright future. But it can be used just as well to build a dark future.
 -->
 
+---
+
+# Planetary-scale Monopoly
+
 <!--
 
 Moreover planet's game of Monopoly is already underway, it has been for hundreds of years.
@@ -177,6 +232,10 @@ Enjoy this while it last. But brace for impact.
 
 The Monopoly high rollers will come. They're already here.
 -->
+
+---
+
+# Hope
 
 <!--
 But there is hope.
@@ -198,6 +257,12 @@ The blockchain will play a role.
 It will help by focusing our efforts and bringing us together, but this is bigger than the blockchain.
 -->
 
+---
+
+# Blockchain Developers
+
+🔨
+
 <!--
 I have one more word of warning for my blockchain friends.
 
@@ -209,6 +274,10 @@ It may have had the complete opposite effect: teaching them to backstab everyone
 This brings me to my last point: unintended consequences.
 
 -->
+
+---
+
+# Unintended consequences
 
 <!--
 
@@ -227,6 +296,10 @@ The architects of the internet had the best intentions. They didn't foresee it b
 The list goes on.
 
 -->
+
+---
+
+# Fear
 
 <!--
 
@@ -248,6 +321,9 @@ Fear is your friend. Use it to your advantage.
 It will help you to build more secure, sustainable systems.
 -->
 
+---
+
+# Planetary-scale Ouropoly
 
 <!--
 
@@ -266,11 +342,18 @@ If enough people switch to play Ouropoly, we will win.
 Together we will create a sustainable and prosperous future for humankind.
 -->
 
+---
+
+# This Presentation is Open Source
+
+🌐[Source](TODO)
+
+🌐[License](TODO)
+
 <!--
 This presentation is open-source. You can find it on my website.
 You can remix it, change it, re-record it, re-release it.
 
 Seeing this message shared is the most important thing. I don't care about credits.
 
-TODO URL
 -->
