@@ -2,22 +2,25 @@
 title: Monopoly // Ouropoly
 ---
 
-#### MetaFest 2021
+#### [MetaFest 2021](https://metafest.metagame.wtf)
+
 # Monopoly vs. Ouropoly
 
 A meta-tale of division, reunion, and blockchain
 
-#### by [mprime]()
+#### by [mprime](https://www.mpri.me)
 
 <!--
-Hello everyone and thank you for tuning in.
+Hello everyone, and thank you for tuning in.
 
-This is a presentation is about Monopoly, the board game.
+This, is a short presentation is about Monopoly, the board game.
 
 But of course it's not.
-It's mostly about Blockchain. And other similar technologies that may shape the future of this planet.
+It's about Blockchain, modern society, and how the two interact, and how one may influence the other.
 
-If you live and breathe blockchain, this talk contains important message for you.
+And how both may influence the future of this planet.
+
+If you are active in the blochckain space, this talk contains important message for you.
 
 And if you're just curious about technology or blockchain, there is something here for you too.
 -->
@@ -35,71 +38,53 @@ The goal
 The people (?)
 
 <!--
-In case you're not familiar with the famous board game of Monopoly, let me summarize it for you in 30 seconds.
+In case you're not familiar with the famous board game of Monopoly, let me summarize it for you in just 30 seconds.
 
-The board represents real estate, a city divided into zones.
+The board represents a city divided into zones.
 
-The players start with some money and buy pieces of undeveloped land, to build on it.
+The players start with some money and buy pieces of land, then to build on it.
 
 The objective is to take all the money in the game. Making everyone else broke in the process.
-You achieve this by building houses and hotels, so that other players lose money whenever they accidentally stop on your land.
+
+You achieve this by building houses and hotels on your land, so that other players lose money whenever they accidentally stop on it.
 
 The citizens that inhabit the city, are not even mentioned in the rulebook.
 -->
 
 ---
 
-# Dog-Eat-Dog world
-
-Generations raised playing Monopoly...
-
-What can possibly go wrong?
+# Today's World and Monopoly
 
 <!--
 
-Entire generation, like mine, grew up playing monopoly.
+Entire generations, like mine, grew up playing monopoly.
 
 It is perhaps not surprising that today's world resembles a giant game of Monopoly.
 
-For example we grow up knowing:
+Here's some of the ways the game and the world we live in are similar:
 
- - We have to work hard and elbow each-other to conquer our little slice of the pie
- - My success is your demise, we are in constant competition for money, fame, recognition, etc.
- - Playing collaboratively may work, but in order to really win at some point you'll need screw over everyone, even your allies
- - Players that adopt aggressive strategy, and have no remorse, have an advantage
- - The richer you are, the easier the game becomes
+ - We're in constant competition for money, fame, recognition.
+ - There's not enough resources to go around, so we need to fight for our slice of the pie
+ - The more aggressive you play, the more you are likely to win, no remorse
+ - The more money you have, the more likely you are to win
+ - Alliances are possible, but only temporarily, eventually you're on your own
 
-This are just some of the similarities between a game of Monopoly and the real world we live in.
+If this sounds familiar, it's because you see the results of these rules of play every day.
 
-We see everyday "successful" Monopoly players doing things influencing governments, changing laws, tilting economies, shifting borders.
+Just turn on the news.
+You'll have plenty of examples extremely "successful" Monopoly players doing things influencing government policies, changing laws, tilting economies, shifting borders.
 All to further get ahead in the game.
 
 Over time, wealth concentrates more and more in the hands of fewer and fewer people.
 Until there's only one person or mega-corp owning everything and everyone.
 
-Just like in a game of Monopoly, the population is barely even considered by this high roller players.
--->
+Just like in a game of Monopoly, the population is barely even considered by this high stakes players.
 
----
-
-# Chicken and egg
-
-<!--
-Did a board game contribute to creating the situation we have today?
-Teaching generations of kids this is a dog-eat-dog world ended up creating such world?
-
-Or is the board game just a good description of the society we live in?
-
-Probably a little bit of both. It's complicated.
 -->
 
 ---
 
 # Ouropoly, the game
-
-Backward compatible with Monopoly rules.
-
-"If you want to go fast, go alone. If you want to go far, go together"
 
 <!--
 
@@ -108,17 +93,19 @@ I would like to present to you a different way to play Monopoly. I call it Ourop
 It's remarkably similar to Monopoly. In fact it is the same game.
 You don't need to change any of the rules to play Ouropoly.
 
-The only change is to the players strategy.
+The only difference between Monopoly and Ouropoly is the players strategy.
 
 In Ouropoly, players simply decide to cooperate long term.
 Instead of trying to eliminate each-other, player help each-other.
-Together they build a sustainable, robust economy where citizens can thrive.
+Together they build a sustainable, robust economy where players and citizens can thrive.
 
-It's important to notice that there's no need to go full-communist and seize everybody's assets for good.
-Players get to keep what they own, the bank still operates normally, and grows with the city economy.
+It's important to notice that there's no need to go full-on communist and do things like abolish personal property.
+Players get to keep what they own and act independently, and the bank still operates normally.
 
-There's also no need to go authoritarian and force players into this strategy.
-Only willing participants join the alliance.
+There's also no need to go full-on authoritarian and force players into this strategy.
+
+No need to bring out a guillotine for players that want to play monopoly.
+
 -->
 
 ---
@@ -129,10 +116,12 @@ Only willing participants join the alliance.
 
 So what does a collaborative strategy look like in a game of Ouropoly?
 
-There are hundreds of different strategies that can be used to achieve a long term equilibrium.
+A long term equilibrium is achievable in many different ways.
 
- - Waive transit fees
- - Create funds to use in case of hardship
+Some examples include:
+
+ - Waive transit fees, or make them proportional to the wealth of the player transiting
+ - Create pools for to use in case of hardship, to get a player back on their feet
  - Land development agreements
 
 Player collaboration in a game of Ouropoly, may look very similar to an alliance or cartel in a game of Monopoly.
@@ -141,205 +130,170 @@ The difference is subtle but important.
 And it resides in the player's long-term intention.
 
 
-When a player needs to make a decision between actions A and B and none.
-If playing Ouropoly, they think "is this good for the town long-term sustainability?"
-If playing Monopoly, they think "how do i take advantage of this to get ahead?"
+Anytime a player is thinking about taking a given action.
+
+If playing Ouropoly, they think "what's the best move for our collective long-term well-being?"
+
+If playing Monopoly, they think "what's the best move to get ahead of everyone else long term?"
+
 -->
 
 ---
 
-# WINNING
+# Winning Easy in Ouropoly
 
 <!--
 If you do try to play Ouropoly with your friends, you will quickly learn a couple of surprising things.
 
 Even without a pre-arrange strategy, it only takes 2-3 rounds to "win" the game.
 After that, there's no risk of anyone going bankrupt. Everyone is happy forever after.
-Cash flows, and players can focus on developing the city for the good of their citizens (for example, less dense housing, park bike trails, public transport, ...)
+Cash is flowing. Players can focus on developing the city for the good of their citizens.
 
-And so we discover that the scarcity, a fundamental mechanic in the game of Monopoly, was artificial. It was a lie.
-There is plenty of pie for everyone if we just are nice and share amicably!
+And so, through this exercise, we discover that the scarcity, which is the core mechanic of Monopoly, was actually artificial.
+It was a lie.
+There is plenty of pie for everyone, if we just play our cards right.
+-->
+
+# Monopoly / Ouropoly
+
+
+<!--
+Just to quickly recap.
+
+Monopoly and ouropoly, are same game.
+
+The only difference is the players strategy and objective.
+
+In the first case, it's a fight to the death.
+
+In the second case is a long term partnership.
 -->
 
 ---
 
-# Where's the Blockchain?
+# Blockchain
 
 <!--
 
-What does the blockchain have to do with this.
+In the last 10 years, blockchain technology as been gaining more and more momentum.
+It feels moments away from going mainstream and taking over the world.
 
-If you hang out in the blockchain universe you may believe the blockchain is the instrument that can transform a game of Monopoly into a game of Ouropoly.
+The prevalent feeling is that this is a good thing.
+The decentralized nature of the blockchain will empower the masses and give us a chance to hold the power that be accountable.
 
-I share and understand this enthusiasm.
-I see everyday the blockchain being used to build things that empower large group of people, and could eventually take on the existing monopolies we have today.
+This may be true. But there's more to it.
+
+Like any other technology, it can be used noble causes, or nefarious ones.
+
+Let's how blockchain may play affect a game of Monopoly.
+
 -->
 
 ---
 
-# Ouropoly + Blockchain
-
-😎
+# Ouropoly with Blockchain
 
 <!--
-If we set up a game of Ouropoly, and give players access to a trusted blockchain, in addition to verbal agreements.
+If we set up a game of Ouropoly. But. In addition to verbal agreements we had before, give players access to a trusted blockchain.
 
-Then we make their lives a lot easier.
+If we do that, then we make their lives a lot easier.
 
-Players can encode their alliance code. Smart contract, DAOs can be designed so that no player can betray the alliance.
-You can win the game before even rolling the dice for the first time.
+Players can encode their alliances and objectives into smart contracts.
+By doing so they bind themselves to the long term plan.
 
-And this is fantastics.
-If you have friends obsessed with the blockchain and how it will change the future, this is probably why.
+If you play ouropoly with blockchain, you can win the game before even rolling the dice for the first time.
+
+And this is fantastic.
+
+Before celebrating victory we need to explore the other side of this coin.
 -->
 
 ---
 
-# Monopoly + Blockchain
-
-😱
+# Monopoly with Blockchain
 
 <!--
 
-But. It's not that easy.
+This time, we set up a game of Monopoly (competitive, cut-throat).
 
-Let's take a step back.
+Like before, we give players access to a trusted blockchain.
 
-Let's say we are playing a game of Monopoly (competitive). And we give players access to a blockchain and smart contracts.
+Players may never agree to coordinate using the chain. This is the best possible scenario.
 
-It doesn't take much imagination to come up with horrible nefarious ways to put the blockchain to use to dominate and conquer other player.
+If they do decide to use it, they may create financial instrument that trick other people into debt, or gradually take control of their assets.
 
-You can structure deals and contract which rather than eliminating other players allow you to own, control them and leech on them them for the rest of eternity.
+This is Monopoly, so players will use whatever is at their disposal to conquer each-other.
+The blockchain is not an exception.
+
+The possibilities in this scenario are scary.
+For example, rather than being eliminated from the game, you may get enslaved.
+Your opponent will control you and leech on you for the rest of eternity.
+-->
+
+# Technology
+
+<!--
+
+What i meant to say with this examples, is something rather obvious.
+
+The blockchain, like any other technology is neither good nor bad.
+
+It's about how it's used, by whom, and to do what.
+
+If you want an ironic example: the game of monopoly was invented to teach kids about the dangers of monopolies.
+It may have instead educated us to screw with eachother.
+
+The internet was created to give everyone access to all information.
+And it's instead used to feed us lies and influence our behavior.
+
+Bitcoin was supposed to liberate us from financial monopolies.
+And instead is being used by megacorp to become even richer, while at the same time polluting more than before.
+
+The blockchain is not special, it will be used to do things so bad we cannot even imagine.
+
+-->
+
+---
+
+# Ongoing planet-scale Monopoly
+
+<!--
+Planet earth's game of Monopoly is well underway, it has been for hundreds of years.
 
 Blockchain won't automagically turn a game of Monopoly into a game of Ouropoly.
 
-It can be used to build a bright future. But it can be used just as well to build a dark future.
+It can help the transition, or sink us further into despair.
+
+The next few years will be challenging.
+
+We will see some monopoly player successfully leveraging blockchain to their own advantage.
+
+This is really scary to think about.
 -->
 
 ---
 
-# Planetary-scale Monopoly
-
-<!--
-
-Moreover planet's game of Monopoly is already underway, it has been for hundreds of years.
-
-Power and money thirsty corporations and people haven't really started leveraging these tools yet.
-
-This is the only reason the blockchain universe still looks like the promised peaceful land of abundance and love
-
-Enjoy this while it last. But brace for impact.
-
-The Monopoly high rollers will come. They're already here.
--->
-
----
-
-# Hope
+# Hope and Togetherness
 
 <!--
 But there is hope.
 
-If we want to affect the game outcome, and turn this planetary game of Monopoly into a planetary game of Ouropoly...
+If we want to affect the game outcome, and turn this planetary game of Monopoly into a game of Ouropoly...
 
-It's not about changing the rules.
+We don't need to change the rules.
 
-It's not about the technology we decide to use.
+We can't rely on any specific technologies to do the work for us.
 
-It's about the players strategy and their long-term goal.
-This is good news, because each one of us can control our own strategy.
+We need to update our long term strategy and goals.
 
-Going from Monopoly to Ouropoly is just a mental shift.
-It's up to us. You can make the switch anytime and help the people around you do the same.
+This is good news, because each one of us can do this today.
 
-There are many of us. I meet you everyday. We can do this.
-The blockchain will play a role.
-It will help by focusing our efforts and bringing us together, but this is bigger than the blockchain.
--->
+It doesn't matter how small and trivial our actions are.
 
----
+If enough of us do switch from playing monopoly to playing Ouropoly, we are be unstoppable.
 
-# Blockchain Developers
+Together we can build a brighter future for the humankind and the planet.
 
-🔨
-
-<!--
-I have one more word of warning for my blockchain friends.
-
-Back where we started, with Monopoly: the board game.
-
-Did you know, Monopoly was created as an educational game, to teach children about the dangers of monopolies.
-It may have had the complete opposite effect: teaching them to backstab everyone, before they backstab you.
-
-This brings me to my last point: unintended consequences.
-
--->
-
----
-
-# Unintended consequences
-
-<!--
-
-Good intentions are sometimes not enough.
-
-The creators of Monopoly had good intentions, but didn't expect their game to have the exact opposite effect.
-
-The same is true for innumerable other technologies.
-
-The scientists that studied radioactivity had the best intentions. They didn't foresee it being used to wipe entire cities out of existence.
-
-Satoshi Nakamoto had the best intentions. He didn't foresee his creation helping mega-corporations make billions out of thin air all while hundreds of tons of CO2 every minute.
-
-The architects of the internet had the best intentions. They didn't foresee it being used to break democracy, spread propaganda that justifies genocides and wars.
-
-The list goes on.
-
--->
-
----
-
-# Fear
-
-<!--
-
-Even the best intentions can lead to outcomes so bad we cannot even imagine.
-Technology is not the answer.
-
-If you are actively involved in blockchain, you have great power, freedom, but they come with great responsibilities.
-
-You should be scared of what you are building.
-
-I'm not saying STOP. In this context, fear is healthy.
-You should be asking yourself questions such as:
- - "Can an adversary with a giant amount of money take over my community?"
- - "Will this system enslave the children of the future?"
-
-These are perfectly rational fears you should have.
-
-Fear is your friend. Use it to your advantage.
-It will help you to build more secure, sustainable systems.
--->
-
----
-
-# Planetary-scale Ouropoly
-
-<!--
-
-I hope you enjoyed this presentation.
-
-And I hope you will join me in the ongoing planetary-scale game of Ouropoly.
-
-To play, we don't need to change the rules of the game.
-We don't need to put our trust in any specific technology.
-
-All we need is to collectively change strategy: take actions that benefit the long term health of the planet.
-
-It does not matter how big or small these actions are.
-If enough people switch to play Ouropoly, we will win.
-
-Together we will create a sustainable and prosperous future for humankind.
 -->
 
 ---
@@ -351,9 +305,6 @@ Together we will create a sustainable and prosperous future for humankind.
 🌐[License](TODO)
 
 <!--
-This presentation is open-source. You can find it on my website.
-You can remix it, change it, re-record it, re-release it.
-
-Seeing this message shared is the most important thing. I don't care about credits.
-
+This presentation is open-source.
+Feel free to remix it, change it, re-record it, re-release it.
 -->
