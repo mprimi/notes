@@ -354,9 +354,9 @@ It may seem trivial and small adjustment, but if enough of us do apply this ment
 
 ### This Presentation is Open Source
 
-#### www.mpri.me/topics/monopoly
+#### https://notes.mpri.me/topics/monopoly-ouropoly
 
-🌐[Source](TODO)
+🌐[Source](https://github.com/mprimi/notes/tree/main/content/topics/monopoly-ouropoly)
 
 <small>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a></small>
