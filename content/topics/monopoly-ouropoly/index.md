@@ -3,7 +3,7 @@ title: From Monopoly to Ouropoly
 PageIcon: "🎩"
 ---
 
-### [MetaFest 2021 - Rehearsal recording on YouTube](https://youtu.be/FnVIC_oxc80)
+### [MetaFest 2021](https://youtu.be/iPcBrxWzNwU?t=7395)
 
 A short talk about Monopoly, Ouropoly, Blockchain, reunion, and the future.
 
