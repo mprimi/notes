@@ -37,7 +37,6 @@ PageIcon: "📃"
 
 [No Meetings, No Deadlines, No Full-Time Employees](https://sahillavingia.com/work)
 
-
 [Brevity Is Beautiful (Better Explained)](https://betterexplained.com/articles/brevity-is-beautiful/)
 
 [Maximizing Developer Effectiveness (Tim Cochran)](https://martinfowler.com/articles/developer-effectiveness.html)
@@ -47,3 +46,11 @@ PageIcon: "📃"
 [How management by metrics leads us astray (Jakob Greenfeld)](https://jakobgreenfeld.com/metrics)
 
 [Ergodicity: the most over-looked assumption (Neurabites)](https://neurabites.com/ergodicity/)
+
+[How the ‘Magic: The Gathering’ Color Wheel Explains Humanity](https://humanparts.medium.com/the-mtg-color-wheel-c9700a7cf36d)
+
+[HOWTO: Be more productive (Aaron Swartz)](http://www.aaronsw.com/weblog/productivity)
+
+[The Night Watch (James Mickens)](https://www.usenix.org/system/files/1311_05-08_mickens.pdf)
+
+[Screw it, I’ll host it myself](https://www.markozivanovic.com/screw-it-ill-host-it-myself/)

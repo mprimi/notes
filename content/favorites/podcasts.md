@@ -20,6 +20,8 @@ PageIcon: "🎙"
 
 [EP 43: PPP](https://darknetdiaries.com/episode/43/)
 
+[EP 21: BLACK DUCK EGGS](https://darknetdiaries.com/episode/21/)
+
 
 ## [The Jordan Harbinger Show](https://www.jordanharbinger.com/podcasts/)
 
@@ -37,18 +39,26 @@ https://www.jordanharbinger.com/steven-hassan-combating-cult-mind-control-part-t
 
 https://www.jordanharbinger.com/jonah-berger-how-to-change-anyones-mind/
 
+https://www.jordanharbinger.com/ramit-sethi-i-will-teach-you-to-find-your-dream-job/
+
+https://www.jordanharbinger.com/lisa-feldman-barrett-seven-and-a-half-lessons-about-the-brain/
+
+https://www.jordanharbinger.com/adam-grant-the-power-of-knowing-what-you-dont-know/
+
+https://www.jordanharbinger.com/ray-dalio-the-changing-world-order/
 
 ## [The Stoa](https://www.thestoa.ca/)
 
 
 ## [Your Undivided Attention](https://www.humanetech.com/podcast)
 
-[Digital Democracy Is Within Reach (Audrey Tang)](https://your-undivided-attention.simplecast.com/episodes/the-listening-society-yZ1PBlPF)
+[Digital Democracy Is Within Reach (Audrey Tang)](https://www.humanetech.com/podcast/23-digital-democracy-is-within-reach)
 
 [The Stubborn Optimist’s Guide to Saving the Planet (Christiana Figueres)](https://www.humanetech.com/podcast/18-the-stubborn-optimists-guide-to-saving-the-planet)
 
 [Your Nation’s Attention for the Price of a Used Car (Zahed Amanullah)](https://www.humanetech.com/podcast/25-your-nations-attention-for-the-price-of-a-used-car)
 
+[Two Million Years in Two Hours: A Conversation with Yuval Noah Harari](https://www.humanetech.com/podcast/28-two-million-years-in-two-hours-a-conversation-with-yuval-noah-harari)
 
 ## [American Hysteria](https://www.chelseywebersmith.com/americanhysteria)
 
@@ -74,6 +84,7 @@ https://www.jordanharbinger.com/jonah-berger-how-to-change-anyones-mind/
 
 Does Advertising Actually Work? [Part 1 - TV](https://omny.fm/shows/freakonomics-radio/does-advertising-actually-work-part-1-tv), [Part 2, Digital](https://omny.fm/shows/freakonomics-radio/does-advertising-actually-work-part-2-digital)
 
+[Can I Ask You a Ridiculously Personal Question?](https://freakonomics.com/podcast/sensitive-questions/)
 
 ## [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)
 

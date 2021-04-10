@@ -19,6 +19,10 @@ Anything on here I wholeheartedly recommend.
 
 [Jitterbug Perfume (Robbins)](https://en.wikipedia.org/wiki/Jitterbug_Perfume)
 
+#### Stories
+
+[I don't know, Timmy, being God is a big responsibility](https://qntm.org/responsibility)
+
 # Non-fiction
 
 [Gödel, Escher, Bach: an Eternal Golden Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)
