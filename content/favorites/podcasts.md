@@ -47,6 +47,11 @@ https://www.jordanharbinger.com/adam-grant-the-power-of-knowing-what-you-dont-kn
 
 https://www.jordanharbinger.com/ray-dalio-the-changing-world-order/
 
+https://www.jordanharbinger.com/rutger-bregman-humankind-a-hopeful-history/
+
+https://www.jordanharbinger.com/rob-dyrdek-manufacturing-amazing-with-the-dyrdek-machine/
+
+
 ## [The Stoa](https://www.thestoa.ca/)
 
 
@@ -85,6 +90,9 @@ https://www.jordanharbinger.com/ray-dalio-the-changing-world-order/
 Does Advertising Actually Work? [Part 1 - TV](https://omny.fm/shows/freakonomics-radio/does-advertising-actually-work-part-1-tv), [Part 2, Digital](https://omny.fm/shows/freakonomics-radio/does-advertising-actually-work-part-2-digital)
 
 [Can I Ask You a Ridiculously Personal Question?](https://freakonomics.com/podcast/sensitive-questions/)
+
+[How to Manage Your Goal Hierarchy](https://freakonomics.com/podcast/goal-hierarchy/)
+
 
 ## [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)
 

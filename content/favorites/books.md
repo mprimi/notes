@@ -53,7 +53,9 @@ Anything on here I wholeheartedly recommend.
 
 [101 Artists To Listen To Before You Die](https://www.penguinrandomhouse.com/books/585964/101-artists-to-listen-to-before-you-die-by-ricardo-cavolo/)
 
-[https://erinmeyer.com/books/the-culture-map/](https://erinmeyer.com/books/the-culture-map/)
+[The Culture Map (E. Meyer)](https://erinmeyer.com/books/the-culture-map/)
+
+[Nonviolent Communication: A Language of Life (M.B. Rosenberg)](https://www.goodreads.com/book/show/71730.Nonviolent_Communication)
 
 ## Computer Science & Engineering
 
