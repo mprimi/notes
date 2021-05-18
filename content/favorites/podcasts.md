@@ -7,6 +7,8 @@ PageIcon: "🎙"
 
 [snglsDAO: How To Decentralize The Video Economy, with Troy Murray](https://stealthisshow.com/s05e15/)
 
+[Bitcoin’s #1 Trailer Park Supervisor, With Brad Mills](https://stealthisshow.com/s05e19/)
+
 
 ## [Darknet Diaries](https://darknetdiaries.com/)
 
@@ -65,6 +67,8 @@ https://www.jordanharbinger.com/rob-dyrdek-manufacturing-amazing-with-the-dyrdek
 
 [Two Million Years in Two Hours: A Conversation with Yuval Noah Harari](https://www.humanetech.com/podcast/28-two-million-years-in-two-hours-a-conversation-with-yuval-noah-harari)
 
+[Can Your Reality Turn on a Word? (Anthony Jacquin)](https://www.humanetech.com/podcast/34-can-your-reality-turn-on-a-word)
+
 ## [American Hysteria](https://www.chelseywebersmith.com/americanhysteria)
 
 [Rednecks](https://open.spotify.com/episode/1jtIccxLKHgHuUoBYapeAn?si=NVke29xKT-OJmLy5WcCEbQ)
@@ -93,6 +97,7 @@ Does Advertising Actually Work? [Part 1 - TV](https://omny.fm/shows/freakonomics
 
 [How to Manage Your Goal Hierarchy](https://freakonomics.com/podcast/goal-hierarchy/)
 
+[The True Story of the Minimum-Wage Fight](https://freakonomics.com/podcast/minimum-wage/)
 
 ## [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)
 

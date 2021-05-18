@@ -87,3 +87,5 @@ https://cryptocurrencyjobs.co/
 [Ask HN: Who is hiring?](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fnews.ycombinator.com%2F+%22Ask+HN%3A+Who+is+hiring%3F%22)
 
 [Fast Forward - nonprofit accelerator](https://www.ffwd.org/)
+
+https://japan-dev.com/
