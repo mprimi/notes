@@ -11,3 +11,7 @@ https://www.smbc-comics.com/comic/science-fictions
 https://www.smbc-comics.com/comic/evolution-8
 
 https://www.smbc-comics.com/comic/reference
+
+https://www.smbc-comics.com/comic/autocomplete
+
+https://www.smbc-comics.com/comic/nanacoin
