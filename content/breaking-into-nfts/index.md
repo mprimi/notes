@@ -1,5 +1,5 @@
 ---
-title: Breaking into NFTs: A Guide for Artists
+title: "Breaking into NFTs: A Guide for Artists"
 PageIcon: "🌠"
 ---
 
@@ -15,95 +15,101 @@ This presentation is [open source](https://github.com/mprimi/notes/tree/main/con
 
 Thank you to the wonderful folks of [ARTogether](http://www.artogether.org/) for organizing this event.
 
+![ARTogether - Breaking into NFTs](flyer.png)
+
 ---
 
-# *"The truest sign of intelligence is the ability to entertain two contradictory ideas simultaneously"*
+> "The truest sign of intelligence is the ability to entertain two contradictory ideas simultaneously"
 
-[Commonly attributed](https://quoteinvestigator.com/2020/01/05/intelligence/) to author F. Scott Fitzgerald. I choose this theme as a guide for this presentation.
+[Commonly attributed to author F. Scott Fitzgerald](https://quoteinvestigator.com/2020/01/05/intelligence/).
 
-Blockchain and NFTs are controversial topics. Some say they are the best thing since hot water. Others say they are the worst thing ever invented.
+This presentation contains contradicting opinions.
 
-There is truth to both.
+Any technology can be improve people's lives, or destroy them. It often does both at the same time.
 
-I will give you, wherever possible, conflicting and contrasting points of view.
+Example: the internet.
+ - Puts the world knowledge at our disposal, we can learn any topic from anywhere, anytime.
+ - It lets us connect with friends, family across the globe
+ - It surveils us and pushes us to consume more, envy others
+ - It can be hijacked to spread lies, propaganda, misinformation on a scale and speed unheard of until a few decades ago
 
-Let you decide and form your own opinion.
+Same goes for any other technology. Agriculture, the steam engine, antibiotics, radioactivity, ...
+
+Nothing is inherently "good" or "bad".
+Same goes for blockchain.
 
 # `whoami`
 
-My formal title (for the last ~15 years): distributed system engineer.
+Technology enthusiast, Distributed system engineer (I make lots of computers talk to each-other).
 
-I make lots of computers talk to each-other, to do stuff that is useful for you.
-
-If you own an iPhone or Apple computer, you probably used some code I wrote.
+If you own an iPhone or Apple computer, you probably used *some* code I wrote.
 Same if you ever watched Netflix.
 
-(for context, these are gigantic corporation and software systems, my contribution is minuscule)
+I have a particular affinity with blockchain because around 15 years ago I was involved in academic research on **consensus** (the theory/math underlying blockchain).
 
-Before working as engineer, I was doing Distributed Systems research in academia.
-The theoretical work on consensus we were doing back then is the foundation of blockchain.
+I have no almost no interest in cryptocurrency or crypto art (commonly associated to NFTs).
 
-This is why I love these systems so much. To me they are the coolest thing!
+It is mainstream perception that blockchain **is** cryptocurrency/NFT.
 
-Two thing most commonly associated with blockchain are cryptocurrencies and NFTs.
-I am not interested in either. There's a lot more going on that is not discussed in mainstream dialog.
+This is like saying "you are musician, therefore you play guitar".
+Or "you're an artist, therefore you paint".
 
----
-
-# Outline
-
-## Part 1
-What the hell is blockchain and why should I care about it?
-
-## Part 2
-What are NFTs. Common myths and misconceptions.
-Great, terrible, questionable uses for NFTs.
+The universe of music is bigger than playing guitar.
+The universe of art is bigger than painting.
+The universe of blockchain is bigger than cryptocurrencies.
 
 ---
 
-# Part 1: Blockchain
+# Blockchain
 
-What is it and why should I care about it
+## What is it, and why should I care about it?
+
+ - Blockchain vs. Bitcoin
+ - Environmental impact
+
+# NFTs
+## Myths, misconceptions
+
+ - Well-known, questionable uses
+ - Less known, great uses
 
 ---
 
 # The State of Internet Services
 
-Before talking about the (supposed) future of the internet, let's talk about the present.
+Before jumping to the future, let's talk about the present.
 
 Today, we rely on a number of internet service.
 
  * Facebook
  * AirBnb
  * Amazon
- * Your bank
  * ...
 
 They make our lives easier in a gazillion different ways.
 
 <TODO graphic>
 
-While they are do different thing, there is an underlying commonality to all these systems.
-They are **trusted intermediaries**.
+All these systems have one thing in common: they are **trusted intermediaries**.
 
-Amazon is connecting you (a toilet paper consumer) to a seller (a toilet paper provider).
-Amazon acts as a proxy.
-
+Amazon is helping you find something you like, then mediating the transaction with the seller.
+This is convenient and secure for you.
 Same for AirBnb and Uber.
 
-If you text your friend on Facebook, you are actually texting Facebook.
-And trusting them to text your friend on your behalf.
+Facebook, is doing the same, but for personal communication.
+It makes it easy, convenient, "secure" to talk to your friends.
 
-Companies don't do this out of the kindness of their hearts!
+On social networks, you are not directly talking to your friends anymore.
+You talk to Facebook, and rely on them to pass the message along to your friends.
+
 Developing and running these services costs millions of dollar a day.
+Companies don't do this out of the kindness of their hearts!
 
-Yet, these companies are getting richer and richer by the day. How..???
+Despite the massive costs, these companies make billions of dollars... How???
 
-The business model is to capture your data and your attention, and sell it to the highest bidder.
-
-Facebook, Google & co are selling access to your eyeballs to advertisers.
-They know you better than you know yourself. This is a literal goldmine for advertising.
-They can target exactly the few people that are in the market for a given product.
+Being a trusted intermediary is incredibly profitable.
+Social network can learn all your most private information.
+They sell your data, your attention to the highest bidder.
 
  > "If it's free, you are probably the product"
 
@@ -111,81 +117,103 @@ Highly recommended: [The Social Dilemma (Netflix)](https://www.thesocialdilemma.
 
 ---
 
-# Blockchain and the Future of Internet Services (maybe)
+# Beyond Internet Services
 
-The primary reason I'm excited about blockchain is that it offers an alternative to this model.
+Social networks are just the most blatant example of this issue.
 
-Blockchain is a new way to create *peer-to-peer* internet services.
+It's present in many other parts of our daily lives.
 
-A public, open, secure infrastructure that anyone can use anonymously (or not).
+ - Banking, financial institutions
+ - Insurance, healthcare
+ - Government
 
-A new way to connect, interact, transact with people all over the world.
-
-The cost of running such service is passed down to the users.
-Nothing is free. On blockchain you pay money, on Facebook you pay with personal information.
-
-It is not going to *replace* the current systems.
-But it opens the door to create new ones that are not based on the **trusted intermediary** paradigm.
-
-We are just starting to see what blockchain can do.
-
-In 2008, the iPhone was criticized for being an expensive, useless toy.
-Critics were right **back then**. But they also failed to see the potential.
-There were just a few low-quality apps.
-Fast forward to today... it is hard to imagine our lives without a smartphone.
-
-Blockchain is at a similar stage. A lot of the criticism about the present state of the blockchain is fair, but it's from people that fail to see what this enables a few years down the line.
-
-TODO: uber/amazon/airbnb
+As individuals, we have very little bargain power, and a minuscule hope to change the system.
 
 ---
 
-# Blockchain vs Bitcoin
+# A Wild Blockchain Appears...
+
+Blockchain can be the tool that shifts this (un)balance and obsolete the highly concentrated power structures.
+
+It can be used to:
+ - Create banks and currencies owned and controlled by people
+ - Enable secure direct exchange of services, material goods, information
+ - Create fair, decentralized, transparent social programs of (insurance, lending, benefits, ...)
+ - Enable new kinds of democratic governments
+ - ...
+
+These are some of the more idealistic possibilities. Blockchain can be just as well for nefarious purposes:
+ - Further concentrate wealth
+ - Population surveillance and control
+ - Scam people, or enslave them into debt
+ - Conduct illegal business more securely (tax evasion, trade of illegal items)
+
+---
+
+# Some inspiring stories
+
+## Escrow and treasury
+
+How I stopped worrying and love working for strangers online
+
+## Insurance
+
+A group of individuals betting against mayhem
+
+## CuraDAO
+
+Curaçao citizens re-bootstrapped their economy on the blockchain in 2020 (think: government but without politicians)
+
+---
+
+# Bitcoin vs Ethereum vs Blockchain
 
 Bitcoin is a single-purpose blockchain.
+It does exactly one thing: transfer Bitcoin from one wallet to another.
+Includes and incentive for people running the network ("mining").
 
-Bitcoin does exactly one thing: transfer Bitcoin from one wallet to another.
-
-Plus mining, which is the incentive for people to keep the system running so the rest can use it.
+Ethereum is a general purpose blockchain.
+It can be use to create all sorts of decentralized applications (dApps).
+Currencies, voting systems, games, ...
 
 General-purpose blockchains such as Ethereum are **platforms**.
-They allow the creation and usage of decentralized application (dApps) that anyone can use.
+NFTs is one example.
 
-NFTs are a very simple example of dApp (kinda), more on this later.
+Blockchain is a way of building decentralized applications that can be used by many people.
 
-Current state of dApps is not great (like the iPhone in 2009), but the best is yet to come.
-
-Bitcoin is just one dApp (the first one to become wildly popular).
-The best is yet to come.
+It's a mechanism powerful enough that it can be used to create new currencies.
+We are just getting started, and the possibilities are endless.
 
 ---
 
 # Elephant #1: Blockchain is bad for the environment! 😡
 
-~Blockchain~ Bitcoin is responsible for a lot of CO2 emissions. True.
+~Blockchain~ Bitcoin is a victim of it's own success.
 
-<TODO eth CO2 comparison>
+Bitcoin started as idealized currency, free of government control.
 
-Bitcoin pollution is a side-effect of the world we live in: nobody is paying the cost of polluting.
+Because people liked it, its value skyrocketed.
 
-If you buy toothpaste, use it and discard the tube (very hard to recycle), who is paying for the cost of disposing it? Nobody, we are throwing it in a landfill and passing the problem to future generations.
+End result: burn a lot of electricity to print money out of thin air.
 
-If we really want to make a dent in the fight for sustainability, how about banning air conditioning, or beer?
+![Bitcoin vs Ethereum Power Usage](eth2-power.png)
 
-Same goes for posting your cat pictures on Facebook, or running AC, or making a bonfire, or playing video-games, drinking beer.
+A great example of something wrong with the world today: nobody is paying the cost of polluting.
 
-(What is the environmental cost of stocking every supermarket of the world with beer?
-From the agriculture necessary, to the chemical byproducts, to the used water, to shipping it all over the world)
+Other frivolous sources of pollution:
 
-Blaming any one thing is addressing a symptom, not the cause.
-We need to calculate the true environmental cost of everything else, which I'm all for.
+ - Posting avocado toast pictures, or looking at cat videos online
+ - Single-use food containers
+ - Stocking every supermarket in the world with beer
+ - Sending Christmas cards
+ - Sports events and tournaments, or video-games
 
-Bitcoin is just the most blatant example of this problem. You can print money by burning electricity. Consequences be damned.
+Bitcoin is a blatant symptom/example of this problem.
 
-Otherwise it's like taking a heartburn pill. It addresses the symptoms, not the cause.
-A better diet is the real solution to heartburn.
+Taking a heartburn pill is a more convenient "solution" to mitigate symptoms.
+Addressing the actual problem involves more work (diet, exercise, ...).
 
-(Coming up later: some ways blockchain can actually be good for the environment)
+(Coming up: some ways blockchain can actually be *good* for the environment)
 
 # Elephant #2: Blockchain is used by criminals! 🦹‍♂️
 
@@ -202,88 +230,125 @@ Some other things criminals use:
 
 Should we ban the use of these things because criminals use them to conduct their shady businesses?
 
-Bitcoin makes it easy to move *Bitcoin* anonymously.
-But it's actually **harder** for criminals to turn bitcoin into cash. Anyone can follow the money.
+Bitcoin makes it easy to move *Bitcoin* anonymously. But it's actually **harder** for criminals to turn bitcoin into cash. Anyone can follow the money.
 
 Bitcoin creates an opportunity for law enforcements to make it *easier* to track criminals because staying truly anonymous is harder than using cash.
 
 ---
 
-## Part 2: NFTs
+# Elephant #3: The blockchain is useless and stupid
 
-What are NFTs. Common myths and misconceptions.
-Great, terrible, questionable uses for NFTs.
+Sometimes worded as: "you don't need blockchain to do that".
+
+Same criticism faced by the iPhone in 2008. A pointless, expensive toy that is not even that good at being a phone.
+
+Critics were actually right *at that specific point in time*.
+They failed to foresee what would come next.
+
+We don't need AirBnb, we can rent houses and apartments with Craigslist!
+
+We don't need Google maps, we can use paper maps, or put concierge booths on every street corner!
+
+Criticism of the current state of the blockchain is sometimes fair.
+But critics don't understand what doors this technology opens.
+
+---
+
+# NFTs
+
+ > A 3-letter words known to cause FOMO and anxiety among artists.
+
+Concept often conflated and confused with crypto art (a.k.a. blockchain graffiti).
 
 ---
 
 # Uniqueness
 
-The most common misconception about NFTs is related to uniqueness:
+The most common misconception stems from a misunderstanding of its definition:
 
  > A non-fungible token (NFT) is a unit of data stored on a digital ledger, called a blockchain, that certifies a digital asset to be unique and therefore not interchangeable
 
-Most common interpretation: there can be only one. ❌
+Most common interpretation: **there can be only one**.
 
-Fungible: can be exchanged for an identical one, or broken up into parts.
-Example: a dollar is fungible. I give you a dollar, you give me a dollar. Nothing changed.
+Fungible token: can be exchanged for an identical one.
+Example: a dollar, a laundry machine token is fungible.
+It may also make sense to exchange a fraction of it (i.e. half a dollar).
 
 Everything else is non-fungible.
-Example: the teddy bear you grew up with. There are hundreds of thousands just like it. But you don't value any other one the way you value yours. Yours is **special to you**.
+Example: the teddy bear you had as a kid. There are thousands just like it. But you don't value any other one the way you value yours. Yours is **special to you**.
+Both unique and not unique.
 
-Example: your high school graduation diploma. There are thousands just like it every year.
-Yet the one you have has a lot of value and it is unique. It must be whole, if you rip it and give half of it to someone else, the two halves are worthless.
+Example: your high school graduation diploma. Thousands are issued every year.
+The equivalent of build a school, graduate a single student, issue one diploma, then burn down the school. 🤦‍♂️ Yet, the one with your name on it is unique and valuable to you.
 
-Yet, the way people are talking about NFTs these days is absolute.
-I.e. create a school, make a single student graduate, then burn down the school, because the diploma must be unique! 🙃
+This nuance is lost in the hyped up NFT world we live in today.
+People take the naive interpretation of "unique" in a very absolute way.
 
 ---
 
 # The NFT craze
 
-You probably hear about artists raking in millions of dollars with NFTs and this gives you FOMO.
+NFT is synonym with "little bit of digital art sold for a ludicrous price"
 
-My suggestion: ignore the noise, keep doing what you are doing.
+![I Am Rich](iamrich.jpeg)
 
-The only form of art behind these sales is the art of duping rich shmucks by creating artificial scarcity. It takes years of work to grow a following willing to pay for anything you put out. Even if it is a tiny digital image that could be replicated at no cost.
+There's more to the NFT world, but you hardly hear about it from mainstream sources.
 
-TODO: onement barnett newman
+My suggestion: ignore the noise, keep doing what you love doing.
 
-TODO: I am rich app
+The only form of art behind these sales is the art of duping rich shmucks by creating artificial scarcity.
+
+![Nothing Fucking There](nothing-effin-there.jpg)
+
+There's a lot more going on in the NFT world unrelated to this nonsense.
+---
+
+# Cryptoart
+
+On the other side, digital art is infinitely replicable at no cost.
+Anybody can take credit for it.
+
+It would be nice for the artist to award "ownership" to buyers.
+
+Edward Snowden recently auctioned an NFT for 'Stay Free' (court decision ruling the National Security Agency's mass surveillance violated the law), sold for 5.5 millions, donated to the Freedom of the Press Foundation.
+
+![Stay Free - Edward Snowden](stay-free.png)
+
+This art is public domain, but one person purchased the bragging right.
+
+The transaction is forever preserved on the blockchain, anyone can verify it.
+
+Owner may decide to re-sell anonymously, or reveal their identity. Or not.
 
 ---
 
 # NFT: Digital certificates
 
-An NFT is a standard to create a certificate.
+In general NFTs are micro-certificates anyone can create, send, receive.
 It contains a little bit of data (often used to point to an image).
-It can have "behavior" (more on this later).
-
-From one identity (a.k.a. wallet) to another. May be transferrable to others, or not.
 
 The sender pays the creation ("minting") and transfer ("transaction") cost.
 
-They contain a digital signature of the issuer, so can be verified by anyone, and cannot be faked.
+They contain a digital signature of the issuer, so can be verified by anyone, and cannot be forged or stolen.
 
 Example: if you have a wallet, I will send you an NFT for attending this seminar, as a thank you.
 
-It's going to live in your wallet at no cost.
+Ignoring FOMO art sales, NFTs are pretty cool.
+
+---
 
 # NFT as token of appreciation
 
-## Environment-friendly Christmas or birthday card.
+## Christmas or birthday cards
 
-Every year, thousands of trees get chopped to print celebratory cards.
-The process produces a lot of waste and emissions.
-Then they need to be shipped to stores.
-Some get thrown away at the end of the season, cheaper than storing them.
+More environmentally friendly than paper cards.
 
-NFTs are forever. 💎
-And compared to real card, they are environmentally friendly.
+They don't get tossed, they last forever without taking space.
 
-## Proof of attendance
+## Proof of presence
 
-Musician could send an NFT to everyone in attendance at a concert.
-Fans could proudly display their collection.
+A token of gratitude to send everyone that attended a concert or performance.
+Fans could collect them, show them off for bragging rights.
 
 Same for museums, theaters , shows, etc.
 
@@ -293,41 +358,44 @@ Same for museums, theaters , shows, etc.
 
 ## Proof of donation
 
-A non-profit could send an NFT to thank a donor.
-
-This is what WWF is doing, with a series of collectable NFTs representing endangered species.
+Non-profit organizations could send an NFT as 'receipt' for a donation.
 
 Donor can proudly display them on their homepage/portfolio.
 
-Loyalty cards for online purchases.
+Leverage "collectable" mechanic to incentivize recurring donations.
 
-Tickets for in-person and virtual events.
+WWF [Project Ark](https://project-ark.co/)
 
-## Proof of ownership
+## Proof of purchase
 
-TODO
+Musicians releasing their albums for free online, but sending an NFT to anyone that purchases.
+Fans can get priority access to tickets.
+
+Same for digital art, and anything else that can be duplicated at zero cost.
+
 ---
 
 # NFT as endorsement
 
 ## Proof of service provided
 
-TODO
+Instead of a commemorative plaque, after 5 years at a given company.
+
+More secure and environmentally friendly.
 
 ## Endorsement
 
-TODO
+If someone was a mentor, or helped you, or was by your side.
+
+You can immortalize your gratitude in a token. They can use it for future reference to prove their reputation.
 
 ---
 
 # This is just the beginning
 
-I could barely scratch the surface of what people are doing with Blockchain and NFTs today
+We just scratched the surface of what is possible with blockchckain and NFTs today.
 
-And what we are doing today is just the tip of the iceberg compared what people will do in a few years
-
-Blockchain is built from the ground up to be more decentralized and accessible.
-(altough no doubt we will see it used for nefarious purposes).
+And today is just the tip of the iceberg compared to what will be possible in a few years.
 
 I am overall positive and very excited for what's to come.
 
@@ -347,14 +415,18 @@ https://womenofcrypto.art/
 
 Ask me for an invite
 
+## Clean NFTs
+
+https://cleannfts.org/
+
 ---
 
 A recording of this presentation is available online if you want to rewatch or share.
 
-I give tech-centric presentation strictly for free, strictly for good causes.
+I love to give introductory tech talks to non-technical audience. Pro-bono.
 
-Blockchain, AI, Quantum computing, and anything else.
+Blockchain, AI, Quantum computing, online security, and more.
 
-www.mpri.me
+https://www.mpri.me
 
 ---
