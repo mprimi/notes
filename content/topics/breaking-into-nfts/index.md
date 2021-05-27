@@ -9,6 +9,8 @@ This presentation is [open source](https://github.com/mprimi/notes/tree/main/con
 
 # Breaking into NFTs: A Guide for Artists
 
+[Video](https://youtu.be/BhKzb_VJ958) (pre-recorder/rehearsal with additional content)
+
 ---
 
 # Hello World!
