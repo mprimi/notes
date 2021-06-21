@@ -81,13 +81,13 @@ Sci-Fi &amp;amp; Fantasy Neal Stephenson
 William Gibson
 Philip K. Dick
 Jitterbug Perfume (Robbins)
+The Night Circus
 Stories I don&amp;rsquo;t know, Timmy, being God is a big responsibility
 Non-fiction Gödel, Escher, Bach: an Eternal Golden Braid
 The Elements of Style
 Epistulae Morales ad Lucilium (Seneca) (a.k.a. Moral Epistles, Letters from a Stoic)
 Sex at Dawn
-The Grand Design (Hawking)
-The Case Against Sugar</description></item><item><title>Breaking into NFTs: A Guide for Artists</title><link>https://notes.mpri.me/topics/breaking-into-nfts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/topics/breaking-into-nfts/</guid><description>This presentation is open source (CC BY-NC-SA 4.0)
+The Grand Design (Hawking)</description></item><item><title>Breaking into NFTs: A Guide for Artists</title><link>https://notes.mpri.me/topics/breaking-into-nfts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/topics/breaking-into-nfts/</guid><description>This presentation is open source (CC BY-NC-SA 4.0)
 Breaking into NFTs: A Guide for Artists Video (pre-recorder/rehearsal with additional content)
 Hello World! Thank you to the wonderful folks of ARTogether for organizing this event.
 whoami Technology enthusiast, Distributed system engineer (I make lots of computers talk to each-other).
@@ -152,7 +152,28 @@ https://www.theguardian.com/commentisfree/2020/dec/17/dark-waters-pfas-ticking-c
 https://justine.lol/cosmopolitan/index.html cross-platform libc
 https://bair.berkeley.edu/blog/2020/12/20/lmmem/ machine-learning
 https://psyche.co/ideas/talking-out-loud-to-yourself-is-a-technology-for-thinking introspection
-https://anchor.fm/metagame/episodes/Autonomous-A1---Taming-Capitalism-with-Vinay-Gupta-of-Mattereum-en1kf6 Autonomous A1 - Taming Capitalism with Vinay Gupta of Mattereum</description></item><item><title>Lecture Series and Courses</title><link>https://notes.mpri.me/favorites/lectures-and-courses/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/favorites/lectures-and-courses/</guid><description>Human Behavioral Biology - Robert Sapolsky - Stanford University
+https://anchor.fm/metagame/episodes/Autonomous-A1---Taming-Capitalism-with-Vinay-Gupta-of-Mattereum-en1kf6 Autonomous A1 - Taming Capitalism with Vinay Gupta of Mattereum</description></item><item><title>June 2021</title><link>https://notes.mpri.me/logs/2021-06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/logs/2021-06/</guid><description>https://hustlethrivegrow.com/discipline-doesnt-work-here-s-what-to-do-instead-b745ff45b26f Discipline
+https://macwright.com/2019/01/02/paper-notes.html Notes
+https://lwn.net/Articles/414618/ Unfixable Unix designs
+https://krebsonsecurity.com/2021/05/try-this-one-weird-trick-russian-hackers-hate/ Security
+https://github.com/infiniticio/infinitic Services and workflow orchestration
+https://github.com/shazow/ssh-chat SSH chat
+https://latacora.micro.blog/2019/07/16/the-pgp-problem.html PGP
+https://github.com/glue-viz/glue Python data visualization
+https://wiki.debian.org/Subkeys GPG subkeys
+https://blog.ethereum.org/2021/05/18/country-power-no-more/ Ethereum pos energy
+https://winterbloom.com/ Custom Music machines
+http://paulgraham.com/fn.html Fierce nerds
+https://www.lesswrong.com/posts/LaZkofZgdKLyyHaAw/functional-trade-offs Map of functional trade-offs
+https://tinyprojects.dev/posts/selling_tiny_internet_projects_for_fun_and_profit Tiny projects
+https://www.outsideonline.com/2423015/80-20-rule-beginner-mastery-benefits Learning
+https://www.halcyonmaps.com/map-of-the-internet-2021/ Internet map
+https://github.com/skullchap/chadstr Chad strings C
+Tesla valve
+https://www.lesswrong.com/posts/fwyELkLoMvSEpnCn8/time-and-memory Memory
+https://github.com/grailbio/reflow Data processing DSL
+https://github.com/pditommaso/awesome-pipeline Awesome pipeline and workflows
+https://javier.xyz/pintr/ Plotter image</description></item><item><title>Lecture Series and Courses</title><link>https://notes.mpri.me/favorites/lectures-and-courses/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/favorites/lectures-and-courses/</guid><description>Human Behavioral Biology - Robert Sapolsky - Stanford University
 Feynman&amp;rsquo;s Lectures on Physics
 Blockchain Foundamentals - NTU Singapore</description></item><item><title>macOS startup service and daemons</title><link>https://notes.mpri.me/everything-else/macos-startup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/macos-startup/</guid><description>Reference to find and stop annoying applications and services that auto-start on login or auto-restart when killed.
 launchd LaunchDaemon items run with system privileges LaunchAgent items run in user context after login launchd auto-loads from the following locations:
@@ -198,7 +219,8 @@ https://blog.mycology.cornell.edu/2013/01/20/zap-lightning-gods-and-mushrooms/ M
 https://fediverse.party/en/miscellaneous Federated social software explorer</description></item><item><title>Miscellaneous</title><link>https://notes.mpri.me/favorites/misc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/favorites/misc/</guid><description>I Miss My Bar
 Stephen Fry Kinetic Typography - Language
 A review and comparison of Second Brain software
-The Hypnotic World of Degenerate Spirals</description></item><item><title>November 2020</title><link>https://notes.mpri.me/logs/2020-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/logs/2020-11/</guid><description>https://www.dendron.so/ Note-taking / Personal knowledge base
+The Hypnotic World of Degenerate Spirals
+Explorable Explanations</description></item><item><title>November 2020</title><link>https://notes.mpri.me/logs/2020-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/logs/2020-11/</guid><description>https://www.dendron.so/ Note-taking / Personal knowledge base
 https://theether.io/how-to-play Tech utopia
 https://digitalmycelium.com/ Blockchain software shop
 https://cryptocurrencyjobs.co/startups/ Blockchain companies
@@ -255,6 +277,8 @@ https://www.jordanharbinger.com/adam-grant-the-power-of-knowing-what-you-dont-kn
 https://www.jordanharbinger.com/ray-dalio-the-changing-world-order/
 https://www.jordanharbinger.com/rutger-bregman-humankind-a-hopeful-history/
 https://www.jordanharbinger.com/rob-dyrdek-manufacturing-amazing-with-the-dyrdek-machine/
+https://www.jordanharbinger.com/dacher-keltner-the-power-paradox/
+https://www.jordanharbinger.com/robert-cialdini-a-new-look-at-the-science-of-influence/
 The Stoa Your Undivided Attention Digital Democracy Is Within Reach (Audrey Tang)</description></item><item><title>Projects and Initiatives</title><link>https://notes.mpri.me/favorites/projects-and-initiatives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/favorites/projects-and-initiatives/</guid><description>https://openlibrary.org/
 https://www.efforce.io/
 https://trees.org/
