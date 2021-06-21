@@ -19,6 +19,8 @@ Anything on here I wholeheartedly recommend.
 
 [Jitterbug Perfume (Robbins)](https://en.wikipedia.org/wiki/Jitterbug_Perfume)
 
+[The Night Circus](https://en.wikipedia.org/wiki/The_Night_Circus)
+
 #### Stories
 
 [I don't know, Timmy, being God is a big responsibility](https://qntm.org/responsibility)
@@ -56,6 +58,8 @@ Anything on here I wholeheartedly recommend.
 [The Culture Map (E. Meyer)](https://erinmeyer.com/books/the-culture-map/)
 
 [Nonviolent Communication: A Language of Life (M.B. Rosenberg)](https://www.goodreads.com/book/show/71730.Nonviolent_Communication)
+
+[Farnam's Street - Mental Models](https://fs.blog/tgmm/)
 
 ## Computer Science & Engineering
 

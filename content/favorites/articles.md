@@ -56,4 +56,12 @@ PageIcon: "📃"
 
 [The Night Watch (James Mickens)](https://www.usenix.org/system/files/1311_05-08_mickens.pdf)
 
-[Screw it, I’ll host it myself](https://www.markozivanovic.com/screw-it-ill-host-it-myself/)
+[Screw it, I’ll host it myself (Marko Zivanovic)](https://www.markozivanovic.com/screw-it-ill-host-it-myself/)
+
+[Reinforcing Habits (Less Wrong)](https://www.lesswrong.com/posts/HLzXMDeEAaRtExo5L/reinforcing-habits)
+
+[On Smoking (Anna Gàt: Eleven Sentence Essays)](https://annagat.substack.com/p/on-smoking)
+
+[My Personal Creed of Employment (DevJac)](https://devjac.dev/posts/2021-05-29-my-personal-creed-of-employment.html)
+
+[The Optimal Amount of Hassle (Morgan Housel)](https://www.collaborativefund.com/blog/the-optimal-amount-of-hassle/)

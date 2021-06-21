@@ -53,6 +53,9 @@ https://www.jordanharbinger.com/rutger-bregman-humankind-a-hopeful-history/
 
 https://www.jordanharbinger.com/rob-dyrdek-manufacturing-amazing-with-the-dyrdek-machine/
 
+https://www.jordanharbinger.com/dacher-keltner-the-power-paradox/
+
+https://www.jordanharbinger.com/robert-cialdini-a-new-look-at-the-science-of-influence/
 
 ## [The Stoa](https://www.thestoa.ca/)
 
@@ -105,6 +108,7 @@ https://www.wnycstudios.org/podcasts/radiolab/articles/how-win-friends-and-influ
 
 https://www.wnycstudios.org/podcasts/radiolab/articles/wubi-effect
 
+https://www.wnycstudios.org/podcasts/radiolab/articles/dirty-drug-and-ice-cream-tub
 
 ## [Invisibilia](https://www.npr.org/podcasts/510307/invisibilia)
 
@@ -155,6 +159,7 @@ https://thejoeroganexperience.net/alex-jones-on-chemtrails-weather-manipulation-
 
 [Autonomous A1 - Taming Capitalism with Vinay Gupta of Mattereum](https://anchor.fm/metagame/episodes/Autonomous-A1---Taming-Capitalism-with-Vinay-Gupta-of-Mattereum-en1kf6)
 
+[MetaView 13 - Proof of Humanity & Democracy on the Blockchain with Santiago Siri](https://anchor.fm/metagame/episodes/MetaView-13---Proof-of-Humanity--Democracy-on-the-Blockchain-with-Santiago-Siri-e11timj)
 
 ## Love and Radio
 
