@@ -11,3 +11,5 @@ Title: Miscellaneous
 [The Hypnotic World of Degenerate Spirals](https://www.dogatekin.com/blog/hypnotic-degenerate-spirals/)
 
 [Explorable Explanations](https://explorabl.es/)
+
+[Crash Course](https://thecrashcourse.com/courses/)
