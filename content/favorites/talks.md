@@ -3,6 +3,8 @@ Title: Talks
 PageIcon: ""
 ---
 
+[Overcoming aversions (Andrew Critch)](https://youtu.be/k255UjGEO_c)
+
 [Leadership Guide for the Reluctant Leader (David Neal)](https://youtu.be/3PcL8UkorEg)
 
 [Scaling Yourself (Scott Hanselman)](https://youtu.be/V4NJo2Mfvrc)

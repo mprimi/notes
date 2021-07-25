@@ -57,6 +57,11 @@ https://www.jordanharbinger.com/dacher-keltner-the-power-paradox/
 
 https://www.jordanharbinger.com/robert-cialdini-a-new-look-at-the-science-of-influence/
 
+https://www.jordanharbinger.com/greg-mckeown-how-to-make-what-matters-effortless/
+
+https://www.jordanharbinger.com/tristan-harris-reclaiming-our-future-with-humane-technology/
+
+
 ## [The Stoa](https://www.thestoa.ca/)
 
 

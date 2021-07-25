@@ -3,8 +3,11 @@ Title: Articles
 PageIcon: "📃"
 ---
 
-[Information Foraging - A theory of how developers seek information](https://web.eecs.utk.edu/~azh/blog/informationforaging.html)
+[Optimizing Inputs and becoming Indistractable](https://sovereign-individual.xyz/posts/becoming-indistractable/)
 
+[Building a Vision of Life Without Work](https://livingafi.com/2015/03/09/building-a-vision-of-life-without-work/)
+
+[Information Foraging - A theory of how developers seek information](https://web.eecs.utk.edu/~azh/blog/informationforaging.html)
 
 [Using Metadata to find Paul Revere](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/)
 

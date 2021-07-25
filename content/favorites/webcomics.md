@@ -15,3 +15,5 @@ https://www.smbc-comics.com/comic/reference
 https://www.smbc-comics.com/comic/autocomplete
 
 https://www.smbc-comics.com/comic/nanacoin
+
+https://www.smbc-comics.com/comic/ags
