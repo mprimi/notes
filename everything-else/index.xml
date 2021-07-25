@@ -19,11 +19,23 @@ This tutorial covers:
 Versioning of a small set of files for a single person. i.e. personal notes/essay/homeworks/article, &amp;hellip; Inspecting and restoring of old versions Backups and sharing with others via cloud This tutorial does NOT cover branching, stashes, resolving conflicts, merge strategies, rewriting history, pulling from remote, fixups, aliases, configuration, etc.</description></item><item><title>Salad Like a Pro</title><link>https://notes.mpri.me/everything-else/prosalad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/prosalad/</guid><description>Salad Like a Pro Keeps me full 5+ hours Costs less than $3 Healthy AF Tasty AF, easy to vary 5 minutes prep time (mostly knife-work) Minimum amount of cleanup I eat a salad every.single.day for lunch. And I enjoy it every single time. Try my way. Find your way, you will enjoy it too.
 Salad time Dirties: 1 bowl, 1 fork. The cutting board and knife just need a quick rinse.</description></item><item><title>Smoking</title><link>https://notes.mpri.me/everything-else/smoking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/smoking/</guid><description>Some experiences and learning while trying to kick the habit.
 Context: I&amp;rsquo;ve smoked since i was 16 or so. Successfully quit once, cold turkey, for about 4 years. Then picked it back up and have been smoking since, but also trying to stop since.
-Cold Turkey My friend&amp;rsquo;s J&amp;rsquo;s father smoked 2 packs a day for as long as I&amp;rsquo;ve known him. One night he saw me smoking, pulled me aside, and told me he had quit.</description></item><item><title>Tech Jobs (mostly web3)</title><link>https://notes.mpri.me/everything-else/tech-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/tech-jobs/</guid><description>Companies, foundations &amp;amp; organizations https://www.matrix.org/
+Cold Turkey My friend&amp;rsquo;s J&amp;rsquo;s father smoked 2 packs a day for as long as I&amp;rsquo;ve known him. One night he saw me smoking, pulled me aside, and told me he had quit.</description></item><item><title>Tech Jobs</title><link>https://notes.mpri.me/everything-else/tech-jobs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/tech-jobs/</guid><description>Aggregators Ask HN: Who is hiring?
+https://japan-dev.com/
+https://sidequestjobs.com/
+https://www.workatastartup.com/
+Non-Profit Fast Forward - nonprofit accelerator
+Grants and Funds https://ethereum.foundation
+https://web3.foundation/
+https://interchain.io/funding/
+https://web3.foundation/
+https://nlnet.nl/
+https://funds.effectivealtruism.org/funds/
+https://www.indexventures.com/startup-jobs
+Miscellaneous companies, foundations &amp;amp; organizations https://www.algolia.com/careers/
+https://www.matrix.org/
 https://sovrin.org/
 https://metame.com/
 https://eos.io/
-https://ethereum.foundation
 https://livepeer.org
 https://bisontrails.co/
 https://www.iqlusion.io/
@@ -34,16 +46,13 @@ https://tendermint.com/
 https://interchain.io
 https://www.trailofbits.com/
 https://status.im/
-https://web3.foundation/
 https://polkadot.network/
 https://www.argent.xyz/
 https://www.ecosia.org/
 https://protocol.ai/
-https://interchain.io/funding/
 https://vc.eos.io/portfolio/
 https://block.one/careers/
 https://interchain.berlin/
-https://web3.foundation/
 https://digitalmycelium.com/
 https://element.io/careers
 https://www.datakind.org/
@@ -54,11 +63,8 @@ https://pyrofex.io/careers/
 DAOs https://www.metacartel.org/
 https://raidguild.org/
 https://spacemesh.io/
-Markets &amp;amp; Grants https://gitcoin.co/
-https://cryptocurrencyjobs.co/
-Misc Ask HN: Who is hiring?
-Fast Forward - nonprofit accelerator
-https://japan-dev.com/</description></item><item><title>tmux Reference</title><link>https://notes.mpri.me/everything-else/tmux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/tmux/</guid><description>CLI tmux ls: List sessions
+Side-quests https://gitcoin.co/
+https://cryptocurrencyjobs.co/</description></item><item><title>tmux Reference</title><link>https://notes.mpri.me/everything-else/tmux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/tmux/</guid><description>CLI tmux ls: List sessions
 tmux a: Reattach last used
 tmux a -t &amp;lt;session-name&amp;gt;: Reattach
 tmux source-file ~/.tmux.conf: Reload
