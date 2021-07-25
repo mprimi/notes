@@ -1,8 +1,43 @@
 ---
-title: Tech Jobs (mostly web3)
+title: Tech Jobs
 ---
 
-## Companies, foundations & organizations
+## Aggregators
+
+[Ask HN: Who is hiring?](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fnews.ycombinator.com%2F+%22Ask+HN%3A+Who+is+hiring%3F%22)
+
+https://japan-dev.com/
+
+https://sidequestjobs.com/
+
+https://www.workatastartup.com/
+
+
+## Non-Profit
+
+[Fast Forward - nonprofit accelerator](https://www.ffwd.org/)
+
+
+# Grants and Funds
+
+https://ethereum.foundation
+
+https://web3.foundation/
+
+https://interchain.io/funding/
+
+https://web3.foundation/
+
+https://nlnet.nl/
+
+https://funds.effectivealtruism.org/funds/
+
+https://www.indexventures.com/startup-jobs
+
+
+## Miscellaneous companies, foundations & organizations
+
+https://www.algolia.com/careers/
 
 https://www.matrix.org/
 
@@ -11,8 +46,6 @@ https://sovrin.org/
 https://metame.com/
 
 https://eos.io/
-
-https://ethereum.foundation
 
 https://livepeer.org
 
@@ -34,8 +67,6 @@ https://www.trailofbits.com/
 
 https://status.im/
 
-https://web3.foundation/
-
 https://polkadot.network/
 
 https://www.argent.xyz/
@@ -44,15 +75,11 @@ https://www.ecosia.org/
 
 https://protocol.ai/
 
-https://interchain.io/funding/
-
 https://vc.eos.io/portfolio/
 
 https://block.one/careers/
 
 https://interchain.berlin/
-
-https://web3.foundation/
 
 https://digitalmycelium.com/
 
@@ -68,6 +95,7 @@ https://maidsafe.net/careers
 
 https://pyrofex.io/careers/
 
+
 ## DAOs
 
 https://www.metacartel.org/
@@ -76,16 +104,9 @@ https://raidguild.org/
 
 https://spacemesh.io/
 
-## Markets & Grants
+
+## Side-quests
 
 https://gitcoin.co/
 
 https://cryptocurrencyjobs.co/
-
-## Misc
-
-[Ask HN: Who is hiring?](https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fnews.ycombinator.com%2F+%22Ask+HN%3A+Who+is+hiring%3F%22)
-
-[Fast Forward - nonprofit accelerator](https://www.ffwd.org/)
-
-https://japan-dev.com/
