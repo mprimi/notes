@@ -12,6 +12,8 @@ https://sidequestjobs.com/
 
 https://www.workatastartup.com/
 
+https://www.indexventures.com/startup-jobs
+
 
 ## Non-Profit
 
@@ -22,17 +24,17 @@ https://www.workatastartup.com/
 
 https://ethereum.foundation
 
-https://web3.foundation/
+https://web3.foundation/grants/
 
 https://interchain.io/funding/
-
-https://web3.foundation/
 
 https://nlnet.nl/
 
 https://funds.effectivealtruism.org/funds/
 
-https://www.indexventures.com/startup-jobs
+https://www.ngi.eu/opencalls/
+
+https://fundoss.org/
 
 
 ## Miscellaneous companies, foundations & organizations
