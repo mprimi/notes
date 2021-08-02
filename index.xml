@@ -195,7 +195,8 @@ https://github.com/grailbio/reflow Data processing DSL
 https://github.com/pditommaso/awesome-pipeline Awesome pipeline and workflows
 https://javier.xyz/pintr/ Plotter image</description></item><item><title>Lecture Series and Courses</title><link>https://notes.mpri.me/favorites/lectures-and-courses/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/favorites/lectures-and-courses/</guid><description>Human Behavioral Biology - Robert Sapolsky - Stanford University
 Feynman&amp;rsquo;s Lectures on Physics
-Blockchain Foundamentals - NTU Singapore</description></item><item><title>macOS startup service and daemons</title><link>https://notes.mpri.me/everything-else/macos-startup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/macos-startup/</guid><description>Reference to find and stop annoying applications and services that auto-start on login or auto-restart when killed.
+Blockchain Foundamentals - NTU Singapore
+Crash Course - Philosophy</description></item><item><title>macOS startup service and daemons</title><link>https://notes.mpri.me/everything-else/macos-startup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/macos-startup/</guid><description>Reference to find and stop annoying applications and services that auto-start on login or auto-restart when killed.
 launchd LaunchDaemon items run with system privileges LaunchAgent items run in user context after login launchd auto-loads from the following locations:
 ~/Library/LaunchAgent /Library/LaunchAgents /Library/LaunchDaemons /System/Library/LaunchAgents /System/Library/LaunchDaemons Notice that /System/ is protected by system integrity checks, so it&amp;rsquo;s unlikely that&amp;rsquo;s where apps registers.
 List services: launchctl list
@@ -241,7 +242,12 @@ Stephen Fry Kinetic Typography - Language
 A review and comparison of Second Brain software
 The Hypnotic World of Degenerate Spirals
 Explorable Explanations
-Crash Course</description></item><item><title>November 2020</title><link>https://notes.mpri.me/logs/2020-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/logs/2020-11/</guid><description>https://www.dendron.so/ Note-taking / Personal knowledge base
+Crash Course
+Hammertime
+Bentoism
+DALL·E: Creating Images from Text
+Electric Sheep
+Human Programming Interface</description></item><item><title>November 2020</title><link>https://notes.mpri.me/logs/2020-11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/logs/2020-11/</guid><description>https://www.dendron.so/ Note-taking / Personal knowledge base
 https://theether.io/how-to-play Tech utopia
 https://digitalmycelium.com/ Blockchain software shop
 https://cryptocurrencyjobs.co/startups/ Blockchain companies
@@ -306,10 +312,9 @@ The Stoa Your Undivided Attention Digital Democracy Is Within Reach (Audrey Tang
 https://www.efforce.io/
 https://trees.org/
 https://www.hope.net/
-DALL·E: Creating Images from Text
 Internet Archive
 Be My Eyes
-Electric Sheep</description></item><item><title>Salad Like a Pro</title><link>https://notes.mpri.me/everything-else/prosalad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/prosalad/</guid><description>Salad Like a Pro Keeps me full 5+ hours Costs less than $3 Healthy AF Tasty AF, easy to vary 5 minutes prep time (mostly knife-work) Minimum amount of cleanup I eat a salad every.single.day for lunch. And I enjoy it every single time. Try my way. Find your way, you will enjoy it too.
+EcoChamp</description></item><item><title>Salad Like a Pro</title><link>https://notes.mpri.me/everything-else/prosalad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/prosalad/</guid><description>Salad Like a Pro Keeps me full 5+ hours Costs less than $3 Healthy AF Tasty AF, easy to vary 5 minutes prep time (mostly knife-work) Minimum amount of cleanup I eat a salad every.single.day for lunch. And I enjoy it every single time. Try my way. Find your way, you will enjoy it too.
 Salad time Dirties: 1 bowl, 1 fork. The cutting board and knife just need a quick rinse.</description></item><item><title>Smoking</title><link>https://notes.mpri.me/everything-else/smoking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/smoking/</guid><description>Some experiences and learning while trying to kick the habit.
 Context: I&amp;rsquo;ve smoked since i was 16 or so. Successfully quit once, cold turkey, for about 4 years. Then picked it back up and have been smoking since, but also trying to stop since.
 Cold Turkey My friend&amp;rsquo;s J&amp;rsquo;s father smoked 2 packs a day for as long as I&amp;rsquo;ve known him. One night he saw me smoking, pulled me aside, and told me he had quit.</description></item><item><title>Talks</title><link>https://notes.mpri.me/favorites/talks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/favorites/talks/</guid><description>Overcoming aversions (Andrew Critch)
