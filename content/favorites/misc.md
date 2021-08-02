@@ -13,3 +13,13 @@ Title: Miscellaneous
 [Explorable Explanations](https://explorabl.es/)
 
 [Crash Course](https://thecrashcourse.com/courses/)
+
+[Hammertime](https://radimentary.wordpress.com/2018/01/29/hammertime-day-1-bug-hunt/)
+
+[Bentoism](https://bentoism.org/)
+
+[DALL·E: Creating Images from Text](https://openai.com/blog/dall-e/)
+
+[Electric Sheep](https://electricsheep.org/)
+
+[Human Programming Interface](https://beepb00p.xyz/hpi.html)

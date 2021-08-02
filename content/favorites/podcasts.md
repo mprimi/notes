@@ -107,6 +107,10 @@ Does Advertising Actually Work? [Part 1 - TV](https://omny.fm/shows/freakonomics
 
 [The True Story of the Minimum-Wage Fight](https://freakonomics.com/podcast/minimum-wage/)
 
+[The U.S. Is Just Different — So Let’s Stop Pretending We’re Not](https://freakonomics.com/podcast/american-culture-1/)
+
+[The Pros and Cons of America’s (Extreme) Individualism](https://freakonomics.com/podcast/american-culture-2/)
+
 ## [Radiolab](https://www.wnycstudios.org/podcasts/radiolab)
 
 https://www.wnycstudios.org/podcasts/radiolab/articles/how-win-friends-and-influence-baboons
