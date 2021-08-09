@@ -23,3 +23,5 @@ Title: Miscellaneous
 [Electric Sheep](https://electricsheep.org/)
 
 [Human Programming Interface](https://beepb00p.xyz/hpi.html)
+
+[Refined Blog](https://refined.blog/)

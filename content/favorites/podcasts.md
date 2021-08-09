@@ -3,6 +3,13 @@ Title: Podcasts
 PageIcon: "🎙"
 ---
 
+## [CoRecursive](https://corecursive.com/)
+
+https://www.corecursive.com/067-zig-with-andrew-kelley/
+
+https://www.corecursive.com/064-ethereum-rescue-with-dan-robinson/
+
+
 ## [Steal This Show](https://stealthisshow.com/)
 
 [snglsDAO: How To Decentralize The Video Economy, with Troy Murray](https://stealthisshow.com/s05e15/)
