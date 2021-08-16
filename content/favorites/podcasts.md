@@ -9,6 +9,8 @@ https://www.corecursive.com/067-zig-with-andrew-kelley/
 
 https://www.corecursive.com/064-ethereum-rescue-with-dan-robinson/
 
+https://corecursive.com/teaching-fp-with-richard-feldman/
+
 
 ## [Steal This Show](https://stealthisshow.com/)
 
@@ -83,6 +85,9 @@ https://www.jordanharbinger.com/tristan-harris-reclaiming-our-future-with-humane
 [Two Million Years in Two Hours: A Conversation with Yuval Noah Harari](https://www.humanetech.com/podcast/28-two-million-years-in-two-hours-a-conversation-with-yuval-noah-harari)
 
 [Can Your Reality Turn on a Word? (Anthony Jacquin)](https://www.humanetech.com/podcast/34-can-your-reality-turn-on-a-word)
+
+[You Will Never Breathe the Same Again](https://www.humanetech.com/podcast/38-you-will-never-breathe-the-same-again)
+
 
 ## [American Hysteria](https://www.chelseywebersmith.com/americanhysteria)
 
