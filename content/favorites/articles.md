@@ -68,3 +68,9 @@ PageIcon: "📃"
 [My Personal Creed of Employment (DevJac)](https://devjac.dev/posts/2021-05-29-my-personal-creed-of-employment.html)
 
 [The Optimal Amount of Hassle (Morgan Housel)](https://www.collaborativefund.com/blog/the-optimal-amount-of-hassle/)
+
+[The Top Shelf Principle](https://listed.to/@mo/4733/the-top-shelf-principle)
+
+[The Art of Not Taking Things Personally](https://medium.dave-bailey.com/the-art-of-not-taking-things-personally-b7a8395ce172)
+
+[Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)

@@ -70,6 +70,8 @@ https://www.jordanharbinger.com/greg-mckeown-how-to-make-what-matters-effortless
 
 https://www.jordanharbinger.com/tristan-harris-reclaiming-our-future-with-humane-technology/
 
+https://www.jordanharbinger.com/charles-duhigg-the-secrets-of-being-smarter-faster-better/
+
 
 ## [The Stoa](https://www.thestoa.ca/)
 
