@@ -60,7 +60,7 @@ Like any person working on computers, M. struggles with keeping track of changes
 <p>This tutorial does NOT cover branching, stashes, resolving conflicts, merge strategies, rewriting history, pulling from remote, fixups, aliases, configuration, etc. There are millions of tutorials out there that can teach you these advanced topics.</p>
 <h2 id=-old-school-versioning>📜 Old school versioning</h2>
 <p>We&rsquo;ve all done this at some point, it looks something like this:</p>
-<pre><code>letter.txt
+<pre tabindex=0><code>letter.txt
 letter-2.txt
 letter-3.txt
 letter-v4.txt
@@ -95,7 +95,7 @@ You should probably learn to use <code>git</code> before you even look at GitHub
 <p>Without further ado, let&rsquo;s cover the very basics of <code>git</code>.</p>
 <h2 id=-my-recipesgit>🍳 <code>my-recipes.git</code></h2>
 <p>Let&rsquo;s say you have a bunch of cooking recipes you&rsquo;ve collected over the years. They are stored in a Word document on your laptop.</p>
-<pre><code>recipes.adoc
+<pre tabindex=0><code>recipes.adoc
 </code></pre><h3 id=a-note-on-convention>A note on convention</h3>
 <p>If there is a <code>$</code> character at the beginning of a line, it&rsquo;s a prompt.
 It means i issued a command. If there is no <code>$</code>, then it&rsquo;s the command output.
@@ -124,11 +124,11 @@ But it&rsquo;s useful to know this is where <code>git</code> does its magic (sto
 <p>One way to look think of <code>git</code> is:
 <em><strong>If you would like to go back to something at some point in the future, then commit it!</strong></em></p>
 <p>You may at some point in the future want to retrieve your original Word document, so let&rsquo;s commit it!</p>
-<pre><code># Copy the original recipes into the repository folder.
+<pre tabindex=0><code># Copy the original recipes into the repository folder.
 $ cp ~/Documents/recipes.adoc .
 </code></pre><p>Rather than moving the original file (<code>~/Documents/recipes.adoc</code>) in the repo, I made a copy. Just in case. You really don&rsquo;t want to lose it while you mess up with <code>git</code> for the first time. We can always delete it later.</p>
 <p>Let&rsquo;s look at the status of your repository folder:</p>
-<pre><code>$ git status
+<pre tabindex=0><code>$ git status
 On branch master
 
 No commits yet
@@ -139,25 +139,25 @@ Untracked files:
 
 nothing added to commit but untracked files present (use &quot;git add&quot; to track)
 </code></pre><p>Let&rsquo;s explain line by line:</p>
-<pre><code>$ git status
+<pre tabindex=0><code>$ git status
 </code></pre><p>I&rsquo;m invoking the <code>status</code> command of <code>git</code>. Which prints an overview of the status of the local repository folder (there are many more commands, ignore them for now, but if you are curious, try <code>git help</code> which lists them).</p>
-<pre><code>On branch master
+<pre tabindex=0><code>On branch master
 </code></pre><p>Branches are an advanced topic, you don&rsquo;t need to care about them for now.
 However, notice your screen may actually say <code>main</code> rather than <code>master</code>. This is a recent change of convention, but for our purposes it&rsquo;s just a name.</p>
-<pre><code>No commits yet
+<pre tabindex=0><code>No commits yet
 </code></pre><p>You just created this repo fresh a second ago, so there&rsquo;s no history at all.
 If history existed, it would give you a recap of the most recent commit.</p>
-<pre><code>Untracked files:
+<pre tabindex=0><code>Untracked files:
   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
 	recipes.adoc
 </code></pre><p>Git is saying: &ldquo;there is a file I haven&rsquo;t seen before in this folder: <code>recipes.adoc</code>&rdquo;.
 It also suggests &ldquo;if you want to start versioning this file, use <code>git add</code>.</p>
-<pre><code>nothing added to commit but untracked files present (use &quot;git add&quot; to track)
+<pre tabindex=0><code>nothing added to commit but untracked files present (use &quot;git add&quot; to track)
 </code></pre><p>This is telling you that you have not staged any files or changes for commit.
 More on this later.</p>
 <p>This <code>status</code> is very verbose, and contains help messages.
 For the rest of this document, I&rsquo;ll use the &ldquo;succint&rdquo; version, which gives you the same information but more compact:</p>
-<pre><code>$ git status --short
+<pre tabindex=0><code>$ git status --short
 ?? recipes.adoc
 </code></pre><p>This says the same as before: there is a file, <code>recipes.adoc</code> and I&rsquo;ve never seen it before ('<code>??</code>' means &lsquo;untracked&rsquo;).</p>
 <h3 id=21-first-stage-and-commit>2.1. First stage and commit</h3>
@@ -168,14 +168,14 @@ For the rest of this document, I&rsquo;ll use the &ldquo;succint&rdquo; version,
 </ol>
 <p>We want <code>git</code> to start managing/versioning/tracking your recipes file.</p>
 <p>So first let&rsquo;s stage the file:</p>
-<pre><code>$ git add recipes.adoc
+<pre tabindex=0><code>$ git add recipes.adoc
 </code></pre><p>This stages the document. Notice it does not make any change whatsoever to the file. This is true for pretty much all the comments in this document: <code>git</code> does NOT modify your files. It just tracks them and makes copies in the &ldquo;magic&rdquo; folder.</p>
 <p>After adding the file to the index (another way to say staged the file, or added the file), take a look at the status:</p>
-<pre><code>$ git st --short
+<pre tabindex=0><code>$ git st --short
 A  recipes.adoc
 </code></pre><p>It is saying: &ldquo;a file i&rsquo;ve never seen before is staged&rdquo; A stands for &ldquo;added&rdquo;.
 If you ask for status in the &ldquo;verbose&rdquo; mode, it probably says the same with more words:</p>
-<pre><code>$ git status
+<pre tabindex=0><code>$ git status
 Changes to be committed:
   (use &quot;git rm --cached &lt;file&gt;...&quot; to unstage)
 	new file:   recipes.adoc
@@ -183,7 +183,7 @@ Changes to be committed:
 Removing from the staging also does not delete or modify the file, it just means the file goes back to &lsquo;untracked&rsquo; status.</p>
 <p>Our objective for the first version is to put your file under version control.
 The file is now staged, so let&rsquo;s go ahead and commit:</p>
-<pre><code>$ git commit -m &quot;Adding the original recipes word document&quot;
+<pre tabindex=0><code>$ git commit -m &quot;Adding the original recipes word document&quot;
 [master (root-commit) cdab0fc] Adding the original recipes word document
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 recipes.adoc
@@ -194,7 +194,7 @@ The message itself doesn&rsquo;t really matter to <code>git</code>. You could sa
 Your repository is going to quickly grow to hundreds of versions, and it&rsquo;s going to be nice to scroll them and know what each commit does just by looking at the message.</p>
 <p>Congratulation, you just created the first version of your repository!</p>
 <p>Let&rsquo;s look at a <code>status</code> because here is when people can panic.</p>
-<pre><code>$ git status
+<pre tabindex=0><code>$ git status
 On branch master
 nothing to commit, working tree clean
 </code></pre><p>I can hear you screaming: &ldquo;WTF? Where did my file go???&rdquo;</p>
@@ -206,51 +206,51 @@ So <code>git</code> doesn&rsquo;t even bother showing it to you, <code>git</code
 <p>At this point, you could be happy with what you have: a repository consisting of a single file.
 Every time you modify the file, you could stage and commit, and over time you would have a versioned file, allowing you to go back to revisit previous versions if you made a mistake.</p>
 <p>This is good, but let&rsquo;s make it better: split recipes into individual files.</p>
-<pre><code>$ touch tiramisu.txt cappone.txt carbonara.txt
+<pre tabindex=0><code>$ touch tiramisu.txt cappone.txt carbonara.txt
 </code></pre><p>This just creates 3 empty files.</p>
-<pre><code>$ git st --short
+<pre tabindex=0><code>$ git st --short
 ?? cappone.txt
 ?? carbonara.txt
 </code></pre><p>As expected, <code>git</code> is saying: there are 3 files I&rsquo;ve never seen before.</p>
 <p>Let&rsquo;s add a first version of the recipe. For the sake of this example, I&rsquo;m starting with a very shitty version of the recipes.</p>
 <p>Edit the files to add this content:</p>
-<pre><code>Pasta alla Carbonara
+<pre tabindex=0><code>Pasta alla Carbonara
 
 1. Cuoci la pasta
 2. Aggiungi il sugo
-</code></pre><pre><code>Cappone della Nonna
+</code></pre><pre tabindex=0><code>Cappone della Nonna
 
 1. Spenna il cappone
 2. Cuocilo in forno
 </code></pre><p>Let&rsquo;s check status after adding the recipes:</p>
-<pre><code>$ git st --short
+<pre tabindex=0><code>$ git st --short
 ?? cappone.txt
 ?? carbonara.txt
 </code></pre><p>Same as before: 2 files never seen before.</p>
 <p>Let&rsquo;s create a new version of the repository by adding these new files (with the current content) and creating a new commit.</p>
-<pre><code>$ git add cappone.txt carbonara.txt
+<pre tabindex=0><code>$ git add cappone.txt carbonara.txt
 $ git commit -m &quot;Importing carbonara and cappone recipes&quot;
 </code></pre><p>So far so good. Now that you have some history (2 commits) we can look back at it.</p>
 <p>The <code>log</code> command is the goto for looking at repository history (altough GUIs are usually even easier).
 The <code>log</code> command has a thousand options, let&rsquo;s stick to the simplest:</p>
-<pre><code>$ git log --oneline
+<pre tabindex=0><code>$ git log --oneline
 41330d2 (HEAD -&gt; master) Importing carbonara and cappone recipes
 cdab0fc Adding the original recipes word document
 </code></pre><p>This list the full history of your repository, most recent on top.</p>
 <p>The first code (e.g, <code>41330d2</code>) it&rsquo;s just a unique identifier for each commit. Yours will be different than mine even if the files are identical, because the commit author and date will be different for your commits.</p>
 <p>Try this alternative view of history, which includes the files changed summary:</p>
-<pre><code>$ git log --stat
+<pre tabindex=0><code>$ git log --stat
 </code></pre><p>And feel free to explore more <code>log</code> options described in the manual (hit <code>q</code> to exit):</p>
-<pre><code>$ git help log
+<pre tabindex=0><code>$ git help log
 </code></pre><h2 id=4-make-history>4. Make history</h2>
 <p>A <code>git</code> repository records a set of mutation in a specific order.</p>
 <p>Let&rsquo;s make history by changing a file.</p>
 <p>Add a step number 3 to the <code>cappone.txt</code> recipe. Edit the file and save.</p>
 <p>Status should tell you that the file is different than the last version <code>git</code> is aware of:</p>
-<pre><code>$ git status --short
+<pre tabindex=0><code>$ git status --short
  M cappone.txt
 </code></pre><p>And the <code>diff</code> command can tell you exactly what changed:</p>
-<pre><code>$ git diff
+<pre tabindex=0><code>$ git diff
 diff --git a/cappone.txt b/cappone.txt
 index 825997d..660f0eb 100644
 --- a/cappone.txt
@@ -262,12 +262,12 @@ index 825997d..660f0eb 100644
 +3. Riposa 10 minuti
 </code></pre><p>Notice the <code>+</code> in front of the last line. It&rsquo;s telling you that you added this line, while the rest of the file is unchanged.</p>
 <p>This new version is good, so let&rsquo;s commit it!</p>
-<pre><code>$ git add cappone.txt
+<pre tabindex=0><code>$ git add cappone.txt
 $ git commit -m &quot;Improved cappone recipe&quot;
 </code></pre><p>Let&rsquo;s do a different change now, one that touches multiple lines.
 Add a new step 1 to the carbonara recipe.</p>
 <p>After editing, it should look like this:</p>
-<pre><code>$ git diff
+<pre tabindex=0><code>$ git diff
 diff --git a/carbonara.txt b/carbonara.txt
 index 78852c9..700ee0a 100644
 --- a/carbonara.txt
@@ -283,7 +283,7 @@ index 78852c9..700ee0a 100644
 </code></pre><p>Notice how <code>git</code> is not showing this as simply adding a line at the top.
 It&rsquo;s telling you the two original lines are gone, and 3 new lines were added.</p>
 <p>This time, try to stage your changes using &ldquo;interactive&rdquo; add:</p>
-<pre><code>$ git add -p
+<pre tabindex=0><code>$ git add -p
 diff --git a/carbonara.txt b/carbonara.txt
 index 78852c9..700ee0a 100644
 --- a/carbonara.txt

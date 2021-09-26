@@ -48,7 +48,7 @@
 🐳
 Docker reference
 </h1>
-<pre><code>attach      Attach local standard input, output, and error streams to a running container
+<pre tabindex=0><code>attach      Attach local standard input, output, and error streams to a running container
 build       Build an image from a Dockerfile
 
 commit      Create a new image from a container's changes
@@ -93,22 +93,22 @@ stop        Stop one or more running containers
 start       Start one or more stopped containers
 
 </code></pre><h2 id=run-create-a-new-container><code>run</code>: create a new container</h2>
-<pre><code>docker run -d -p X:Y &lt;image&gt;
+<pre tabindex=0><code>docker run -d -p X:Y &lt;image&gt;
 </code></pre><ul>
 <li><code>-d</code> for detach</li>
 <li><code>-p</code> to map port X of the host to port Y of the container</li>
 </ul>
 <h3 id=interactive-shell>Interactive shell</h3>
 <p>New container:</p>
-<pre><code>docker run -it --entrypoint /bin/sh  &lt;image&gt;
+<pre tabindex=0><code>docker run -it --entrypoint /bin/sh  &lt;image&gt;
 </code></pre><p>Existing container:</p>
-<pre><code>docker exec &lt;container&gt; /bin/sh
+<pre tabindex=0><code>docker exec &lt;container&gt; /bin/sh
 </code></pre><ul>
 <li><code>-i</code> keep stdin open</li>
 <li><code>-t</code> allocate pseudo-terminal</li>
 </ul>
 <h2 id=build><code>build</code></h2>
-<pre><code>docker build -t &lt;tag&gt; &lt;dir or url&gt;
+<pre tabindex=0><code>docker build -t &lt;tag&gt; &lt;dir or url&gt;
 </code></pre><h3 id=listing-containers>Listing containers</h3>
 <p>Running: <code>docker ps</code></p>
 <p>All: <code>docker ps -a</code></p>
@@ -119,9 +119,9 @@ The container reaches &lsquo;stopped&rsquo; state.</p>
 They can be restarted. Or the state can be committed to a new image.</p>
 <p><code>docker ps -a</code> shows all containers, including stopped ones</p>
 <h3 id=removing-containers>Removing containers</h3>
-<pre><code>docker rm &lt;id or name&gt;
+<pre tabindex=0><code>docker rm &lt;id or name&gt;
 </code></pre><p>Remove all stopped containers</p>
-<pre><code>docker ps -aq -f status=exited | xargs docker rm
+<pre tabindex=0><code>docker ps -aq -f status=exited | xargs docker rm
 </code></pre><ul>
 <li><code>-a</code>: show all</li>
 <li><code>-q</code>: only list container id</li>
@@ -129,7 +129,7 @@ They can be restarted. Or the state can be committed to a new image.</p>
 </ul>
 <h2 id=dockerfile><code>Dockerfile</code></h2>
 <p>Example directory layout:</p>
-<pre><code>Dockerfile
+<pre tabindex=0><code>Dockerfile
 .dockerignore
 data/
   cats.csv
@@ -138,7 +138,7 @@ scripts/
   install.sh
   run.sh
 </code></pre><p>Example <code>Dockerfile</code>:</p>
-<pre><code>FROM alpine:latest
+<pre tabindex=0><code>FROM alpine:latest
 WORKDIR /app
 COPY . .
 RUN chmod +x scripts/*.sh
@@ -157,7 +157,7 @@ CMD [&quot;default&quot;]
 <h2 id=volumes--mounts>Volumes & Mounts</h2>
 <h3 id=named-volume>Named volume</h3>
 <p>Volume is a special file on the host that is mounted in containers.</p>
-<pre><code># Create
+<pre tabindex=0><code># Create
 docker volume create &lt;volume_name&gt;
 
 # Start with mount
@@ -167,23 +167,23 @@ docker run -v &lt;volume_name&gt;:&lt;mount_point&gt; &lt;image&gt;
 docker volume inspect &lt;volume_name&gt;
 </code></pre><h3 id=bind-mount>Bind Mount</h3>
 <p>Mount a host directory inside the container.</p>
-<pre><code>docker run -v &lt;host_dir&gt;:&lt;mount_point&gt; &lt;image&gt;
+<pre tabindex=0><code>docker run -v &lt;host_dir&gt;:&lt;mount_point&gt; &lt;image&gt;
 </code></pre><p>Volume commands:</p>
-<pre><code>create      Create a volume
+<pre tabindex=0><code>create      Create a volume
 inspect     Display detailed information on one or more volumes
 ls          List volumes
 prune       Remove all unused local volumes
 rm          Remove one or more volumes
 </code></pre><h2 id=network>Network</h2>
 <p>Put containers on the same network to let them talk to each-other.</p>
-<pre><code>
+<pre tabindex=0><code>
 # Create network
 docker network create &lt;network_name&gt;
 
 # Start with network and network hostname
 docker run --network &lt;network_name&gt; --network-alias &lt;container_hostname&gt; &lt;image&gt;
 </code></pre><p>Example:</p>
-<pre><code># Listen on host1
+<pre tabindex=0><code># Listen on host1
 docker run --network testnet --network-alias host1 &lt;image&gt;
 docker exec -it &lt;host1 container name&gt; nc -v -l -p 3000
 
@@ -191,7 +191,7 @@ docker exec -it &lt;host1 container name&gt; nc -v -l -p 3000
 docker run --network testnet --network-alias host2 &lt;image&gt;
 docker exec -it &lt;host2 container name&gt; nc host1.testnet 3000
 </code></pre><h3 id=network--commands>Network Commands</h3>
-<pre><code>connect     Connect a container to a network
+<pre tabindex=0><code>connect     Connect a container to a network
 create      Create a network
 disconnect  Disconnect a container from a network
 inspect     Display detailed information on one or more networks
@@ -201,7 +201,7 @@ rm          Remove one or more networks
 </code></pre><h2 id=docker-compose>Docker compose</h2>
 <p>Compose containers via <code>docker-compose.yml</code> specification.</p>
 <p>Network is automatically created.</p>
-<pre><code>version: &quot;3.7&quot;
+<pre tabindex=0><code>version: &quot;3.7&quot;
 
 services:
   listener:
@@ -211,7 +211,7 @@ services:
     image: alpine:latest
     command: echo hello | nc listener 3000
 </code></pre><p>Commands</p>
-<pre><code>down               Stop and remove containers, networks, images, and volumes
+<pre tabindex=0><code>down               Stop and remove containers, networks, images, and volumes
 up                 Create and start containers
 
 config             Validate and view the Compose file
@@ -245,7 +245,7 @@ pause              Pause services
 <h2 id=debug>Debug</h2>
 <h3 id=image-history>Image history</h3>
 <p>Trace the steps that built the image</p>
-<pre><code>docker image history &lt;image&gt;
+<pre tabindex=0><code>docker image history &lt;image&gt;
 </code></pre>
 </div>
 </div><div id=footer class=mb-5>

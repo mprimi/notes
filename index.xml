@@ -329,14 +329,35 @@ https://www.jordanharbinger.com/dacher-keltner-the-power-paradox/
 https://www.jordanharbinger.com/robert-cialdini-a-new-look-at-the-science-of-influence/
 https://www.jordanharbinger.com/greg-mckeown-how-to-make-what-matters-effortless/
 https://www.jordanharbinger.com/tristan-harris-reclaiming-our-future-with-humane-technology/
-The Stoa Your Undivided Attention Digital Democracy Is Within Reach (Audrey Tang)</description></item><item><title>Projects and Initiatives</title><link>https://notes.mpri.me/favorites/projects-and-initiatives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/favorites/projects-and-initiatives/</guid><description>https://openlibrary.org/
+https://www.jordanharbinger.com/charles-duhigg-the-secrets-of-being-smarter-faster-better/</description></item><item><title>Projects and Initiatives</title><link>https://notes.mpri.me/favorites/projects-and-initiatives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/favorites/projects-and-initiatives/</guid><description>https://openlibrary.org/
 https://www.efforce.io/
 https://trees.org/
 https://www.hope.net/
 Internet Archive
 Be My Eyes
 EcoChamp</description></item><item><title>Salad Like a Pro</title><link>https://notes.mpri.me/everything-else/prosalad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/prosalad/</guid><description>Salad Like a Pro Keeps me full 5+ hours Costs less than $3 Healthy AF Tasty AF, easy to vary 5 minutes prep time (mostly knife-work) Minimum amount of cleanup I eat a salad every.single.day for lunch. And I enjoy it every single time. Try my way. Find your way, you will enjoy it too.
-Salad time Dirties: 1 bowl, 1 fork. The cutting board and knife just need a quick rinse.</description></item><item><title>Smoking</title><link>https://notes.mpri.me/everything-else/smoking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/smoking/</guid><description>Some experiences and learning while trying to kick the habit.
+Salad time Dirties: 1 bowl, 1 fork. The cutting board and knife just need a quick rinse.</description></item><item><title>September 2021</title><link>https://notes.mpri.me/logs/2021-09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/logs/2021-09/</guid><description>https://alda.io/tutorial/ Music language
+https://bank.green/ Bank funding of fossil fuel industry
+https://www.lesswrong.com/posts/n4MNw7stZkt52xZZT/delta-deaths-and-vaccinations Delta variant vaccination COVID
+https://www.lesswrong.com/posts/fD8jXHvLJrEdSLQrE/obesity-epidemic-explained-in-0-9-subway-cookies Diet
+https://www.gatesnotes.com/Books/Numbers-Dont-Lie
+https://rachelbythebay.com/w/2021/08/17/pop/ security
+http://www.monkeyandcrow.com/blog/estimation_bargaining/ project estimation
+https://www.covid-datascience.com/post/israeli-data-how-can-efficacy-vs-severe-disease-be-strong-when-60-of-hospitalized-are-vaccinated Simpson paradox COVID vaccination
+https://www.electricitymap.org/map climate electricity map
+https://en.m.wikipedia.org/wiki/Sturgeon%27s_law
+https://planetscale.com/ database
+https://mixmag.net/feature/the-rave-preservation-project-is-the-largest-rave-flyer-archive-in-the-world Rave flyers
+https://www.benkuhn.net/hard/ Hard problems challenge happiness
+https://www.kadirilkimen.com/thepolarbear/ Opensource CNC
+https://nwn.blogs.com/nwn/2021/08/richard-bartle-designing-virtual-worlds-free-book.html Virtual words book
+https://mobile.twitter.com/joelburgess/status/1428008043556622336 skyrim
+https://www.makeuseof.com/what-is-netbsd/ NetBSD
+https://www.lesswrong.com/posts/NfdHG6oHBJ8Qxc26s/the-zettelkasten-method-1 Zettelkasten
+https://forge.medium.com/the-thing-standing-between-procrastination-and-daily-progress-is-ritual-2823d97ffa47 Motivation GTD ritual
+https://gitlab.com/stavros/harbormaster docker compose
+https://www.oilshell.org/blog/2021/08/xargs.html xargs
+https://productivityhub.org/2019/04/19/how-to-deliver-constructive-feedback-in-difficult-situations/ Nonviolent communication difficult conversation</description></item><item><title>Smoking</title><link>https://notes.mpri.me/everything-else/smoking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/everything-else/smoking/</guid><description>Some experiences and learning while trying to kick the habit.
 Context: I&amp;rsquo;ve smoked since i was 16 or so. Successfully quit once, cold turkey, for about 4 years. Then picked it back up and have been smoking since, but also trying to stop since.
 Cold Turkey My friend&amp;rsquo;s J&amp;rsquo;s father smoked 2 packs a day for as long as I&amp;rsquo;ve known him. One night he saw me smoking, pulled me aside, and told me he had quit.</description></item><item><title>Talks</title><link>https://notes.mpri.me/favorites/talks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/favorites/talks/</guid><description>Overcoming aversions (Andrew Critch)
 Leadership Guide for the Reluctant Leader (David Neal)
@@ -398,9 +419,14 @@ tmux a: Reattach last used
 tmux a -t &amp;lt;session-name&amp;gt;: Reattach
 tmux source-file ~/.tmux.conf: Reload
 Commands Default prefix: Ctrl-b
-?: List commands d: Detatch :list-keys :refresh-client :source-file ~/.tmux.conf Windows c: New window :new-window -n &amp;lt;name&amp;gt; &amp;lt;N&amp;gt;: Switch to window N w: Select p: Previous n: Next x: Kill ,: Rename Panes &amp;quot;: horizontal split %: vertical split &amp;lt;space&amp;gt;: rearrange o: focus next &amp;lt;arrow&amp;gt;: move focus ctrl-&amp;lt;arrow&amp;gt;: resize }: swap !</description></item><item><title>Webcomics</title><link>https://notes.mpri.me/favorites/webcomics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/favorites/webcomics/</guid><description>XKCD Saturday Morning Breakfast Cereal https://www.smbc-comics.com/comic/science-fictions
+?: List commands d: Detatch :list-keys :refresh-client :source-file ~/.tmux.conf Windows c: New window :new-window -n &amp;lt;name&amp;gt; &amp;lt;N&amp;gt;: Switch to window N w: Select p: Previous n: Next x: Kill ,: Rename Panes &amp;quot;: horizontal split %: vertical split &amp;lt;space&amp;gt;: rearrange o: focus next &amp;lt;arrow&amp;gt;: move focus ctrl-&amp;lt;arrow&amp;gt;: resize }: swap !</description></item><item><title>Webcomics</title><link>https://notes.mpri.me/favorites/webcomics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/favorites/webcomics/</guid><description>XKCD https://xkcd.com/1053/
+https://xkcd.com/2505/
+https://xkcd.com/2519/
+Saturday Morning Breakfast Cereal https://www.smbc-comics.com/comic/science-fictions
 https://www.smbc-comics.com/comic/evolution-8
 https://www.smbc-comics.com/comic/reference
 https://www.smbc-comics.com/comic/autocomplete
 https://www.smbc-comics.com/comic/nanacoin
-https://www.smbc-comics.com/comic/ags</description></item></channel></rss>
+https://www.smbc-comics.com/comic/ags
+https://www.smbc-comics.com/comic/double-edged
+https://www.smbc-comics.com/comic/complex-2</description></item></channel></rss>
