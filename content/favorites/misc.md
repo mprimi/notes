@@ -25,3 +25,5 @@ Title: Miscellaneous
 [Human Programming Interface](https://beepb00p.xyz/hpi.html)
 
 [Refined Blog](https://refined.blog/)
+
+[The Evolution Of Trust](https://ncase.me/trust/)

@@ -24,3 +24,5 @@ PageIcon: ""
 [HOPE 2020](https://scheduler.hope.net/hope2020/talk/) talks [archive](https://archive.org/details/hopeconf2020)
 
 [The Basics of Non Violent Communication 1.1 (Marshall Rosenberg)](https://www.youtube.com/user/EcceHomoZen/search?query=The%20Basics%20of%20Non%20Violent%20Communication)
+
+[Why the majority is always wrong - Paul Rulkens](https://youtu.be/VNGFep6rncY)

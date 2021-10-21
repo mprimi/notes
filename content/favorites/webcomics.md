@@ -10,6 +10,9 @@ https://xkcd.com/2505/
 
 https://xkcd.com/2519/
 
+https://xkcd.com/2524/
+
+
 
 # [Saturday Morning Breakfast Cereal](https://www.smbc-comics.com)
 
