@@ -3,6 +3,8 @@ Title: Articles
 PageIcon: "📃"
 ---
 
+[Dear Self; We Need To Talk About Social Media](https://acesounderglass.com/2021/12/04/dear-self-we-need-to-talk-about-social-media/)
+
 [Optimizing Inputs and becoming Indistractable](https://sovereign-individual.xyz/posts/becoming-indistractable/)
 
 [Building a Vision of Life Without Work](https://livingafi.com/2015/03/09/building-a-vision-of-life-without-work/)
