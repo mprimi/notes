@@ -3,6 +3,8 @@ Title: Articles
 PageIcon: "📃"
 ---
 
+[68 Bits of Unsolicited Advice](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/)
+
 [Dear Self; We Need To Talk About Social Media](https://acesounderglass.com/2021/12/04/dear-self-we-need-to-talk-about-social-media/)
 
 [Optimizing Inputs and becoming Indistractable](https://sovereign-individual.xyz/posts/becoming-indistractable/)
