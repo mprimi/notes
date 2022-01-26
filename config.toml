@@ -1,8 +1,13 @@
 baseURL = "https://notes.mpri.me/"
 languageCode = "en-us"
-title = "📓 Notes"
+title = "📓 Marco's Notes"
 theme = "researcher"
 enableGitInfo = true
+copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+rssLimit = 5
+
+[author]
+  name = 'Marco'
 
 [params]
   author = "Marco Primi"
