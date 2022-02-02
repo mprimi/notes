@@ -4,7 +4,7 @@ title = "📓 Marco's Notes"
 theme = "researcher"
 enableGitInfo = true
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
-rssLimit = 5
+rssLimit = 10
 
 [author]
   name = 'Marco'
@@ -42,3 +42,8 @@ rssLimit = 5
     url = "/everything-else/"
     weight = 5
     pre = "🗂 "
+  [[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 10
+    pre = "⚡️ "
