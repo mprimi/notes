@@ -47,3 +47,10 @@ rssLimit = 10
     url = "/index.xml"
     weight = 10
     pre = "⚡️ "
+
+[outputs]
+    page = ["HTML"]
+    home = ["HTML", "RSS"]
+    section = ["HTML"]
+    taxonomyTerm = ["HTML"]
+    taxonomy = ["HTML"]
