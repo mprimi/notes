@@ -18,7 +18,7 @@ The interesting bits of my browsing history.
 
 ## Diary
 
-Thoughts I ocassionally share with the world
+Thoughts I occasionally share with the world
 
 ## Everything else
 
