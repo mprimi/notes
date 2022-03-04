@@ -6,7 +6,9 @@ title: tmux Reference
 
 `tmux ls`: List sessions
 
-`tmux a`: Reattach last used
+`tmux new-session -s <session-name>`: New session
+
+`tmux a`: Reattach last used (short for `attach`)
 
 `tmux a -t <session-name>`: Reattach
 
