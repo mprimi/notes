@@ -1,14 +1,12 @@
 <!doctype html><html><head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Federated Architectures</title>
-<meta name=description content="Marco's Notes">
+<title>Federated Architectures</title><meta name=description content="Marco's Notes">
 <meta name=author content="Marco Primi">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel=stylesheet>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity=sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2 crossorigin=anonymous>
 <link rel=stylesheet href=/sass/researcher.min.css>
-</head>
-<body><div class="container mt-5">
+</head><body><div class="container mt-5">
 <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
 <a class="navbar-brand mx-0 mr-sm-auto" href=https://notes.mpri.me/>
 📓 Marco's Notes
@@ -37,204 +35,62 @@
 <a class="nav-item nav-link" href=/index.xml>
 ⚡️ RSS
 </a>
-</div>
-</nav>
-</div>
-<hr>
+</div></nav></div><hr>
 <div id=content>
 <div class=container>
 <p class=text-right>
 ~/topics/Federated Architectures
 <br>
 <small>Updated Feb 26, 2021</small>
-</p>
-<h1>
+</p><h1>
 📐
 Federated Architectures
-</h1>
-<h3 id=the-recurring-theme-of-federation-in-distributed-system>The recurring theme of federation in distributed system</h3>
-<p>Some editorial choices about this deck:</p>
-<ul>
-<li>Entertaining > Precise</li>
-<li>Cool > Useful</li>
-<li>Future > Present</li>
-</ul>
-<p><em>(Presenter notes available in the source of these slides)</em></p>
-<hr>
-<h2 id=irl-federation>IRL Federation</h2>
-<ul>
-<li><a href=https://en.wikipedia.org/wiki/United_Federation_of_Planets>United Federation of Planets</a> 🖖</li>
-<li><a href=https://en.wikipedia.org/wiki/Federalism_in_the_United_States>United States</a> 🇺🇸</li>
-<li>Most companies (teams, franchises, branches) 🏭</li>
-</ul>
-<p><strong>Federation</strong>: organization pattern involving a combination of centralized decision-making and as peripheral autonomy</p>
-<p>Hybrid of top-down (hierarchical) and peer-to-peer (decentralized)</p>
-<hr>
-<h2 id=federation-in-computer-systems>Federation in Computer Systems</h2>
-<p>The abstract pattern of Federation is everywhere.</p>
-<p>Often in disguise, or called with by different (more precise) names</p>
-<ul>
-<li>DNS</li>
-<li>E-Mail</li>
-<li>Kernel</li>
-<li>CPU architecture</li>
-</ul>
-<hr>
-<h2 id=federation-in-distributed-systems>Federation in Distributed Systems</h2>
-<p>Concept of federation is broad overlaps with many concepts we encounter everyday:</p>
-<ul>
-<li>Gateway, Router, Facade patterns</li>
-<li>Orchestration pattern</li>
-<li>Microservices & decentralized systems</li>
-</ul>
-<p>Federation is abstract and overlaps with these and more.</p>
-<p>In the rest of this deck: practical examples of federation in action</p>
-<hr>
-<h2 id=data-federation>Data federation</h2>
-<h3 id=graphqlhttpsgraphqlorg--apollohttpswwwapollographqlcom><a href=https://graphql.org/>GraphQL</a> & <a href=https://www.apollographql.com/>Apollo</a></h3>
-<blockquote>
-<p>&ldquo;GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data&rdquo;</p>
-</blockquote>
-<p>Below the API, query federation.</p>
-<p>Apollo stores no data, it federates the request to other systems.</p>
-<p>Data layout, location, provider can change without affecting users.</p>
-<hr>
-<h2 id=search-federation>Search federation</h2>
-<h3 id=maps-search>Maps Search</h3>
-<p>Different queries require very different handling, separate indices, ranking, spell-correction model, and more.</p>
-<ul>
+</h1><h3 id=the-recurring-theme-of-federation-in-distributed-system>The recurring theme of federation in distributed system</h3><p>Some editorial choices about this deck:</p><ul>
+<li>Entertaining > Precise</li><li>Cool > Useful</li><li>Future > Present</li></ul><p><em>(Presenter notes available in the source of these slides)</em></p><hr>
+<h2 id=irl-federation>IRL Federation</h2><ul>
+<li><a href=https://en.wikipedia.org/wiki/United_Federation_of_Planets>United Federation of Planets</a> 🖖</li><li><a href=https://en.wikipedia.org/wiki/Federalism_in_the_United_States>United States</a> 🇺🇸</li><li>Most companies (teams, franchises, branches) 🏭</li></ul><p><strong>Federation</strong>: organization pattern involving a combination of centralized decision-making and as peripheral autonomy</p><p>Hybrid of top-down (hierarchical) and peer-to-peer (decentralized)</p><hr>
+<h2 id=federation-in-computer-systems>Federation in Computer Systems</h2><p>The abstract pattern of Federation is everywhere.</p><p>Often in disguise, or called with by different (more precise) names</p><ul>
+<li>DNS</li><li>E-Mail</li><li>Kernel</li><li>CPU architecture</li></ul><hr>
+<h2 id=federation-in-distributed-systems>Federation in Distributed Systems</h2><p>Concept of federation is broad overlaps with many concepts we encounter everyday:</p><ul>
+<li>Gateway, Router, Facade patterns</li><li>Orchestration pattern</li><li>Microservices & decentralized systems</li></ul><p>Federation is abstract and overlaps with these and more.</p><p>In the rest of this deck: practical examples of federation in action</p><hr>
+<h2 id=data-federation>Data federation</h2><h3 id=graphqlhttpsgraphqlorg--apollohttpswwwapollographqlcom><a href=https://graphql.org/>GraphQL</a> & <a href=https://www.apollographql.com/>Apollo</a></h3><blockquote>
+<p>&ldquo;GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data&rdquo;</p></blockquote><p>Below the API, query federation.</p><p>Apollo stores no data, it federates the request to other systems.</p><p>Data layout, location, provider can change without affecting users.</p><hr>
+<h2 id=search-federation>Search federation</h2><h3 id=maps-search>Maps Search</h3><p>Different queries require very different handling, separate indices, ranking, spell-correction model, and more.</p><ul>
 <li>&ldquo;Starbucks&rdquo;
 <ul>
-<li>Nearby locations of a specific chain</li>
-<li>Or maybe coffee shops</li>
-</ul>
-</li>
-<li>&ldquo;1200 Main Street&rdquo;
+<li>Nearby locations of a specific chain</li><li>Or maybe coffee shops</li></ul></li><li>&ldquo;1200 Main Street&rdquo;
 <ul>
-<li>An address (that exists in hundreds of towns!)</li>
-<li>Show the closest?</li>
-</ul>
-</li>
-<li>&ldquo;1600 Pennsylvania Ave&rdquo;
+<li>An address (that exists in hundreds of towns!)</li><li>Show the closest?</li></ul></li><li>&ldquo;1600 Pennsylvania Ave&rdquo;
 <ul>
-<li>A nearby address?</li>
-<li>Or a very famous landmark? (the White House)</li>
-</ul>
-</li>
-<li>&ldquo;Paris&rdquo;
+<li>A nearby address?</li><li>Or a very famous landmark? (the White House)</li></ul></li><li>&ldquo;Paris&rdquo;
 <ul>
-<li>Paris, France?</li>
-<li>Paris, Texas?</li>
-<li>(many other)</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id=search-federation-1>Search federation</h2>
-<h3 id=maps-search-architecture>Maps Search Architecture</h3>
-<p><img src=./federated-search.png alt="Federated Maps Search"></p>
-<p>A collection of small specialized search engines.</p>
-<ul>
-<li>Category search</li>
-<li>Address search</li>
-<li>Contacts search</li>
-<li>Businesses search</li>
-<li>Landmark search</li>
-<li>Geographical entities search</li>
-<li>&mldr;</li>
-</ul>
-<p>And auxiliary services</p>
-<ul>
-<li>Spelling suggestions</li>
-<li>User metadata and history</li>
-<li>Driving time estimation</li>
-<li>&mldr;</li>
-</ul>
-<hr>
-<h2 id=federated-storage>Federated storage</h2>
-<h3 id=filecoinhttpsfilecoinio><a href=https://filecoin.io/>FileCoin</a></h3>
-<p>Planetary scale decentralized file storage system.
-Utilizes the blockchain to track blocks and reward people for storing them.</p>
-<p>Mine (get paid) to offer storage capacity
-Pay others to store, serve, replicate, &mldr;</p>
-<p>Similar: <a href=https://threefold.io/>Threefold</a> (P2P compute grid), <a href=https://livepeer.org/>LivePeer</a> (video encoding grid), and many more</p>
-<hr>
-<h2 id=federated-infrastructure>Federated infrastructure</h2>
-<h3 id=gaia-xhttpswwwdata-infrastructureeugaiax><a href=https://www.data-infrastructure.eu/GAIAX/>GAIA-X</a></h3>
-<p>European Union next generation cloud.</p>
-<p>Similar to AWS in that it offers a variety of services, from bare metal machines, all the way up to high level services.</p>
-<p>AWS is centralized, GAIA-X is federated through and through.
-Only offers the basic protocol for providers and consumers to find each-other and negotiate terms.</p>
-<ul>
-<li>Federated resource catalogs: compute, storage, bandwidth, &mldr;</li>
-<li>Federated services catalog: high level functions, services and API, &mldr;</li>
-<li>Federated data catalogs, with varying degree of access, licensing, &mldr;</li>
-<li>Federated identity and trust: to regulate and delegate access to data and resources</li>
-</ul>
-<hr>
-<h2 id=gaia-x-use-case-example>GAIA-X Use case example</h2>
-<h3 id=medical-recordshttpswwwdata-infrastructureeugaiaxredaktionenartikelusecasesframework-of-medical-records-in-europehtml><a href=https://www.data-infrastructure.eu/GAIAX/Redaktion/EN/Artikel/UseCases/framework-of-medical-records-in-europe.html>Medical records</a></h3>
-<p>Each citizen has a virtual medical record.</p>
-<p>It is stored safely in the cloud.</p>
-<ul>
-<li>The patient can grant access to a new doctor</li>
-<li>The doctor can add to the medical record (and retain access to the newly added data)</li>
-<li>the patient can delegate access to a parent or guardian</li>
-<li>Research institution may have limited access to aggregate data for statistics and research purposes</li>
-<li>Insurance, prospect employer, etc may request partial access</li>
-</ul>
-<hr>
-<h2 id=federated-service-platforms>Federated Service Platforms</h2>
-<p>Uber, AirBnb & co successfully connect demand and supply at scale.</p>
-<p>But their primary driver is profit. Above all they need to appease shareholders and investors.</p>
-<p>Making users happy is just a secondary goal. A mean to an end.
-The real goal is: make money.</p>
-<p>Re-imagine these platforms without the shareholders (or making users the shareholders).
-Same service, different goal: optimize for the collective good of all users.</p>
-<p>More similar to public utilities than to for-profit companies.</p>
-<p>Built on open-source (trust is paramount).</p>
-<p>Still collect a fee on transactions, but use it to:</p>
-<ul>
-<li>Pay for infrastructure costs, insurance</li>
-<li>Compensate employees (support, developers, legal, &mldr;)</li>
-<li>Reinvest surplus into making the platform better or give fractional dividends to all participants</li>
-</ul>
-<p>Examples: <a href=https://www.eva.coop/>Eva</a>, <a href=https://fairbnb.coop/>FairBnb</a>, <a href=https://windingtree.com/>WindingTree</a></p>
-<hr>
-<h2 id=federated-social-networks>Federated Social Networks</h2>
-<p>Facebook, Reddit, Twitter, Instagram, etc.
-Are great for staying in touch with friends, discuss current events, and more.</p>
-<p>But satisfying user&rsquo;s need for connection is just a mean to an end.</p>
-<p>The goal of these platform is to make money to shareholders.
-They are not shy of using dirty tricks to get users to:</p>
-<ul>
-<li>Reveal private information, which they can harvest and monetize</li>
-<li>Get people addicted, enraged, misinformed, anything required to keep them engaged</li>
-</ul>
-<p>User&rsquo;s interests (such as privacy) are only considered if ignoring them is damaging to the platform.</p>
-<p>A new generation of federated social platform are emerging: <a href=https://diaspora.social/>Diaspora</a>, <a href=https://joinmastodon.org/>Mastodon</a>, <a href=https://mobilizon.org/en/>Mobilizon</a>, and more.</p>
-<p><img src=./social-network.png alt="Expected vs. Actual social network"></p>
-<hr>
-<h2 id=federated-communications>Federated Communications</h2>
-<h3 id=matrixhttpswwwmatrixorg><a href=https://www.matrix.org/>Matrix</a></h3>
-<p>WhatsApp, Telegram, Discord, iMessage, GMail, &mldr; provide a great service, but at a (hidden) cost.
-Your data is being mined and sold (end-to-end encryption is a marketing ploy).</p>
-<p>Matrix is a federated, decentralized answer to this problem.
-An open-source protocol for instant messaging (and, communications in general).</p>
-<p>Built ground-up to be federated.
-Small groups of people can operate their own homeserver, sharing the cost.</p>
-<p>Through the homeserver, they can connect to the rest of the world (or not).</p>
-<p><img src=./organic-social-network.png alt="Matrix network"></p>
-<hr>
-<p>Further reading:</p>
-<ul>
-<li><a href=https://networkcultures.org/unlikeus/resources/articles/what-is-a-federated-network/>Beyond distributed and decentralized: what is a federated network?</a></li>
-<li><a href=https://www.8bitmen.com/the-ultimate-guide-to-federated-architecture-decentralized-social-networks/>The Ultimate Guide to Federated Architecture & Decentralized Social Networks</a></li>
-<li><a href=https://ipfs.io/ipfs/QmdFrru4PyHzXGZztEPnYToBR3QovD7fkC1HSyty22LzfD>Decentralized Social Ecosystem Review</a></li>
-</ul>
-<hr>
-</div>
-</div><div id=footer class=mb-5>
+<li>Paris, France?</li><li>Paris, Texas?</li><li>(many other)</li></ul></li></ul><hr>
+<h2 id=search-federation-1>Search federation</h2><h3 id=maps-search-architecture>Maps Search Architecture</h3><p><img src=./federated-search.png alt="Federated Maps Search"></p><p>A collection of small specialized search engines.</p><ul>
+<li>Category search</li><li>Address search</li><li>Contacts search</li><li>Businesses search</li><li>Landmark search</li><li>Geographical entities search</li><li>&mldr;</li></ul><p>And auxiliary services</p><ul>
+<li>Spelling suggestions</li><li>User metadata and history</li><li>Driving time estimation</li><li>&mldr;</li></ul><hr>
+<h2 id=federated-storage>Federated storage</h2><h3 id=filecoinhttpsfilecoinio><a href=https://filecoin.io/>FileCoin</a></h3><p>Planetary scale decentralized file storage system.
+Utilizes the blockchain to track blocks and reward people for storing them.</p><p>Mine (get paid) to offer storage capacity
+Pay others to store, serve, replicate, &mldr;</p><p>Similar: <a href=https://threefold.io/>Threefold</a> (P2P compute grid), <a href=https://livepeer.org/>LivePeer</a> (video encoding grid), and many more</p><hr>
+<h2 id=federated-infrastructure>Federated infrastructure</h2><h3 id=gaia-xhttpswwwdata-infrastructureeugaiax><a href=https://www.data-infrastructure.eu/GAIAX/>GAIA-X</a></h3><p>European Union next generation cloud.</p><p>Similar to AWS in that it offers a variety of services, from bare metal machines, all the way up to high level services.</p><p>AWS is centralized, GAIA-X is federated through and through.
+Only offers the basic protocol for providers and consumers to find each-other and negotiate terms.</p><ul>
+<li>Federated resource catalogs: compute, storage, bandwidth, &mldr;</li><li>Federated services catalog: high level functions, services and API, &mldr;</li><li>Federated data catalogs, with varying degree of access, licensing, &mldr;</li><li>Federated identity and trust: to regulate and delegate access to data and resources</li></ul><hr>
+<h2 id=gaia-x-use-case-example>GAIA-X Use case example</h2><h3 id=medical-recordshttpswwwdata-infrastructureeugaiaxredaktionenartikelusecasesframework-of-medical-records-in-europehtml><a href=https://www.data-infrastructure.eu/GAIAX/Redaktion/EN/Artikel/UseCases/framework-of-medical-records-in-europe.html>Medical records</a></h3><p>Each citizen has a virtual medical record.</p><p>It is stored safely in the cloud.</p><ul>
+<li>The patient can grant access to a new doctor</li><li>The doctor can add to the medical record (and retain access to the newly added data)</li><li>the patient can delegate access to a parent or guardian</li><li>Research institution may have limited access to aggregate data for statistics and research purposes</li><li>Insurance, prospect employer, etc may request partial access</li></ul><hr>
+<h2 id=federated-service-platforms>Federated Service Platforms</h2><p>Uber, AirBnb & co successfully connect demand and supply at scale.</p><p>But their primary driver is profit. Above all they need to appease shareholders and investors.</p><p>Making users happy is just a secondary goal. A mean to an end.
+The real goal is: make money.</p><p>Re-imagine these platforms without the shareholders (or making users the shareholders).
+Same service, different goal: optimize for the collective good of all users.</p><p>More similar to public utilities than to for-profit companies.</p><p>Built on open-source (trust is paramount).</p><p>Still collect a fee on transactions, but use it to:</p><ul>
+<li>Pay for infrastructure costs, insurance</li><li>Compensate employees (support, developers, legal, &mldr;)</li><li>Reinvest surplus into making the platform better or give fractional dividends to all participants</li></ul><p>Examples: <a href=https://www.eva.coop/>Eva</a>, <a href=https://fairbnb.coop/>FairBnb</a>, <a href=https://windingtree.com/>WindingTree</a></p><hr>
+<h2 id=federated-social-networks>Federated Social Networks</h2><p>Facebook, Reddit, Twitter, Instagram, etc.
+Are great for staying in touch with friends, discuss current events, and more.</p><p>But satisfying user&rsquo;s need for connection is just a mean to an end.</p><p>The goal of these platform is to make money to shareholders.
+They are not shy of using dirty tricks to get users to:</p><ul>
+<li>Reveal private information, which they can harvest and monetize</li><li>Get people addicted, enraged, misinformed, anything required to keep them engaged</li></ul><p>User&rsquo;s interests (such as privacy) are only considered if ignoring them is damaging to the platform.</p><p>A new generation of federated social platform are emerging: <a href=https://diaspora.social/>Diaspora</a>, <a href=https://joinmastodon.org/>Mastodon</a>, <a href=https://mobilizon.org/en/>Mobilizon</a>, and more.</p><p><img src=./social-network.png alt="Expected vs. Actual social network"></p><hr>
+<h2 id=federated-communications>Federated Communications</h2><h3 id=matrixhttpswwwmatrixorg><a href=https://www.matrix.org/>Matrix</a></h3><p>WhatsApp, Telegram, Discord, iMessage, GMail, &mldr; provide a great service, but at a (hidden) cost.
+Your data is being mined and sold (end-to-end encryption is a marketing ploy).</p><p>Matrix is a federated, decentralized answer to this problem.
+An open-source protocol for instant messaging (and, communications in general).</p><p>Built ground-up to be federated.
+Small groups of people can operate their own homeserver, sharing the cost.</p><p>Through the homeserver, they can connect to the rest of the world (or not).</p><p><img src=./organic-social-network.png alt="Matrix network"></p><hr>
+<p>Further reading:</p><ul>
+<li><a href=https://networkcultures.org/unlikeus/resources/articles/what-is-a-federated-network/>Beyond distributed and decentralized: what is a federated network?</a></li><li><a href=https://www.8bitmen.com/the-ultimate-guide-to-federated-architecture-decentralized-social-networks/>The Ultimate Guide to Federated Architecture & Decentralized Social Networks</a></li><li><a href=https://ipfs.io/ipfs/QmdFrru4PyHzXGZztEPnYToBR3QovD7fkC1HSyty22LzfD>Decentralized Social Ecosystem Review</a></li></ul><hr>
+</div></div><div id=footer class=mb-5>
 <hr>
 <div class="container text-center">
 <small>
@@ -242,7 +98,4 @@ Built by <a href=https://www.mpri.me>🏴‍☠️</a>
 with <a href=https://gohugo.io/ target=_blank>Hugo</a>
 and <a href=https://github.com/ojroques/hugo-researcher target=_blank>Researcher</a>
 </small>
-</div>
-</div>
-</body>
-</html>
+</div></div></body></html>
