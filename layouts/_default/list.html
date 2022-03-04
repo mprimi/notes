@@ -6,7 +6,12 @@
 
     {{ .Content }}
 
-    {{ range sort .Pages ".File.BaseFileName" }}
+    {{$sortOrder := ""}}
+    {{with .Param "SortOrder"}}
+      {{$sortOrder = .}}
+    {{end}}
+
+    {{ range sort .Pages ".File.BaseFileName" $sortOrder }}
         <p>
             {{with .Param "PageIcon"}}
                 {{.}}
