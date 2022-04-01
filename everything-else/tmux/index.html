@@ -1,51 +1,15 @@
-<!doctype html><html><head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>tmux Reference</title><meta name=description content="Marco's Notes">
-<meta name=author content="Marco Primi">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel=stylesheet>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity=sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2 crossorigin=anonymous>
-<link rel=stylesheet href=/sass/researcher.min.css>
-</head><body><div class="container mt-5">
-<nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
-<a class="navbar-brand mx-0 mr-sm-auto" href=https://notes.mpri.me/>
-📓 Marco's Notes
-</a>
-<div class="navbar-nav flex-row flex-wrap justify-content-center">
-<a class="nav-item nav-link" href=/favorites/>
-❤️ Favorites
-</a>
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>tmux Reference</title><meta name=description content="Marco's Notes"><meta name=author content="Marco Primi"><link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel=stylesheet><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity=sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2 crossorigin=anonymous><link rel=stylesheet href=/sass/researcher.min.css></head><body><div class="container mt-5"><nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0"><a class="navbar-brand mx-0 mr-sm-auto" href=https://notes.mpri.me/>📓 Marco's Notes</a><div class="navbar-nav flex-row flex-wrap justify-content-center"><a class="nav-item nav-link" href=/favorites/>❤️ Favorites</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/topics/>
-💡 Topics
-</a>
+<a class="nav-item nav-link" href=/topics/>💡 Topics</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/logs/>
-🧭 Logs
-</a>
+<a class="nav-item nav-link" href=/logs/>🧭 Logs</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/diary/>
-🖊 Diary
-</a>
+<a class="nav-item nav-link" href=/diary/>🖊 Diary</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/everything-else/>
-🗂 Everything Else
-</a>
+<a class="nav-item nav-link" href=/everything-else/>🗂 Everything Else</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/index.xml>
-⚡️ RSS
-</a>
-</div></nav></div><hr>
-<div id=content>
-<div class=container>
-<p class=text-right>
-~/everything-else/tmux Reference
-<br>
-<small>Updated Mar 3, 2022</small>
-</p><h1>
-🗂
-tmux Reference
-</h1><h2 id=cli>CLI</h2><p><code>tmux ls</code>: List sessions</p><p><code>tmux new-session -s &lt;session-name></code>: New session</p><p><code>tmux a</code>: Reattach last used (short for <code>attach</code>)</p><p><code>tmux a -t &lt;session-name></code>: Reattach</p><p><code>tmux source-file ~/.tmux.conf</code>: Reload</p><h2 id=commands>Commands</h2><p>Default prefix: <code>Ctrl-b</code></p><pre tabindex=0><code>?: List commands
+<a class="nav-item nav-link" href=/index.xml>⚡️ RSS</a></div></nav></div><hr><div id=content><div class=container><p class=text-right>~/everything-else/tmux Reference<br><small>Updated Mar 3, 2022</small></p><h1>🗂
+tmux Reference</h1><h2 id=cli>CLI</h2><p><code>tmux ls</code>: List sessions</p><p><code>tmux new-session -s &lt;session-name></code>: New session</p><p><code>tmux a</code>: Reattach last used (short for <code>attach</code>)</p><p><code>tmux a -t &lt;session-name></code>: Reattach</p><p><code>tmux source-file ~/.tmux.conf</code>: Reload</p><h2 id=commands>Commands</h2><p>Default prefix: <code>Ctrl-b</code></p><pre tabindex=0><code>?: List commands
 d: Detatch
 
 :list-keys
@@ -73,15 +37,6 @@ z: zoom
 (: Previous
 s: Select
 $: rename
-</code></pre><h2 id=intro--reference>Intro & Reference</h2><ul>
-<li><a href=https://peterxjang.com/blog/a-minimalist-guide-to-tmux.html>https://peterxjang.com/blog/a-minimalist-guide-to-tmux.html</a></li><li><a href=https://github.com/tony/tmux-config>https://github.com/tony/tmux-config</a></li><li><a href=https://www.barbarianmeetscoding.com/blog/2019/12/25/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed>https://www.barbarianmeetscoding.com/blog/2019/12/25/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed</a></li><li><a href=https://www.golinuxcloud.com/tmux-cheatsheet/>https://www.golinuxcloud.com/tmux-cheatsheet/</a></li><li><a href=https://danielmiessler.com/study/tmux/>https://danielmiessler.com/study/tmux/</a></li></ul><h2 id=configuration--customization>Configuration & Customization</h2><ul>
-<li><a href=https://github.com/samoshkin/tmux-config>https://github.com/samoshkin/tmux-config</a></li><li><a href=https://peterforgacs.github.io/2017/04/25/Tmux/>https://peterforgacs.github.io/2017/04/25/Tmux/</a></li></ul><h2 id=utilities--extensions>Utilities & Extensions</h2><ul>
-<li><a href=https://github.com/tmux-python/tmuxp>https://github.com/tmux-python/tmuxp</a></li><li><a href=https://github.com/tmux-plugins/tmux-resurrect>https://github.com/tmux-plugins/tmux-resurrect</a></li><li><a href=https://github.com/tmux-plugins/tmux-continuum>https://github.com/tmux-plugins/tmux-continuum</a></li></ul></div></div><div id=footer class=mb-5>
-<hr>
-<div class="container text-center">
-<small>
-Built by <a href=https://www.mpri.me>🏴‍☠️</a>
+</code></pre><h2 id=intro--reference>Intro & Reference</h2><ul><li><a href=https://peterxjang.com/blog/a-minimalist-guide-to-tmux.html>https://peterxjang.com/blog/a-minimalist-guide-to-tmux.html</a></li><li><a href=https://github.com/tony/tmux-config>https://github.com/tony/tmux-config</a></li><li><a href=https://www.barbarianmeetscoding.com/blog/2019/12/25/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed>https://www.barbarianmeetscoding.com/blog/2019/12/25/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed</a></li><li><a href=https://www.golinuxcloud.com/tmux-cheatsheet/>https://www.golinuxcloud.com/tmux-cheatsheet/</a></li><li><a href=https://danielmiessler.com/study/tmux/>https://danielmiessler.com/study/tmux/</a></li></ul><h2 id=configuration--customization>Configuration & Customization</h2><ul><li><a href=https://github.com/samoshkin/tmux-config>https://github.com/samoshkin/tmux-config</a></li><li><a href=https://peterforgacs.github.io/2017/04/25/Tmux/>https://peterforgacs.github.io/2017/04/25/Tmux/</a></li></ul><h2 id=utilities--extensions>Utilities & Extensions</h2><ul><li><a href=https://github.com/tmux-python/tmuxp>https://github.com/tmux-python/tmuxp</a></li><li><a href=https://github.com/tmux-plugins/tmux-resurrect>https://github.com/tmux-plugins/tmux-resurrect</a></li><li><a href=https://github.com/tmux-plugins/tmux-continuum>https://github.com/tmux-plugins/tmux-continuum</a></li></ul></div></div><div id=footer class=mb-5><hr><div class="container text-center"><small>Built by <a href=https://www.mpri.me>🏴‍☠️</a>
 with <a href=https://gohugo.io/ target=_blank>Hugo</a>
-and <a href=https://github.com/ojroques/hugo-researcher target=_blank>Researcher</a>
-</small>
-</div></div></body></html>
+and <a href=https://github.com/ojroques/hugo-researcher target=_blank>Researcher</a></small></div></div></body></html>

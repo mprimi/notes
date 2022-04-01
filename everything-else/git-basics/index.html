@@ -1,53 +1,16 @@
-<!doctype html><html><head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<title>Personal document management with git</title><meta name=description content="Marco's Notes">
-<meta name=author content="Marco Primi">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel=stylesheet>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity=sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2 crossorigin=anonymous>
-<link rel=stylesheet href=/sass/researcher.min.css>
-</head><body><div class="container mt-5">
-<nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
-<a class="navbar-brand mx-0 mr-sm-auto" href=https://notes.mpri.me/>
-📓 Marco's Notes
-</a>
-<div class="navbar-nav flex-row flex-wrap justify-content-center">
-<a class="nav-item nav-link" href=/favorites/>
-❤️ Favorites
-</a>
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>Personal document management with git</title><meta name=description content="Marco's Notes"><meta name=author content="Marco Primi"><link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel=stylesheet><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity=sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2 crossorigin=anonymous><link rel=stylesheet href=/sass/researcher.min.css></head><body><div class="container mt-5"><nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0"><a class="navbar-brand mx-0 mr-sm-auto" href=https://notes.mpri.me/>📓 Marco's Notes</a><div class="navbar-nav flex-row flex-wrap justify-content-center"><a class="nav-item nav-link" href=/favorites/>❤️ Favorites</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/topics/>
-💡 Topics
-</a>
+<a class="nav-item nav-link" href=/topics/>💡 Topics</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/logs/>
-🧭 Logs
-</a>
+<a class="nav-item nav-link" href=/logs/>🧭 Logs</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/diary/>
-🖊 Diary
-</a>
+<a class="nav-item nav-link" href=/diary/>🖊 Diary</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/everything-else/>
-🗂 Everything Else
-</a>
+<a class="nav-item nav-link" href=/everything-else/>🗂 Everything Else</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/index.xml>
-⚡️ RSS
-</a>
-</div></nav></div><hr>
-<div id=content>
-<div class=container>
-<p class=text-right>
-~/everything-else/Personal document management with git
-<br>
-<small>Updated Feb 26, 2021</small>
-</p><h1>
-🗂
-Personal document management with git
-</h1><p>This tutorial is for my dear friend M.
-Like any person working on computers, M. struggles with keeping track of changes to files.</p><p>This is the simplest possible tutorial that explains how to leverage <code>git</code> for very simple personal projects.</p><p>This tutorial covers:</p><ul>
-<li>Versioning of a small set of files for a single person. i.e. personal notes/essay/homeworks/article, &mldr;</li><li>Inspecting and restoring of old versions</li><li>Backups and sharing with others via cloud</li></ul><p>This tutorial does NOT cover branching, stashes, resolving conflicts, merge strategies, rewriting history, pulling from remote, fixups, aliases, configuration, etc. There are millions of tutorials out there that can teach you these advanced topics.</p><h2 id=-old-school-versioning>📜 Old school versioning</h2><p>We&rsquo;ve all done this at some point, it looks something like this:</p><pre tabindex=0><code>letter.txt
+<a class="nav-item nav-link" href=/index.xml>⚡️ RSS</a></div></nav></div><hr><div id=content><div class=container><p class=text-right>~/everything-else/Personal document management with git<br><small>Updated Feb 26, 2021</small></p><h1>🗂
+Personal document management with git</h1><p>This tutorial is for my dear friend M.
+Like any person working on computers, M. struggles with keeping track of changes to files.</p><p>This is the simplest possible tutorial that explains how to leverage <code>git</code> for very simple personal projects.</p><p>This tutorial covers:</p><ul><li>Versioning of a small set of files for a single person. i.e. personal notes/essay/homeworks/article, &mldr;</li><li>Inspecting and restoring of old versions</li><li>Backups and sharing with others via cloud</li></ul><p>This tutorial does NOT cover branching, stashes, resolving conflicts, merge strategies, rewriting history, pulling from remote, fixups, aliases, configuration, etc. There are millions of tutorials out there that can teach you these advanced topics.</p><h2 id=-old-school-versioning>📜 Old school versioning</h2><p>We&rsquo;ve all done this at some point, it looks something like this:</p><pre tabindex=0><code>letter.txt
 letter-2.txt
 letter-3.txt
 letter-v4.txt
@@ -55,15 +18,13 @@ letter-v4-with-edits.txt
 letter-v4-final.txt
 letter-v4-final-with-images.txt
 ...
-</code></pre><blockquote>
-<p>Quiz: In this example, which file is the latest and greatest version? I don&rsquo;t know, and neither do you! If you&rsquo;re using old school versioning, make damn sure you give a <em>unique</em> version number every time you create a new version!</p></blockquote><p>This versioning strategy works ok with single-file projects.
+</code></pre><blockquote><p>Quiz: In this example, which file is the latest and greatest version? I don&rsquo;t know, and neither do you! If you&rsquo;re using old school versioning, make damn sure you give a <em>unique</em> version number every time you create a new version!</p></blockquote><p>This versioning strategy works ok with single-file projects.
 It creates some little clutter, wastes space on disk and <a href=https://physics.stackexchange.com/questions/31326/is-a-hard-drive-heavier-when-it-is-full>makes your laptop heavier to carry</a>). But that seems acceptable.</p><p>This approach breaks down as soon as your project consists of multiple files.
 One could apply the same &ldquo;versioning&rdquo; strategy to the entire folder.</p><h2 id=-the-right-tool-for-the-job>🪛 The right tool for the job</h2><p>To me, using file copies to version files is using a hammer to drive a screw.
 If you need to drive a screw, use a screwdriver.
 If you need to version files, use <code>git</code>.</p><h2 id=git-vs-github><code>git</code> vs. GitHub</h2><p><code>git</code> is a tool installed on your computer. You may use it in a terminal or with a GUI.
 <code>git</code> transforms a folder into a little database and then uses that database to store and manage your versions.</p><p>You can definitely use <code>git</code> without GitHub.
-You should probably learn to use <code>git</code> before you even look at GitHub.</p><p>GitHub is a service from Microsoft. GitLab, BitBucket, and many others offer similar services.</p><p>What you get with GitHub:</p><ul>
-<li>Backups in the cloud &ndash; if you regularly synchronize your <code>git</code> projects with GH, then they are safely backed up if your computer is stolen or catches on fire</li><li>Web &ndash; GH creates a website around your repository, so you can easily share a link with a friend, e.g.: <a href=https://github.com/mprimi/notes/blob/main/README.md>https://github.com/mprimi/notes/blob/main/README.md</a>, rather than having to send the file via email.</li><li>Collaboration &ndash; i can clone your repository, or send you patches for bugs I spot in your code, etc. collaboration is the main reason for hosting a project on a platform like GitHub, but it&rsquo;s beyond the scope of this document</li></ul><h1 id=3-2-1-lets-git>3, 2, 1, let&rsquo;s <code>git</code>!</h1><p>Without further ado, let&rsquo;s cover the very basics of <code>git</code>.</p><h2 id=-my-recipesgit>🍳 <code>my-recipes.git</code></h2><p>Let&rsquo;s say you have a bunch of cooking recipes you&rsquo;ve collected over the years. They are stored in a Word document on your laptop.</p><pre tabindex=0><code>recipes.adoc
+You should probably learn to use <code>git</code> before you even look at GitHub.</p><p>GitHub is a service from Microsoft. GitLab, BitBucket, and many others offer similar services.</p><p>What you get with GitHub:</p><ul><li>Backups in the cloud &ndash; if you regularly synchronize your <code>git</code> projects with GH, then they are safely backed up if your computer is stolen or catches on fire</li><li>Web &ndash; GH creates a website around your repository, so you can easily share a link with a friend, e.g.: <a href=https://github.com/mprimi/notes/blob/main/README.md>https://github.com/mprimi/notes/blob/main/README.md</a>, rather than having to send the file via email.</li><li>Collaboration &ndash; i can clone your repository, or send you patches for bugs I spot in your code, etc. collaboration is the main reason for hosting a project on a platform like GitHub, but it&rsquo;s beyond the scope of this document</li></ul><h1 id=3-2-1-lets-git>3, 2, 1, let&rsquo;s <code>git</code>!</h1><p>Without further ado, let&rsquo;s cover the very basics of <code>git</code>.</p><h2 id=-my-recipesgit>🍳 <code>my-recipes.git</code></h2><p>Let&rsquo;s say you have a bunch of cooking recipes you&rsquo;ve collected over the years. They are stored in a Word document on your laptop.</p><pre tabindex=0><code>recipes.adoc
 </code></pre><h3 id=a-note-on-convention>A note on convention</h3><p>If there is a <code>$</code> character at the beginning of a line, it&rsquo;s a prompt.
 It means i issued a command. If there is no <code>$</code>, then it&rsquo;s the command output.
 Lines begining with <code>#</code> are comments
@@ -107,8 +68,7 @@ It also suggests &ldquo;if you want to start versioning this file, use <code>git
 More on this later.</p><p>This <code>status</code> is very verbose, and contains help messages.
 For the rest of this document, I&rsquo;ll use the &ldquo;succint&rdquo; version, which gives you the same information but more compact:</p><pre tabindex=0><code>$ git status --short
 ?? recipes.adoc
-</code></pre><p>This says the same as before: there is a file, <code>recipes.adoc</code> and I&rsquo;ve never seen it before (&rsquo;<code>??</code>&rsquo; means &lsquo;untracked&rsquo;).</p><h3 id=21-first-stage-and-commit>2.1. First stage and commit</h3><p>Creating a new version for your repository is done in 2 steps:</p><ol>
-<li><strong>Stage</strong>: select the files you want to include in the next version.</li><li><strong>Commit</strong>: create the next version of the repository, which consists of the changes/files you staged.</li></ol><p>We want <code>git</code> to start managing/versioning/tracking your recipes file.</p><p>So first let&rsquo;s stage the file:</p><pre tabindex=0><code>$ git add recipes.adoc
+</code></pre><p>This says the same as before: there is a file, <code>recipes.adoc</code> and I&rsquo;ve never seen it before (&rsquo;<code>??</code>&rsquo; means &lsquo;untracked&rsquo;).</p><h3 id=21-first-stage-and-commit>2.1. First stage and commit</h3><p>Creating a new version for your repository is done in 2 steps:</p><ol><li><strong>Stage</strong>: select the files you want to include in the next version.</li><li><strong>Commit</strong>: create the next version of the repository, which consists of the changes/files you staged.</li></ol><p>We want <code>git</code> to start managing/versioning/tracking your recipes file.</p><p>So first let&rsquo;s stage the file:</p><pre tabindex=0><code>$ git add recipes.adoc
 </code></pre><p>This stages the document. Notice it does not make any change whatsoever to the file. This is true for pretty much all the comments in this document: <code>git</code> does NOT modify your files. It just tracks them and makes copies in the &ldquo;magic&rdquo; folder.</p><p>After adding the file to the index (another way to say staged the file, or added the file), take a look at the status:</p><pre tabindex=0><code>$ git st --short
 A  recipes.adoc
 </code></pre><p>It is saying: &ldquo;a file i&rsquo;ve never seen before is staged&rdquo; A stands for &ldquo;added&rdquo;.
@@ -198,12 +158,6 @@ index 78852c9..700ee0a 100644
 (1/1) Stage this hunk [y,n,q,a,d,e,?]? y
 
 $ git commit -m &#34;Improved carbonara recipe&#34;
-</code></pre></div></div><div id=footer class=mb-5>
-<hr>
-<div class="container text-center">
-<small>
-Built by <a href=https://www.mpri.me>🏴‍☠️</a>
+</code></pre></div></div><div id=footer class=mb-5><hr><div class="container text-center"><small>Built by <a href=https://www.mpri.me>🏴‍☠️</a>
 with <a href=https://gohugo.io/ target=_blank>Hugo</a>
-and <a href=https://github.com/ojroques/hugo-researcher target=_blank>Researcher</a>
-</small>
-</div></div></body></html>
+and <a href=https://github.com/ojroques/hugo-researcher target=_blank>Researcher</a></small></div></div></body></html>
