@@ -61,6 +61,23 @@ s: Select
 $: rename
 ```
 
+# Move / Organize
+```
+# Swap panes 1 and 3 in current session
+:swap-panes -s 1 -t 3
+
+# Move pane 4 up (left) by 1
+:swap-panes -U -t 4
+# Move pane 4 down (right) by 1
+:swap-panes -D -t 4
+
+# Mark current pane
+:select-pane -m
+
+# Swap pane 3 in current session with marked pane (may be in a different session)
+swap-window -t 3
+```
+
 ## Intro & Reference
  * https://peterxjang.com/blog/a-minimalist-guide-to-tmux.html
  * https://github.com/tony/tmux-config
