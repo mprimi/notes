@@ -8,7 +8,7 @@
 <span class="nav-item navbar-text mx-1">/</span>
 <a class="nav-item nav-link" href=/everything-else/>🗂 Everything Else</a>
 <span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/index.xml>⚡️ RSS</a></div></nav></div><hr><div id=content><div class=container><p class=text-right>~/everything-else/tmux Reference<br><small>Updated Mar 3, 2022</small></p><h1>🗂
+<a class="nav-item nav-link" href=/index.xml>⚡️ RSS</a></div></nav></div><hr><div id=content><div class=container><p class=text-right>~/everything-else/tmux Reference<br><small>Updated Apr 28, 2022</small></p><h1>🗂
 tmux Reference</h1><h2 id=cli>CLI</h2><p><code>tmux ls</code>: List sessions</p><p><code>tmux new-session -s &lt;session-name></code>: New session</p><p><code>tmux a</code>: Reattach last used (short for <code>attach</code>)</p><p><code>tmux a -t &lt;session-name></code>: Reattach</p><p><code>tmux source-file ~/.tmux.conf</code>: Reload</p><h2 id=commands>Commands</h2><p>Default prefix: <code>Ctrl-b</code></p><pre tabindex=0><code>?: List commands
 d: Detatch
 
@@ -37,6 +37,19 @@ z: zoom
 (: Previous
 s: Select
 $: rename
+</code></pre><h1 id=move--organize>Move / Organize</h1><pre tabindex=0><code># Swap panes 1 and 3 in current session
+:swap-panes -s 1 -t 3
+
+# Move pane 4 up (left) by 1
+:swap-panes -U -t 4
+# Move pane 4 down (right) by 1
+:swap-panes -D -t 4
+
+# Mark current pane
+:select-pane -m
+
+# Swap pane 3 in current session with marked pane (may be in a different session)
+swap-window -t 3
 </code></pre><h2 id=intro--reference>Intro & Reference</h2><ul><li><a href=https://peterxjang.com/blog/a-minimalist-guide-to-tmux.html>https://peterxjang.com/blog/a-minimalist-guide-to-tmux.html</a></li><li><a href=https://github.com/tony/tmux-config>https://github.com/tony/tmux-config</a></li><li><a href=https://www.barbarianmeetscoding.com/blog/2019/12/25/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed>https://www.barbarianmeetscoding.com/blog/2019/12/25/jaimes-guide-to-tmux-the-most-awesome-tool-you-didnt-know-you-needed</a></li><li><a href=https://www.golinuxcloud.com/tmux-cheatsheet/>https://www.golinuxcloud.com/tmux-cheatsheet/</a></li><li><a href=https://danielmiessler.com/study/tmux/>https://danielmiessler.com/study/tmux/</a></li></ul><h2 id=configuration--customization>Configuration & Customization</h2><ul><li><a href=https://github.com/samoshkin/tmux-config>https://github.com/samoshkin/tmux-config</a></li><li><a href=https://peterforgacs.github.io/2017/04/25/Tmux/>https://peterforgacs.github.io/2017/04/25/Tmux/</a></li></ul><h2 id=utilities--extensions>Utilities & Extensions</h2><ul><li><a href=https://github.com/tmux-python/tmuxp>https://github.com/tmux-python/tmuxp</a></li><li><a href=https://github.com/tmux-plugins/tmux-resurrect>https://github.com/tmux-plugins/tmux-resurrect</a></li><li><a href=https://github.com/tmux-plugins/tmux-continuum>https://github.com/tmux-plugins/tmux-continuum</a></li></ul></div></div><div id=footer class=mb-5><hr><div class="container text-center"><small>Built by <a href=https://www.mpri.me>🏴‍☠️</a>
 with <a href=https://gohugo.io/ target=_blank>Hugo</a>
 and <a href=https://github.com/ojroques/hugo-researcher target=_blank>Researcher</a></small></div></div></body></html>
