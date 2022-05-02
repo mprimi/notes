@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Ingrid+Darling&family=Prompt:wght@300&family=Roboto+Condensed:ital@1&family=Source+Sans+Pro:wght@600&display=swap');
+
+:root {
+    /* Colors from https://designs.ai/colors/color-wheel */
+    --lightblue: #32adf0; /* var(--lightblue) */
+    --blue:      #3264f0; /* var(--blue) */
+    --violet:    #5741f0; /* var(--violet) */
+    --purple:    #9132f0; /* var(--purple) */
+    --pink:      #da31f0; /* var(--pink) */
+    --white:     #ffffff; /* var(--white) */
+}
+
+@keyframes edge_pulse {
+  0%    { opacity: .4; stroke: var(--blue);   }
+  25%   { opacity: .8; stroke: var(--violet); }
+  50%   { opacity: .4; stroke: var(--purple);   }
+  75%   { opacity: .8; stroke: var(--violet); }
+  100%  { opacity: .4; stroke: var(--blue);   }
+}
+
+@keyframes edge_highlight_pulse {
+  0%    { opacity: .7; stroke: var(--pink);   filter: blur(2px); }
+  25%   { opacity: .9; stroke: var(--purple); }
+  50%   { opacity: .7; stroke: var(--violet); filter: blur(0px); }
+  60%   { opacity: .7; stroke: var(--white);  filter: blur(3px); }
+  75%   { opacity: .9; stroke: var(--purple); }
+  100%  { opacity: .7; stroke: var(--pink);   filter: blur(2px); }
+}
+
+@keyframes node_highlight_pulse {
+  0%    { filter: blur(5px); fill: var(--violet); }
+ 50%    { filter: blur(15px); fill: var(--blue);      }
+100%    { filter: blur(5px); fill: var(--violet); }
+}
+
+@keyframes node_pulse {
+   0%    { filter: blur(15px); fill: var(--lightblue); }
+  50%    { filter: blur(30px); fill: var(--blue);      }
+ 100%    { filter: blur(15px); fill: var(--lightblue); }
+}
+
+line.edge {
+  animation: edge_pulse 5s infinite linear;
+}
+
+line.highlight {
+  animation: edge_highlight_pulse 3s infinite linear;
+}
+
+circle.node:hover {
+  cursor: grab;
+}
+
+circle.node {
+  stroke-width: 3px;
+  stroke: var(--lightblue);
+  animation: node_pulse 6s infinite linear;
+}
+
+circle.node-l1 {
+}
+
+circle.highlight {
+  stroke-width: 4px;
+  stroke: var(--pink);
+  animation: node_highlight_pulse 1.5s infinite linear;
+}
+
+circle.neighbor_highlight {
+  stroke: var(--pink);
+  animation: node_highlight_pulse 3s infinite linear;
+}
+
+circle.node-l1 {
+}
+
+svg {
+  font-size: 120%;
+  font-family: 'Akshar', sans-serif;
+  /* font-family: 'Ingrid Darling', cursive; */
+  /* font-family: 'Prompt', sans-serif; */
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  /* font-family: 'Source Sans Pro', sans-serif; */
+
+}
+
+text {
+  opacity: 0.7;
+  transition-property: stroke-width, font-size, opacity;
+  transition-duration: 0.6s;
+}
+
+text:hover {
+  cursor: grab;
+}
+
+text.node-label {
+  font-size: 1.5em;
+  fill: var(--white);
+  padding: 100%;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+text.node-label-l1 {
+  font-size: 2em;
+}
+
+text.highlight {
+  /* stroke: black; */ /* Weird artifacts and edges, try a different font? */
+  opacity: 1;
+  font-size: 2.5em;
+  stroke-width: 1.5
+}
+
+rect.shade {
+  fill: black;
+  opacity: 50%;
+}
