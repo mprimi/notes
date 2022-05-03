@@ -1,5 +1,9 @@
 "use strict"
 
+// Web design is NOT my passion.
+// This was a learning experiment, and my very first JS project.
+// If you spot something horrible or horribly inefficient, please let me know!
+
 async function force_graph() {
 
     const width = window.innerWidth
