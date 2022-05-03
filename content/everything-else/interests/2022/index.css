@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Ingrid+Darling&family=Prompt:wght@300&family=Roboto+Condensed:ital@1&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
 
 :root {
     /* Colors from https://designs.ai/colors/color-wheel */
@@ -77,11 +77,6 @@ circle.node-l1 {
 svg {
   font-size: 120%;
   font-family: 'Akshar', sans-serif;
-  /* font-family: 'Ingrid Darling', cursive; */
-  /* font-family: 'Prompt', sans-serif; */
-  /* font-family: 'Roboto Condensed', sans-serif; */
-  /* font-family: 'Source Sans Pro', sans-serif; */
-
 }
 
 text {
@@ -107,7 +102,6 @@ text.node-label-l1 {
 }
 
 text.highlight {
-  /* stroke: black; */ /* Weird artifacts and edges, try a different font? */
   opacity: 1;
   font-size: 2.5em;
   stroke-width: 1.5
