@@ -11,4 +11,4 @@ This was my first project using front-end web technologies (very much outside of
 
 **Click on the image** below to explore interactively.
 
-[![Interest Graph (2022)](./2022.jpg)](./2022)
+[![Interest Graph (2022)](./2022.gif)](./2022)
