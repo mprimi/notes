@@ -29,3 +29,5 @@ Title: Miscellaneous
 [Refined Blog](https://refined.blog/)
 
 [The Evolution Of Trust](https://ncase.me/trust/)
+
+[Enso](https://enso.sonnet.io/)
