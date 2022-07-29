@@ -3,6 +3,16 @@ Title: Articles
 PageIcon: "📃"
 ---
 
+[Becoming a magician](https://autotranslucence.wordpress.com/2018/03/30/becoming-a-magician/)
+
+[The Schelling Choice is "Rabbit", not "Stag"](https://www.lesswrong.com/posts/zp5AEENssb8ZDnoZR/the-schelling-choice-is-rabbit-not-stag)
+
+[25+ Years of Personal Knowledge Management](https://dsebastien.net/blog/2022-04-03-25-years-of-personal-knowledge-management)
+
+[The Tyranny of Structurlessness (Jo Freeman)](https://www.jofreeman.com/joreen/tyranny.htm)
+
+[The Grand Unified Theory of (software) Documentation](https://documentation.divio.com/)
+
 [68 Bits of Unsolicited Advice](https://kk.org/thetechnium/68-bits-of-unsolicited-advice/)
 
 [Dear Self; We Need To Talk About Social Media](https://acesounderglass.com/2021/12/04/dear-self-we-need-to-talk-about-social-media/)

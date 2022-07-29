@@ -12,9 +12,22 @@ https://xkcd.com/2519/
 
 https://xkcd.com/2524/
 
+https://xkcd.com/2594/
+
+https://xkcd.com/2618/
+
+https://xkcd.com/2634/
+
+
 
 
 # [Saturday Morning Breakfast Cereal](https://www.smbc-comics.com)
+
+https://www.smbc-comics.com/comic/trippy
+
+https://www.smbc-comics.com/comic/centuries
+
+https://www.smbc-comics.com/comic/the-talk-3
 
 https://www.smbc-comics.com/comic/science-fictions
 

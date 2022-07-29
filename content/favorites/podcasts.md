@@ -3,7 +3,14 @@ Title: Podcasts
 PageIcon: "🎙"
 ---
 
+## [What’s Your Problem?](https://www.pushkin.fm/podcasts/whats-your-problem)
+
+https://www.pushkin.fm/podcasts/whats-your-problem/building-bespoke-weather-forecasts
+
+
 ## [CoRecursive](https://corecursive.com/)
+
+https://corecursive.com/serenity-os-with-andreas-kling/
 
 https://www.corecursive.com/067-zig-with-andrew-kelley/
 
@@ -78,6 +85,8 @@ https://www.jordanharbinger.com/charles-duhigg-the-secrets-of-being-smarter-fast
 
 ## [Your Undivided Attention](https://www.humanetech.com/podcast)
 
+[A Fresh Take on Tech in China](https://www.humanetech.com/podcast/44-a-fresh-take-on-tech-in-china)
+
 [Digital Democracy Is Within Reach (Audrey Tang)](https://www.humanetech.com/podcast/23-digital-democracy-is-within-reach)
 
 [The Stubborn Optimist’s Guide to Saving the Planet (Christiana Figueres)](https://www.humanetech.com/podcast/18-the-stubborn-optimists-guide-to-saving-the-planet)
@@ -112,6 +121,10 @@ https://www.jordanharbinger.com/charles-duhigg-the-secrets-of-being-smarter-fast
 
 
 ## [Freakonomics](https://freakonomics.com/archive/)
+
+[Why Are There So Many Bad Bosses?](https://freakonomics.com/podcast/why-are-there-so-many-bad-bosses/)
+
+[A Fascinating, Sexy, Intellectually Compelling, Unregulated Global Market](https://freakonomics.com/podcast/a-fascinating-sexy-intellectually-compelling-unregulated-global-market/)
 
 Does Advertising Actually Work? [Part 1 - TV](https://omny.fm/shows/freakonomics-radio/does-advertising-actually-work-part-1-tv), [Part 2, Digital](https://omny.fm/shows/freakonomics-radio/does-advertising-actually-work-part-2-digital)
 

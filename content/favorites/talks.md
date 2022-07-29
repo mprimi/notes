@@ -3,6 +3,8 @@ Title: Talks
 PageIcon: ""
 ---
 
+[Why -1/12 is a gold nugget (Numberphile)](https://youtu.be/0Oazb7IWzbA)
+
 [Overcoming aversions (Andrew Critch)](https://youtu.be/k255UjGEO_c)
 
 [Leadership Guide for the Reluctant Leader (David Neal)](https://youtu.be/3PcL8UkorEg)
@@ -26,3 +28,5 @@ PageIcon: ""
 [The Basics of Non Violent Communication 1.1 (Marshall Rosenberg)](https://www.youtube.com/user/EcceHomoZen/search?query=The%20Basics%20of%20Non%20Violent%20Communication)
 
 [Why the majority is always wrong - Paul Rulkens](https://youtu.be/VNGFep6rncY)
+
+[Alfie Kohn - Education and Competition](https://www.youtube.com/watch?v=b4c86SDW7FQ)

@@ -2,6 +2,14 @@
 Title: Miscellaneous
 ---
 
+[{Shan, Shui}*](https://github.com/LingDong-/shan-shui-inf)
+
+[SVG + CSS = 🌟](https://andrew.wang-hoyer.com/experiments/svg-animations/)
+
+[Peerdiem - Discuss a painting a day](https://peerdiem.com/)
+
+[Neal.fun](https://neal.fun/)
+
 [Tree Of Life](https://www.onezoom.org/)
 
 [I Miss My Bar](http://imissmybar.com/)

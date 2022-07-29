@@ -12,3 +12,5 @@ PageIcon: "🎓"
 [Crash Course - Philosophy](https://thecrashcourse.com/courses/philosophy)
 
 [Practical Engineering](https://www.youtube.com/c/PracticalEngineeringChannel)
+
+[The Human Brain (Kanwisher, MIT 2019)](https://www.youtube.com/watch?v=ba-HMvDn_vU&list=PLUl4u3cNGP60IKRN_pFptIBxeiMc0MCJP)
