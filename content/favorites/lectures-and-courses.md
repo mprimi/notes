@@ -16,3 +16,5 @@ PageIcon: "🎓"
 [Practical Engineering](https://www.youtube.com/c/PracticalEngineeringChannel)
 
 [The Human Brain (Kanwisher, MIT 2019)](https://www.youtube.com/watch?v=ba-HMvDn_vU&list=PLUl4u3cNGP60IKRN_pFptIBxeiMc0MCJP)
+
+[Introduction to Psychology (Paul Bloom, Yale)](https://www.youtube.com/playlist?list=PL6A08EB4EEFF3E91F)

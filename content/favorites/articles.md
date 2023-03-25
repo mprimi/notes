@@ -88,3 +88,5 @@ PageIcon: "📃"
 [The Art of Not Taking Things Personally](https://medium.dave-bailey.com/the-art-of-not-taking-things-personally-b7a8395ce172)
 
 [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
+
+[The Grug Brained Developer](https://grugbrain.dev/)

@@ -21,6 +21,8 @@ Anything on here I wholeheartedly recommend.
 
 [The Night Circus](https://en.wikipedia.org/wiki/The_Night_Circus)
 
+[The Hitchhiker's Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy)
+
 #### Stories
 
 [I don't know, Timmy, being God is a big responsibility](https://qntm.org/responsibility)
