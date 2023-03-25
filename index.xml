@@ -1,4 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📓 Marco's Notes</title><link>https://notes.mpri.me/</link><description>Recent changes in 📓 Marco's Notes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="https://notes.mpri.me/index.xml" rel="self" type="application/rss+xml"/><item><title>February 2023</title><link>https://notes.mpri.me/logs/2023-02/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/logs/2023-02/</guid><description>&lt;p>&lt;a href="https://notepadcalculator.com/">https://notepadcalculator.com/&lt;/a>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📓 Marco's Notes</title><link>https://notes.mpri.me/</link><description>Recent changes in 📓 Marco's Notes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="https://notes.mpri.me/index.xml" rel="self" type="application/rss+xml"/><item><title>March 2023</title><link>https://notes.mpri.me/logs/2023-03/</link><pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/logs/2023-03/</guid><description>&lt;p>&lt;a href="https://developer.apple.com/library/archive/technotes/tn2450/_index.html">https://developer.apple.com/library/archive/technotes/tn2450/_index.html&lt;/a> Keyboard remap macos&lt;/p>
+&lt;p>&lt;a href="https://hidutil-generator.netlify.app/">https://hidutil-generator.netlify.app/&lt;/a> Keyboard remap macOS&lt;/p>
+&lt;p>&lt;a href="https://sabre.io/dav/scheduling/">CalDAV Scheduling - sabre/dav&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://datatracker.ietf.org/doc/html/rfc4791">RFC 4791 - Calendaring Extensions to WebDAV (CalDAV)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://mats3.io/">Mats3 - Mats3: Message-based Asynchronous Transactional Staged Stateless Services&lt;/a> RPC Java&lt;/p>
+&lt;p>&lt;a href="https://evilmartians.com/">Evil Martians, an extraterrestrial product development consultancy&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://jeremykun.com/2023/02/13/googles-fully-homomorphic-encryption-compiler-a-primer/">https://jeremykun.com/2023/02/13/googles-fully-homomorphic-encryption-compiler-a-primer/&lt;/a> FHE cryptography&lt;/p>
+&lt;p>&lt;a href="https://github.com/quara-dev/letsgo-nats">quara-dev/letsgo-nats: Run NATS server with auto-generated TLS certificates&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://docs.kanaries.net/rath/tutorials/data-painter/">https://docs.kanaries.net/rath/tutorials/data-painter/&lt;/a> Data visualization OSS&lt;/p>
+&lt;p>&lt;a href="https://www.omg.org/omg-dds-portal/">Data Distribution Service (DDS) | Object Management Group&lt;/a> publish/subscribe standard&lt;/p>
+&lt;p>&lt;a href="https://www.roastd.io/">https://www.roastd.io/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://grugbrain.dev/">https://grugbrain.dev/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://grugnotes.com/">https://grugnotes.com/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/#animals-and-plants">https://charlottebuff.com/unicode/misc/rejected-emoji-proposals/#animals-and-plants&lt;/a> Emojis&lt;/p>
+&lt;p>&lt;a href="https://news.ycombinator.com/item?id=34835724">I really love the way Ira Glass puts it: Nobody tells this to people who are be&amp;hellip; | Hacker News&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://sora.city/">Sora&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://news.ycombinator.com/item?id=34862851">This Imgur collection of animated gifs capturing the 2017 Oroville Spillway cris&amp;hellip; | Hacker News&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://engaging-data.com/ca-reservoir-dashboard/">Interactive California Reservoir Levels Dashboard - Engaging Data&lt;/a> California water reserves&lt;/p>
+&lt;p>&lt;a href="http://www.infiltration.org/">Infiltration&lt;/a> Urbx urban exploration&lt;/p>
+&lt;p>&lt;a href="https://bootcamp.uxdesign.cc/controlnet-and-stable-diffusion-a-game-changer-for-ai-image-generation-83555cb942fc">ControlNET and Stable Diffusion: A Game Changer for AI Image Generation&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.antithesis.com/">Antithesis – autonomous testing&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://sdf.org/~vito/jack.html">Jack&amp;rsquo;s Ass&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://news.ycombinator.com/item?id=34875728">Ask HN: What do you use for basic data analysis, visualization, and graphing? | Hacker News&lt;/a> Data exploration&lt;/p>
+&lt;p>&lt;a href="https://dent.dev/dentos/">dentOS - DENT&lt;/a> networking linux&lt;/p>
+&lt;p>&lt;a href="https://github.com/dair-ai/Prompt-Engineering-Guide">dair-ai/Prompt-Engineering-Guide: Guides, papers, lecture, and resources for prompt engineering&lt;/a> Prompts&lt;/p>
+&lt;p>&lt;a href="https://phind.com/">Phind: AI search engine&lt;/a> Natural language search&lt;/p>
+&lt;p>&lt;a href="https://tidbyt.com/">Tidbyt - See What Matters&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://book.mixu.net/distsys/">Distributed systems for fun and profit&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/mjl-/mox">mjl-/mox: modern full-featured open source secure mail server for low-maintenance self-hosted email&lt;/a> Email self-hosting&lt;/p>
+&lt;p>&lt;a href="https://fly.io/dist-sys/">Fly.io Distributed Systems Challenge · Fly Docs&lt;/a> Distributed systems&lt;/p>
+&lt;p>&lt;a href="https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/">Mermaid Cheat Sheet&lt;/a> Graph diagrams&lt;/p>
+&lt;p>&lt;a href="https://www.cjchilvers.com/blog/35-lessons-from-35-years-of-newsletter-publishing/">35 Lessons from 35 Years of Newsletter Publishing&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://jessesingal.substack.com/p/i-fought-the-paypal-and-i-won">I Fought The PayPal And I Won - by Yassine Meskhout&lt;/a> PayPal&lt;/p>
+&lt;p>&lt;a href="https://seneca.dylancastillo.co/">Ask Seneca: Learn about Stoicism from the Most Popular Stoic&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.opencircuitsbook.com/">Open Circuits&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.pornhub.com/art/remastured">Remastured: Vintage Porn, Modern Tech | Pornhub&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://manishearth.github.io/blog/2017/01/14/stop-ascribing-meaning-to-unicode-code-points/">Let&amp;rsquo;s Stop Ascribing Meaning to Code Points&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.blackhillsinfosec.com/how-to-weaponize-the-yubikey/">How to Weaponize the Yubikey&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://opticexplorer.sharedigm.com/">Optics for Everyone&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/koekeishiya/yabai/wiki">koekeishiya/yabai&lt;/a> macos window manager&lt;/p>
+&lt;p>&lt;a href="https://github.com/Haxxnet/Compose-Examples">Haxxnet/Compose-Examples: Various Docker Compose examples of selfhosted FOSS and proprietary projects.&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/pulsar-edit/pulsar">pulsar-edit/pulsar: A Community-led Hyper-Hackable Text Editor&lt;/a> Atom editor OSS&lt;/p>
+&lt;p>&lt;a href="http://lucy-ives.com/">L Ives&lt;/a> Retro UI portfolio&lt;/p>
+&lt;p>&lt;a href="https://en.m.wikipedia.org/wiki/Rope_(data_structure)">Rope (data structure) - Wikipedia&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://astralcodexten.substack.com/p/book-review-whats-our-problem?utm_source=post-email-title&amp;amp;publication_id=89120&amp;amp;post_id=103897192&amp;amp;isFreemail=false&amp;amp;utm_medium=email">Book Review: What&amp;rsquo;s Our Problem? - by Scott Alexander&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://determinate.systems/posts/determinate-nix-installer">Introducing the Determinate Nix Installer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/libAudioFlux/audioFlux">libAudioFlux/audioFlux: A library for audio and music analysis, feature extraction&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.jailbreakchat.com/">Jailbreak Chat&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://codegeex.cn/playground">CodeGeeX&lt;/a> code assist&lt;/p>
+&lt;p>&lt;a href="https://github.com/tenderlove/initial-v">tenderlove/initial-v: It's a BMW shifter converted to a Bluetooth Keyboard that you use with Vim&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.nasdaq.com/articles/inverse-cramer-etf-is-coming-to-the-real-world">Inverse Cramer ETF is coming to the real world | Nasdaq&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.sothebys.com/en/buy/auction/2023/snow-crash/weta-workshop">Wētā Workshop | Snow Crash | 2023 | Sotheby&amp;rsquo;s&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://rtpg.co/2023/03/02/quines-for-dummies.html">Writing The World&amp;rsquo;s Most Boring Quine&lt;/a>&lt;/p>
+&lt;p>&lt;a href="http://gamelab.mit.edu/games/a-slower-speed-of-light/">A Slower Speed of Light – MIT Game Lab&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://sive.rs/slow">I’m a very slow thinker | Derek Sivers&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://talonvoice.com/docs/">Talon 0.2.1.0 documentation&lt;/a> Hands free&lt;/p>
+&lt;p>&lt;a href="https://www.alexedwards.net/blog/how-to-rate-limit-http-requests">How to Rate Limit HTTP Requests – Alex Edwards&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://words.filippo.io/dispatches/avoid-the-randomness-from-the-sky/">Avoid The Randomness From The Sky&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://tylercipriani.com/blog/2023/02/28/books-i-remember/">Books I can remember&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://schollz.com/blog/ube/">Ube - unpredictable binaural experimentatal granular synthesizer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://words.filippo.io/full-time-maintainer/">I’m Now a Full-Time Professional Open Source Maintainer&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://fluxkeyboard.com/">Flux Keyboard&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://dp.la/">Digital Public Library of America&lt;/a> Library&lt;/p>
+&lt;p>&lt;a href="https://debugging.works/blog/yubikey-cheatsheet/">How to Yubikey: a configuration cheatsheet&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://aisafety.world/?utm_source=substack">Map of AI Existential Safety&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://exrx.net/">ExRx.net : Home&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://til.simonwillison.net/llms/llama-7b-m2">Running LLaMA 7B and 13B on a 64GB M2 MacBook Pro with llama.cpp | Simon Willison’s TILs&lt;/a> Offline LLM&lt;/p>
+&lt;p>&lt;a href="https://til.simonwillison.net/">Simon Willison: TIL&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/ggerganov/whisper.cpp">ggerganov/whisper.cpp: Port of OpenAI's Whisper model in C/C++&lt;/a> Offline text speech to text&lt;/p>
+&lt;p>&lt;a href="https://github.com/tsl0922/ttyd">tsl0922/ttyd: Share your terminal over the web&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/henrikpersson/potatis">henrikpersson/potatis: 🥔 MOS-6502 and NES emulator in Rust (SDL/WebAssembly/Android/Embedded/Cloud)&lt;/a> NES&lt;/p>
+&lt;p>&lt;a href="https://news.ycombinator.com/item?id=35153344">Launch HN: Blyss (YC W23) – Homomorphic encryption as a service&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://asnewman.github.io/shoshikantetsu">Shoshikantetsu&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://scrollprize.org/">Vesuvius Challenge&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/charmbracelet/vhs">charmbracelet/vhs: Your CLI home video recorder 📼&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://en.m.wikipedia.org/wiki/Retrocausality">Retrocausality - Wikipedia&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.misalignmentmuseum.com/">Misalignment Museum&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://dare.fail/">dare.fail&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/antimatter15/alpaca.cpp">antimatter15/alpaca.cpp: Locally run an Instruction-Tuned Chat-Style LLM&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/andsens/docopt.sh">andsens/docopt.sh: Command-line argument parser for bash 3.2, 4+, and 5+.&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://eclecticlight.co/2022/06/27/biome-isnt-about-biometrics-but-suggestions/">Biome isn’t about biometrics, but suggestions&lt;/a> macOS&lt;/p>
+&lt;p>&lt;a href="https://www.backmarket.com/en-us">Your Refurbished (Super) Market | Back Market&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.themade.org/">The Museum of Art and Digital Entertainment&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://vimeo.com/cosmodernism">Cosmodernism&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.mcmillen.dev/blog/20210721-downvotes-considered-harmful.html">Downvotes &amp;amp; Dislikes Considered Harmful | Colin McMillen&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.seriouseats.com/starch-madness-2023-7253736">Starch Madness 2023 Bracket&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://taxheaven3000.com/">Tax Heaven 3000&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://kottke.org/23/03/a-marvelous-wall-of-working-elevator-buttons">A Marvelously Huge Wall of Working Elevator Buttons&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://restofworld.org/2023/indonesia-government-ban-tiktok-mud-bath/">Mandi lumpur TikToks in Indonesia were viral until government ban - Rest of World&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://astralcodexten.substack.com/p/book-review-paper-belt-on-fire">Book Review: Paper Belt On Fire - by Scott Alexander&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://kottke.org/23/03/the-assassins-teapot">The Assassin Teapot&lt;/a>&lt;/p>
+&lt;h2 id="movies--tv">Movies &amp;amp; TV&lt;/h2>
+&lt;p>&lt;a href="https://www.netflix.com/title/80241248">The Politician&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.netflix.com/title/80198505">Aggretsuko&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://m.imdb.com/title/tt11127680/">Boiling Point&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.netflix.com/title/80236319">Shadow &amp;amp; Bone&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.hbo.com/movies/elvis">Elvis&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://m.imdb.com/title/tt7322224/">Triangle of Sadness&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://m.imdb.com/title/tt14936146/">Masameer County&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://en.m.wikipedia.org/wiki/Lawrence_of_Arabia_(film)">Lawrence of Arabia&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt14444726/">Tár&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.imdb.com/title/tt7660850/">Succession&lt;/a>&lt;/p>
+&lt;h1 id="books">Books&lt;/h1>
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/The_Silk_Roads">The Silk Roads&lt;/a>&lt;/p>
+&lt;h2 id="misc">Misc.&lt;/h2>
+&lt;p>&lt;a href="https://www.youtube.com/playlist?list=PL6A08EB4EEFF3E91F">Introduction to Psychology (Paul Bloom, Yale)&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/@AssemblyTV">AssemblyTV&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=y8OnoxKotPQ">Microservices&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=jlPaby7suOc">Every Clojure Talk Ever&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://youtu.be/DGSqglrPadw">Animated experimental short film &amp;ldquo;Grands Canons&amp;rdquo; - by Alain Biet&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://vimeo.com/587232461">Moments Vol.1 on Vimeo&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://kottke.org/23/02/8-bit-martial-arts-choreography">8-Bit Martial Arts Choreography&lt;/a>&lt;/p></description></item><item><title>February 2023</title><link>https://notes.mpri.me/logs/2023-02/</link><pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/logs/2023-02/</guid><description>&lt;p>&lt;a href="https://notepadcalculator.com/">https://notepadcalculator.com/&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://community.twistedfields.com/t/a-closer-look-at-acorn-our-open-source-precision-farming-rover/108">https://community.twistedfields.com/t/a-closer-look-at-acorn-our-open-source-precision-farming-rover/108&lt;/a> Agtech oss&lt;/p>
 &lt;p>&lt;a href="https://www.datagubbe.se/dopus/">https://www.datagubbe.se/dopus/&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://kottke.org/22/12/boys-girls-alone">https://kottke.org/22/12/boys-girls-alone&lt;/a>&lt;/p>
@@ -833,120 +944,4 @@ Street&lt;/a>&lt;/p>
 &lt;p>In addition to the long-term (part-time) engagement, I have been involved in two more projects. They were interesting and rewarding. However, going forward, I will think twice about taking on multiple contracts at the same time. The context switch was tough, and I felt I was cheating on both projects by temporarily ignoring one to work on the other.&lt;/p>
 &lt;p>Ideally, I would like one contract that pays the bills, probably selling my more marketable skills. And then, in addition, a different amusing project. Eeither something of my invention OR learning a skill I find very useful and/or gripping. My objective for the reminder of this year, is to keep making progress toward this ideal situation.&lt;/p>
 &lt;p>I read somewhere &amp;ldquo;you can&amp;rsquo;t research and build at the same time&amp;rdquo;. It always sounded true. 2021 was all about research and exploration, and I was having a hard time producing anything of substance. Exploring was so enjoyable I was worried I would miss it after going back to work. But after six months with my head down working, it turns out I don&amp;rsquo;t. I still have time to chase the occasional rabbit down a hole. But most of the time I&amp;rsquo;m either building or learning or both. And it feels great.&lt;/p>
-&lt;p>Overall: no regrets, full steam ahead. Slightly preoccupied, but that&amp;rsquo;s my natural state.&lt;/p></description></item><item><title>July 2022</title><link>https://notes.mpri.me/logs/2022-07/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>https://notes.mpri.me/logs/2022-07/</guid><description>&lt;p>&lt;a href="https://astralcodexten.substack.com/p/a-guide-to-asking-robots-to-design">https://astralcodexten.substack.com/p/a-guide-to-asking-robots-to-design&lt;/a> Dall-E AI art&lt;/p>
-&lt;p>&lt;a href="https://news.ycombinator.com/item?id=31573282">https://news.ycombinator.com/item?id=31573282&lt;/a> Dall-E AI NLP&lt;/p>
-&lt;p>&lt;a href="https://www.preceden.com/git">https://www.preceden.com/git&lt;/a> Git visualization&lt;/p>
-&lt;p>&lt;a href="https://gource.io/">https://gource.io/&lt;/a> Git visualization&lt;/p>
-&lt;p>&lt;a href="http://jamie-wong.com/post/the-pit/">http://jamie-wong.com/post/the-pit/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://astralcodexten.substack.com/p/birth-order-effects-nature-vs-nurture">https://astralcodexten.substack.com/p/birth-order-effects-nature-vs-nurture&lt;/a> Birth order&lt;/p>
-&lt;p>&lt;a href="https://artofmemory.com/wiki/Main_Page/">https://artofmemory.com/wiki/Main_Page/&lt;/a> Memory techniques&lt;/p>
-&lt;p>&lt;a href="https://mobile.twitter.com/HvnsLstAngel/status/1531506455714492416">https://mobile.twitter.com/HvnsLstAngel/status/1531506455714492416&lt;/a> Dall-e AI&lt;/p>
-&lt;p>&lt;a href="https://passionflix.com/">https://passionflix.com/&lt;/a> Entertainment streaming romance novels&lt;/p>
-&lt;p>&lt;a href="https://github.com/huggingface/deep-rl-class">https://github.com/huggingface/deep-rl-class&lt;/a> Tutorial deep learning&lt;/p>
-&lt;p>&lt;a href="https://www.legendkeeper.com/">https://www.legendkeeper.com/&lt;/a> Collaborative worldbuilding d&amp;amp;d&lt;/p>
-&lt;p>&lt;a href="https://consumer.ftc.gov/articles/how-stop-junk-mail">https://consumer.ftc.gov/articles/how-stop-junk-mail&lt;/a> Junk mail&lt;/p>
-&lt;p>&lt;a href="https://connectdome.com/">https://connectdome.com/&lt;/a> Developer dating matching&lt;/p>
-&lt;p>&lt;a href="https://en.m.wikipedia.org/wiki/Asemic_writing">https://en.m.wikipedia.org/wiki/Asemic_writing&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.theguardian.com/artanddesign/2022/jun/05/a-fragment-of-eternity-the-mesmerising-murmurations-of-europes-starlings">https://www.theguardian.com/artanddesign/2022/jun/05/a-fragment-of-eternity-the-mesmerising-murmurations-of-europes-starlings&lt;/a> Swarms&lt;/p>
-&lt;p>&lt;a href="https://asimov.fandom.com/wiki/The_Mule">https://asimov.fandom.com/wiki/The_Mule&lt;/a> Asimov foundation&lt;/p>
-&lt;p>&lt;a href="https://en.m.wikipedia.org/wiki/Foundation_series">https://en.m.wikipedia.org/wiki/Foundation_series&lt;/a> Asimov&lt;/p>
-&lt;p>&lt;a href="https://en.m.wikipedia.org/wiki/Kabaddi">https://en.m.wikipedia.org/wiki/Kabaddi&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://github.com/sensity-ai/dot">https://github.com/sensity-ai/dot&lt;/a> Deepfake camera&lt;/p>
-&lt;p>&lt;a href="https://astralcodexten.substack.com/p/my-bet-ai-size-solves-flubs">https://astralcodexten.substack.com/p/my-bet-ai-size-solves-flubs&lt;/a> AI NLP&lt;/p>
-&lt;p>&lt;a href="https://octagon.net/press/2022/06/05/octagon-networks-converts-its-balance-sheet-into-bitcoin/">https://octagon.net/press/2022/06/05/octagon-networks-converts-its-balance-sheet-into-bitcoin/&lt;/a> Bitcoin&lt;/p>
-&lt;p>&lt;a href="https://www.offline.cash/">https://www.offline.cash/&lt;/a> Bitcoin&lt;/p>
-&lt;p>&lt;a href="https://umbrel.com/">https://umbrel.com/&lt;/a> Self-host apps&lt;/p>
-&lt;p>&lt;a href="https://spiralwiki.com/">https://spiralwiki.com/&lt;/a> Homomorphic encryption&lt;/p>
-&lt;p>&lt;a href="http://www.deathtorealism.com/full-moon-theory/">http://www.deathtorealism.com/full-moon-theory/&lt;/a> Moon&lt;/p>
-&lt;p>&lt;a href="https://valetudo.cloud/">https://valetudo.cloud/&lt;/a> Robot appliances offline&lt;/p>
-&lt;p>&lt;a href="https://nolanlawson.com/2022/06/09/the-collapse-of-complex-software/">https://nolanlawson.com/2022/06/09/the-collapse-of-complex-software/&lt;/a> Software complexity&lt;/p>
-&lt;p>&lt;a href="https://listmonk.app/">https://listmonk.app/&lt;/a> Self hosted mailing list&lt;/p>
-&lt;p>&lt;a href="https://simblob.blogspot.com/2022/06/procedural-tree-generator.html">https://simblob.blogspot.com/2022/06/procedural-tree-generator.html&lt;/a> Tree generative&lt;/p>
-&lt;p>&lt;a href="https://hackgrowth.space/">https://hackgrowth.space/&lt;/a> Growth hacking&lt;/p>
-&lt;p>&lt;a href="https://mnpn.github.io/blog/airplay-network-disaster">https://mnpn.github.io/blog/airplay-network-disaster&lt;/a> macOS airplay&lt;/p>
-&lt;p>&lt;a href="https://www.dns.toys/">https://www.dns.toys/&lt;/a> DNS&lt;/p>
-&lt;p>&lt;a href="https://atrailtale.com/">https://atrailtale.com/&lt;/a> Hiking journal 8bit&lt;/p>
-&lt;p>&lt;a href="https://graymirror.substack.com/p/do-not-punch-rationalists?utm_source=email">https://graymirror.substack.com/p/do-not-punch-rationalists?utm_source=email&lt;/a> AI Yudkowsky rationalism&lt;/p>
-&lt;p>&lt;a href="https://en.m.wikipedia.org/wiki/Duck_curve">https://en.m.wikipedia.org/wiki/Duck_curve&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://en.m.wikipedia.org/wiki/Golden_eagle">https://en.m.wikipedia.org/wiki/Golden_eagle&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://en.m.wikipedia.org/wiki/Wolf_warrior_diplomacy">https://en.m.wikipedia.org/wiki/Wolf_warrior_diplomacy&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://eugeneyan.com/writing/writing-docs-why-what-how/">https://eugeneyan.com/writing/writing-docs-why-what-how/&lt;/a> Writing&lt;/p>
-&lt;p>&lt;a href="https://en.m.wikipedia.org/wiki/Maeslantkering">https://en.m.wikipedia.org/wiki/Maeslantkering&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://briansunter.com/graph/#/page/logseq-social">https://briansunter.com/graph/#/page/logseq-social&lt;/a> Logseq social&lt;/p>
-&lt;p>&lt;a href="https://en.m.wikipedia.org/wiki/Bubble_curtain">https://en.m.wikipedia.org/wiki/Bubble_curtain&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.copywritingprompts.com/">https://www.copywritingprompts.com/&lt;/a> Copywriting prompts&lt;/p>
-&lt;p>&lt;a href="https://www.hivenet.com/">https://www.hivenet.com/&lt;/a> P2P storage compute&lt;/p>
-&lt;p>&lt;a href="https://github.com/drduh/YubiKey-Guide">https://github.com/drduh/YubiKey-Guide&lt;/a> Yubikey GPG ssh&lt;/p>
-&lt;p>&lt;a href="https://sixcolors.com/post/2020/11/quick-tip-enable-touch-id-for-sudo/">https://sixcolors.com/post/2020/11/quick-tip-enable-touch-id-for-sudo/&lt;/a> Sudo touchid macOS&lt;/p>
-&lt;p>&lt;a href="https://github.com/wailsapp/wails">https://github.com/wailsapp/wails&lt;/a> Golang app framework&lt;/p>
-&lt;p>&lt;a href="https://justine.lol/redbean2/">https://justine.lol/redbean2/&lt;/a> Runtime framework&lt;/p>
-&lt;p>&lt;a href="https://www.andy.works/words/the-most-satisfying-checkbox">https://www.andy.works/words/the-most-satisfying-checkbox&lt;/a> Animation&lt;/p>
-&lt;p>&lt;a href="https://github.com/ansiwave/nimwave">https://github.com/ansiwave/nimwave&lt;/a> TUI&lt;/p>
-&lt;p>&lt;a href="https://en.m.wikipedia.org/wiki/Fairy_ring">https://en.m.wikipedia.org/wiki/Fairy_ring&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://aeplay.org/citybound">https://aeplay.org/citybound&lt;/a> City simulator game&lt;/p>
-&lt;p>&lt;a href="https://news.ycombinator.com/item?id=31782461">https://news.ycombinator.com/item?id=31782461&lt;/a> RSS search&lt;/p>
-&lt;p>&lt;a href="https://www.gov.uk/guidance/protect-domains-that-dont-send-email">https://www.gov.uk/guidance/protect-domains-that-dont-send-email&lt;/a> DNS email&lt;/p>
-&lt;p>&lt;a href="https://sonnet.io/posts/code-sober-debug-drunk/">https://sonnet.io/posts/code-sober-debug-drunk/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://owncast.online/">https://owncast.online/&lt;/a> Self hosted streaming&lt;/p>
-&lt;p>&lt;a href="https://stefanom.org/spc/index.html">https://stefanom.org/spc/index.html&lt;/a> Planet orbit game&lt;/p>
-&lt;p>&lt;a href="https://permacomputing.net/">https://permacomputing.net/&lt;/a> Permacomputing&lt;/p>
-&lt;p>&lt;a href="https://cryptofireside.com/how-to-spot-an-internet-wolf-in-sheeps-clothing-1f27fe18824a">https://cryptofireside.com/how-to-spot-an-internet-wolf-in-sheeps-clothing-1f27fe18824a&lt;/a> Crypto&lt;/p>
-&lt;p>&lt;a href="https://grugbrain.dev/">https://grugbrain.dev/&lt;/a> tech advice satire&lt;/p>
-&lt;p>&lt;a href="https://www.raphkoster.com/2014/08/16/random-uo-anecdote-2/">https://www.raphkoster.com/2014/08/16/random-uo-anecdote-2/&lt;/a> Ultima&lt;/p>
-&lt;p>&lt;a href="https://github.com/dolthub/dolt">https://github.com/dolthub/dolt&lt;/a> Database versioning&lt;/p>
-&lt;p>&lt;a href="https://seirdy.one/posts/2021/03/10/search-engines-with-own-indexes/">https://seirdy.one/posts/2021/03/10/search-engines-with-own-indexes/&lt;/a> Search&lt;/p>
-&lt;p>&lt;a href="https://news.ycombinator.com/item?id=31850439">https://news.ycombinator.com/item?id=31850439&lt;/a> Writing&lt;/p>
-&lt;p>&lt;a href="https://www.assemblyai.com/blog/how-imagen-actually-works/">https://www.assemblyai.com/blog/how-imagen-actually-works/&lt;/a> Ai text to image ML&lt;/p>
-&lt;p>&lt;a href="https://herman.bearblog.dev/years-of-journaling/">https://herman.bearblog.dev/years-of-journaling/&lt;/a> Journaling wtiting&lt;/p>
-&lt;p>&lt;a href="https://news.ycombinator.com/item?id=31848210">https://news.ycombinator.com/item?id=31848210&lt;/a> Ideas for bookmarking self hosted and searchable archives&lt;/p>
-&lt;p>&lt;a href="https://piellardj.github.io/strange-attractors-webgl/">https://piellardj.github.io/strange-attractors-webgl/&lt;/a> Math art&lt;/p>
-&lt;p>&lt;a href="https://pluralistic.net/2022/06/21/early-adopters/#heads-i-win">https://pluralistic.net/2022/06/21/early-adopters/#heads-i-win&lt;/a> Music digital content license copyright&lt;/p>
-&lt;p>&lt;a href="https://github.com/timvisee/ffsend">https://github.com/timvisee/ffsend&lt;/a> Send receive files self-hosted&lt;/p>
-&lt;p>&lt;a href="https://dys2p.com/en/2021-12-tamper-evident-protection.html">https://dys2p.com/en/2021-12-tamper-evident-protection.html&lt;/a> Physical security&lt;/p>
-&lt;p>&lt;a href="https://github.com/kuprel/min-dalle">https://github.com/kuprel/min-dalle&lt;/a> Dall-e image generation&lt;/p>
-&lt;p>&lt;a href="https://www.kanopy.com/en/signup">https://www.kanopy.com/en/signup&lt;/a> Public library movie streaming&lt;/p>
-&lt;p>&lt;a href="https://github.com/viraptor/reverse-interview">https://github.com/viraptor/reverse-interview&lt;/a> Work interview&lt;/p>
-&lt;p>&lt;a href="https://canarytokens.org/generate">https://canarytokens.org/generate&lt;/a> Canary tracker security&lt;/p>
-&lt;p>&lt;a href="https://astralcodexten.substack.com/p/what-caused-the-2020-homicide-spike">https://astralcodexten.substack.com/p/what-caused-the-2020-homicide-spike&lt;/a> 2020 homicide spike&lt;/p>
-&lt;p>&lt;a href="https://brevity500.com/">https://brevity500.com/&lt;/a> Writing exercise&lt;/p>
-&lt;p>&lt;a href="https://taxsim.app/">https://taxsim.app/&lt;/a> US taxes&lt;/p>
-&lt;p>&lt;a href="https://sudopad.com">https://sudopad.com&lt;/a> Link sharing board&lt;/p>
-&lt;p>&lt;a href="https://sverigesradio.se/artikel/swedish-radio-created-fake-pharmacy-reveals-how-facebook-stored-sensitive-information">https://sverigesradio.se/artikel/swedish-radio-created-fake-pharmacy-reveals-how-facebook-stored-sensitive-information&lt;/a> Facebook&lt;/p>
-&lt;p>&lt;a href="https://github.com/go-martini/martini">https://github.com/go-martini/martini&lt;/a> golang http&lt;/p>
-&lt;p>&lt;a href="https://github.com/urfave/negroni">https://github.com/urfave/negroni&lt;/a> golfing http&lt;/p>
-&lt;p>&lt;a href="https://www.synack.com/">https://www.synack.com/&lt;/a> security pentesting&lt;/p>
-&lt;p>&lt;a href="https://beta.brdg.app/">https://beta.brdg.app/&lt;/a> social recommendations&lt;/p>
-&lt;p>&lt;a href="https://groundplatform.org/">https://groundplatform.org/&lt;/a> map data collection analysis GIS&lt;/p>
-&lt;p>&lt;a href="https://dnaromance.com/the-science/">https://dnaromance.com/the-science/&lt;/a> DNA online dating matching&lt;/p>
-&lt;p>&lt;a href="https://conf.tube/videos/overview">https://conf.tube/videos/overview&lt;/a> conferences talks&lt;/p>
-&lt;p>&lt;a href="https://github.com/Uberi/speech_recognition">https://github.com/Uberi/speech_recognition&lt;/a> speech to text&lt;/p>
-&lt;p>&lt;a href="https://github.com/coqui-ai">https://github.com/coqui-ai&lt;/a> speech&lt;/p>
-&lt;p>&lt;a href="https://lonero.org/Decentralized-Internet/">https://lonero.org/Decentralized-Internet/&lt;/a> decentralized app framework&lt;/p>
-&lt;p>&lt;a href="https://github.com/ipfs/devgrants">https://github.com/ipfs/devgrants&lt;/a> IPFS grants&lt;/p>
-&lt;p>&lt;a href="https://github.com/KuroLabs/stegcloak">https://github.com/KuroLabs/stegcloak&lt;/a> steganography JS secret&lt;/p>
-&lt;p>&lt;a href="https://www.crypto101.io/">https://www.crypto101.io/&lt;/a> cryptography course&lt;/p>
-&lt;p>&lt;a href="https://wasmcloud.dev/">https://wasmcloud.dev/&lt;/a> wasm application framework&lt;/p>
-&lt;p>&lt;a href="https://www.instagram.com/zillowgonewild/">https://www.instagram.com/zillowgonewild/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.personal.ai/use-cases">https://www.personal.ai/use-cases&lt;/a> AI&lt;/p>
-&lt;p>&lt;a href="https://www.lamina1.com/">https://www.lamina1.com/&lt;/a> neal stephenson blockchain&lt;/p>
-&lt;p>&lt;a href="https://netfoundry.io/">https://netfoundry.io/&lt;/a> zero trust networking framework&lt;/p>
-&lt;p>&lt;a href="https://www.digitalbazaar.com/">https://www.digitalbazaar.com/&lt;/a> data security interoperability&lt;/p>
-&lt;p>&lt;a href="https://w3c.github.io/web-ledger/">https://w3c.github.io/web-ledger/&lt;/a> distributed ledger web&lt;/p>
-&lt;p>&lt;a href="https://ourworldindata.org/happiness-and-life-satisfaction">https://ourworldindata.org/happiness-and-life-satisfaction&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://blockstream.com/">https://blockstream.com/&lt;/a> bitcoin mining&lt;/p>
-&lt;h2 id="podcasts">Podcasts&lt;/h2>
-&lt;p>&lt;a href="https://corecursive.com/why-80-columns/">https://corecursive.com/why-80-columns/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://darknetdiaries.com/episode/119/">https://darknetdiaries.com/episode/119/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://darknetdiaries.com/episode/118/">https://darknetdiaries.com/episode/118/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://timharford.com/2022/06/cautionary-tales-the-french-knights-guide-to-corporate-culture/">https://timharford.com/2022/06/cautionary-tales-the-french-knights-guide-to-corporate-culture/&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://timharford.com/2022/04/cautionary-tales-the-false-dawn-of-the-electric-car/">https://timharford.com/2022/04/cautionary-tales-the-false-dawn-of-the-electric-car/&lt;/a>&lt;/p>
-&lt;h2 id="other">Other&lt;/h2>
-&lt;p>&lt;a href="https://www.youtube.com/watch?v=b-M2U3Jl1Cg">How To Explain Things Real Good (Stanford mini-talk)&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.youtube.com/playlist?list=PLTZM4MrZKfW-ftqKGSbO-DwDiOGqNmq53">Electrical Grid (Practical Engineering)&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.youtube.com/c/arduinoversusevil2025">ArduinoVersus Evil&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.youtube.com/c/ThisOldTony">This Old Tony&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.youtube.com/watch?v=A2nklduvThs">Understanding Ukraine (2014)&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtO4A_tL6DLZRotxEb114cMR">Crash Course - Engineering&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://thecrashcourse.com/topic/mythology/">Crash Course - Mythology&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.imdb.com/title/tt7605074/">The Wandering Earth&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://m.imdb.com/title/tt0311429/">The League of Extraordinary Gentlemen&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>Overall: no regrets, full steam ahead. Slightly preoccupied, but that&amp;rsquo;s my natural state.&lt;/p></description></item></channel></rss>
