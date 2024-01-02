@@ -122,6 +122,8 @@ https://www.jordanharbinger.com/charles-duhigg-the-secrets-of-being-smarter-fast
 
 ## [Freakonomics](https://freakonomics.com/archive/)
 
+[Are Private Equity Firms Plundering the U.S. Economy?](https://freakonomics.com/podcast/are-private-equity-firms-plundering-the-u-s-economy/)
+
 [Why Are There So Many Bad Bosses?](https://freakonomics.com/podcast/why-are-there-so-many-bad-bosses/)
 
 [A Fascinating, Sexy, Intellectually Compelling, Unregulated Global Market](https://freakonomics.com/podcast/a-fascinating-sexy-intellectually-compelling-unregulated-global-market/)

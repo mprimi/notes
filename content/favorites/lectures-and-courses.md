@@ -20,3 +20,5 @@ PageIcon: "🎓"
 [Introduction to Psychology (Paul Bloom, Yale)](https://www.youtube.com/playlist?list=PL6A08EB4EEFF3E91F)
 
 [Listening to Music with Craig Wright (Yale University)](https://www.youtube.com/playlist?list=PLh9mgdi4rNezhx8YiGIV8I22ICSuzslja)
+
+[Behavioural Finance (Steve Keen, 2011)](https://www.youtube.com/playlist?list=PL0A21A329D01D0CFE)
