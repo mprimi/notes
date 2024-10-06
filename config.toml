@@ -52,5 +52,4 @@ rssLimit = 10
     page = ["HTML"]
     home = ["HTML", "RSS"]
     section = ["HTML"]
-    taxonomyTerm = ["HTML"]
     taxonomy = ["HTML"]
