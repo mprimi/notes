@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: false
+          submodules: true # Hugo theme is a submodule
           fetch-depth: 0
 
       - name: Setup Hugo
