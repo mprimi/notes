@@ -1,5 +1,5 @@
 ---
-title: From Monopoly to Ouropoly
+title: "From Monopoly to Ouropoly (2021)"
 PageIcon: "🎩"
 ---
 

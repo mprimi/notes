@@ -1,5 +1,5 @@
 ---
-title: "Breaking into NFTs: A Guide for Artists"
+title: "Breaking into NFTs: A Guide for Artists (2021)"
 PageIcon: "🌠"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Federated Architectures
+title: "Federated Architectures (2021)"
 PageIcon: "📐"
 ---
 

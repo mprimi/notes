@@ -1,5 +1,5 @@
 ---
-title: A Mellow Introduction to the Blockchain Universe
+title: "A Mellow Introduction to the Blockchain Universe (2020)"
 PageIcon: "🐇"
 ---
 
