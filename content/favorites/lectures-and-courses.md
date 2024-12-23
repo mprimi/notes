@@ -9,6 +9,8 @@ PageIcon: "🎓"
 
 [Feynman's Lectures on Physics](https://www.youtube.com/watch?v=QRE0GxT6Zbw&list=PLgRI7D_FXEnrCM8T1czHfJsvbQd4V1jRc)
 
+[Introduction to the Old Testament - Christine Hayes - Yale University](https://www.youtube.com/playlist?list=PLh9mgdi4rNeyuvTEbD-Ei0JdMUujXfyWi)
+
 [Blockchain Foundamentals - NTU Singapore](https://www.youtube.com/playlist?list=PLFnV2GWXzZbbsjD3Ul-zlC20klQwHN_pr)
 
 [Crash Course - Philosophy](https://thecrashcourse.com/courses/philosophy)
